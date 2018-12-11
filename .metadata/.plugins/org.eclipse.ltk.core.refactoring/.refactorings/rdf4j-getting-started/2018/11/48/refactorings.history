@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;rdf4j-getting-started&apos;&#x0D;&#x0A;- Original project: &apos;rdf4j-getting-started&apos;&#x0D;&#x0A;- Original element: &apos;org.example.rdf4j_getting_started.SimpleInsertQueryExample.java&apos;" description="Delete element" element1="/src\/main\/java&lt;org.example.rdf4j_getting_started{SimpleInsertQueryExample.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1543507456637" subPackages="false" version="1.0"/>
+</session>

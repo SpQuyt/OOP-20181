@@ -1,0 +1,48 @@
+package org.example.rdf4j_getting_started;
+
+import java.io.IOException;
+
+import org.eclipse.rdf4j.model.Value;
+import org.eclipse.rdf4j.model.impl.TreeModel;
+import org.eclipse.rdf4j.repository.Repository;
+import org.eclipse.rdf4j.repository.RepositoryConnection;
+import org.eclipse.rdf4j.repository.manager.RemoteRepositoryManager;
+import org.eclipse.rdf4j.repository.manager.RepositoryManager;
+import org.eclipse.rdf4j.rio.RDFHandlerException;
+import org.eclipse.rdf4j.rio.RDFParseException;
+import org.eclipse.rdf4j.query.*;
+
+public class HelloRDF4J {
+	
+	public static void main(String[] args) throws RDFParseException, RDFHandlerException, IOException {
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://192.168.0.102:7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("19980805");
+		
+		try (RepositoryConnection conn = repository.getConnection()) {
+			   String queryString = "PREFIX pub: <http://ontology.ontotext.com/taxonomy/> SELECT ?x ?label WHERE {?x a pub:Person . ?x pub:preferredLabel ?label . }";
+			   TupleQuery tupleQuery = conn.prepareTupleQuery(QueryLanguage.SPARQL, queryString);
+			   try (TupleQueryResult result1 = tupleQuery.evaluate()) {
+			      while (result1.hasNext()) {  // iterate over the result
+				   BindingSet bindingSet = result1.next();
+				   Value valueOfX = bindingSet.getValue("x");
+				   Value valueOfY = bindingSet.getValue("y");
+				   System.out.println(bindingSet);
+			   // do something interesting with the values here...
+			      }
+			   }
+			}
+//		// Open a connection to this repository
+//		RepositoryConnection repositoryConnection = repository.getConnection();
+
+		// Shutdown connection, repository and manager
+//		repositoryConnection.close();
+		repository.shutDown();
+		repositoryManager.shutDown();
+	}
+}
+	
+

@@ -1,0 +1,209 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix test: <http://test.com/ns#> .
+
+test:Person rdf:type owl:Class .
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+test:Organization rdf:type owl:Class . 
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Organization ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Organization ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Organization ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Organization ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+test:Event rdf:type owl:Class .
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+test:Time rdf:type owl:Class . 
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Time ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Time ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Time ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Time ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+test:Country rdf:type owl:Class .
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Country ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Country ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Country ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Country ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+test:Location rdf:type owl:Class .
+test:name rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Location ;
+  rdfs:range xsd:string ;
+  rdfs:name "tên" .
+test:description rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Location ;
+  rdfs:range xsd:string ;
+  rdfs:name "mô tả" .
+test:extract_time rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Location ;
+  rdfs:range xsd:string ;
+  rdfs:name "thời gian trích rút" .
+test:extract_link rdf:type owl:DatatypeProperty ;
+  rdfs:domain test:Location ;
+  rdfs:range xsd:string ;
+  rdfs:name "nguồn gốc trích rút" .
+
+
+###########################################
+########## quan hệ của các lớp
+###########################################
+
+test:lam_viec_cho rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Organization ;
+  rdfs:name "làm việc cho" .
+test:thuoc rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Organization ;
+  rdfs:name "thuộc" .
+test:o_tai rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Country,test:Location ;
+  rdfs:name "ở tại" .
+test:den_tham rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Country,test:Location ;
+  rdfs:name "đến thăm" .
+test:di_du_lich rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Country,test:Location ;
+  rdfs:name "đi du lịch" .
+test:roi_khoi rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Country,test:Location ;
+  rdfs:name "rời khỏi" .
+test:tham_gia rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Event ;
+  rdfs:name "tham gia" .
+test:to_chuc rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Person ;
+  rdfs:range test:Event ;
+  rdfs:name "tổ chức" .
+
+test:dien_ra_tai rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range test:Country ;
+  rdfs:name "diễn ra tại" .
+test:dien_ra_tai rdf:type owl:ObjectProperty ;
+  rdfs:domain test:Event ;
+  rdfs:range test:Location ;
+  rdfs:name "diễn ra tại" .
+
+
+
+
+  test:Thu_tuong_Nguyen_Xuan_Phuc
+  a test:Person ;
+  test:name "Thủ tướng Nguyễn Xuân Phúc";
+  test:extract_time "2018-12-01";
+  test:extract_link "dcs.vn" ;
+  test:to_chuc test:APEC_2018 .
+
+test:John_Cena
+  a test:Person ;
+  test:name "John Cena";
+  test:extract_time "2018-12-01";
+  test:extract_link "wwe.vn" ;
+  test:thuoc test:WWE .
+
+test:WWE
+  a test:Organization ;
+  test:name "WWE UNIVERSE";
+  test:extract_time "2018-12-01";
+  test:extract_link "wwe.com" ;
+  test:to_chuc test:Bar_1900 .
+
+test:America
+  a test:Country ;
+  test:name "Mỹ";
+  test:extract_time "2018-12-01";
+  test:extract_link "america.com" .
+
+test:Vietnam
+  a test:Country ;
+  test:name "Việt Nam";
+  test:extract_time "2018-12-01";
+  test:extract_link "vnese.com" .
+
+test:APEC_2018
+  a test:Event ;
+  test:name "APEC 2018 Việt Nam";
+  test:extract_time "2018-12-01";
+  test:extract_link "apec.vn" ;
+  test:dien_ra_tai test:Vietnam .
+
+test:Bar_1900
+  a test:Event ;
+  test:name "Bar 1900";
+  test:extract_time "2018-12-05";
+  test:extract_link "apec.vn" ;
+  test:dien_ra_tai test:America .
