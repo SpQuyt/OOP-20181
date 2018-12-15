@@ -71,7 +71,7 @@ public class Event {
 	
 	//doc file ghi thuoc tinh ra mang
 	public ArrayList<String> nhanEvent() throws IOException {
-		String FilePerson = "entity/Event/nhan.txt";
+		String FilePerson = "/entity/Event/nhan.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -81,7 +81,7 @@ public class Event {
 		}
 	}
 	public  ArrayList<String> motaEvent() throws IOException {
-		String FilePerson = "entity/Event/mota.txt";
+		String FilePerson = "/Event/mota.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -99,7 +99,7 @@ public class Event {
 	}
 	
 	public  ArrayList<String> LinkEvent() throws IOException {
-		String FilePerson = "entity/link.txt";
+		String FilePerson = "/entity/link.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{

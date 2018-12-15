@@ -22,14 +22,14 @@ public class Relation {
 	 ArrayList<String> nhanLocation = new ArrayList<>();
 	 ArrayList<String> nhanOrganization = new ArrayList<>();
 
-	 String relaPerWCountry[] = { "sống", "đến", "ở tại", "đến thăm", "đi du lịch", "rời khỏi" };
-	 String relaPerWOrgani[] = { "làm việc", "thuộc", "đến", "tham gia", "bỏ việc", "rời khỏi" };
-	 String relaPerLocation[] = { " ở lại", "làm việc", "thuộc", "đến", "tham gia", " đến thăm", " tham dự tại",
-			"đi du lịch", "rời khỏi" };
-	 String relaPerWEvent[] = { "làm việc tại", "thuộc", "đến", "tham gia", "doi kh", "tổ chức" };
+	 String relaPerWCountry[] = { "song", "den", "ow tai", "den tham", "di di lich", "roi khoi" };
+	 String relaPerWOrgani[] = { "lam viec", "thuoc", "den", "thamgia", "bo viec", "doi khoi" };
+	 String relaPerLocation[] = { " o lai", "lam viec", "thuoc", "den", "thamgia", " den tham", " tham du tai",
+			"di du lich", "roi kkhoi" };
+	 String relaPerWEvent[] = { "lam viec", "thuoc", "den", "thamgia", "doi kh", "to chuc" };
 
-	 String relaEventWCountry[] = { "tổ chức tại", "diễn ra tại" };
-	 String relaEventWLocation[] = { "tổ chức tại", "diễn ra tại" };
+	 String relaEventWCountry[] = { "to chuc", "dien ra tai" };
+	 String relaEventWLocation[] = { "to chuc", "dien ra tai" };
 
 	public  void updateArrEntity() throws IOException {
 		nhanPerson = nhan("Person");
@@ -126,7 +126,7 @@ public class Relation {
 
 	// doc file ghi thuoc tinh ra mang
 	public  ArrayList<String> nhan(String name) throws IOException {
-		String FilePerson = "entity/" + name + "/nhan.txt";
+		String FilePerson = "/home/lvh/Desktop/entity/" + name + "/nhan.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{

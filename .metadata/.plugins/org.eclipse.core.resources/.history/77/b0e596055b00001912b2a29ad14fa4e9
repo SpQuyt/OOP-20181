@@ -26,7 +26,7 @@ public class Relation {
 	 String relaPerWOrgani[] = { "làm việc", "thuộc", "đến", "tham gia", "bỏ việc", "rời khỏi" };
 	 String relaPerLocation[] = { " ở lại", "làm việc", "thuộc", "đến", "tham gia", " đến thăm", " tham dự tại",
 			"đi du lịch", "rời khỏi" };
-	 String relaPerWEvent[] = { "làm việc tại", "thuộc", "đến", "tham gia", "doi kh", "tổ chức" };
+	 String relaPerWEvent[] = { "làm việc", "thuộc", "đến", "tham gia", "doi kh", "tổ chức" };
 
 	 String relaEventWCountry[] = { "tổ chức tại", "diễn ra tại" };
 	 String relaEventWLocation[] = { "tổ chức tại", "diễn ra tại" };

@@ -69,7 +69,7 @@ public class Location {
 	
 	//doc file ghi thuoc tinh ra mang
 		public ArrayList<String> nhanLocation() throws IOException {
-			String FilePerson = "/entity/Location/nhan.txt";
+			String FilePerson = "entity/Location/nhan.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{
@@ -79,7 +79,7 @@ public class Location {
 			}
 		}
 		public  ArrayList<String> motaLocation() throws IOException {
-			String FilePerson = "/entity/Location/mota.txt";
+			String FilePerson = "entity/Location/mota.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{
@@ -97,7 +97,7 @@ public class Location {
 		}
 		
 		public  ArrayList<String> LinkLocation() throws IOException {
-			String FilePerson = "/entity/link.txt";
+			String FilePerson = "entity/link.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{

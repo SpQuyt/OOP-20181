@@ -72,7 +72,7 @@ public class Organization {
 	
 	//doc file ghi thuoc tinh ra mang
 	public ArrayList<String> nhanOrgan() throws IOException {
-		String FilePerson = "/entity/Organization/nhan.txt";
+		String FilePerson = "entity/Organization/nhan.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -82,7 +82,7 @@ public class Organization {
 		}
 	}
 	public  ArrayList<String> motaORgan() throws IOException {
-		String FilePerson = "/entity/Organization/mota.txt";
+		String FilePerson = "entity/Organization/mota.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -92,7 +92,7 @@ public class Organization {
 		}
 	}
 	public  ArrayList<String> trusoOrgan() throws IOException {
-		String FilePerson = "/Organization/truso.txt";
+		String FilePerson = "entity/Organization/truso.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -109,7 +109,7 @@ public class Organization {
 	}
 	
 	public  ArrayList<String> LinkOrgan() throws IOException {
-		String FilePerson = "/entity/link.txt";
+		String FilePerson = "entity/link.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{

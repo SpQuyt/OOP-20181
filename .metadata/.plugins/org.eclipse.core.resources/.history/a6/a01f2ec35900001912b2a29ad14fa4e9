@@ -73,7 +73,7 @@ public class Country {
 	
 	//doc file ghi thuoc tinh ra mang
 		public ArrayList<String> nhanCountry() throws IOException {
-			String FilePerson = "entity/Country/nhan.txt";
+			String FilePerson = "/entity/Country/nhan.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{
@@ -83,7 +83,7 @@ public class Country {
 			}
 		}
 		public  ArrayList<String> motaCountry() throws IOException {
-			String FilePerson = "entity/Country/mota.txt";
+			String FilePerson = "/entity/Country/mota.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{
@@ -93,7 +93,7 @@ public class Country {
 			}
 		}
 		public  ArrayList<String> quocgiaCountry() throws IOException {
-			String FilePerson = "entity/Country/quocgia.txt";
+			String FilePerson = "/entity/Country/quocgia.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{
@@ -110,7 +110,7 @@ public class Country {
 		}
 		
 		public  ArrayList<String> LinkCountry() throws IOException {
-			String FilePerson = "entity/link.txt";
+			String FilePerson = "/entity/link.txt";
 			ArrayList<String> listPerson = new ArrayList<>();
 			Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 			{

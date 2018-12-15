@@ -77,7 +77,7 @@ public class Person {
 
 	//doc file ghi thuoc tinh ra mang
 	public ArrayList<String> nhanPerson() throws IOException {
-		String FilePerson = "/entity/Person/nhan.txt";
+		String FilePerson = "entity/Person/nhan.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -87,7 +87,7 @@ public class Person {
 		}
 	}
 	public  ArrayList<String> motaPerson() throws IOException {
-		String FilePerson = "/entity/Person/mota.txt";
+		String FilePerson = "entity/Person/mota.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -97,7 +97,7 @@ public class Person {
 		}
 	}
 	public  ArrayList<String> chucVuPerson() throws IOException {
-		String FilePerson = "/entity/Person/chucvu.txt";
+		String FilePerson = "entity/Person/chucvu.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
@@ -114,7 +114,7 @@ public class Person {
 	}
 	
 	public  ArrayList<String> LinkPerson() throws IOException {
-		String FilePerson = "/entity/link.txt";
+		String FilePerson = "entity/link.txt";
 		ArrayList<String> listPerson = new ArrayList<>();
 		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
 		{
