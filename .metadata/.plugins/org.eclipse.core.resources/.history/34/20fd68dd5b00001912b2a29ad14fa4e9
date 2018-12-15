@@ -39,13 +39,6 @@ public class Relation {
 		nhanLocation = nhan("Location");
 	}
 	
-	public void show() {
-		for (model.Relation r : listRelation) {
-//			Entity x = r.getEntity1();
-			System.out.println(r.getEntity1());
-		}
-	}
-	
 	public  void genNRelation(int n) throws IOException {
 		for(int i=0;i<n;i++){
 			gen1RDRelation();
@@ -117,7 +110,7 @@ public class Relation {
 		return rela;
 	}
 
-	// sinh quan he hoan chinh
+	// sinh quan he hona chinh
 	public  model.Relation gen1Rela(ArrayList<String> al1, ArrayList<String> al2, String[] arrRela) {
 
 		model.Relation relation = new model.Relation();

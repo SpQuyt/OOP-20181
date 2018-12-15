@@ -41,7 +41,6 @@ public class Relation {
 	
 	public void show() {
 		for (model.Relation r : listRelation) {
-//			Entity x = r.getEntity1();
 			System.out.println(r.getEntity1());
 		}
 	}

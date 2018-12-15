@@ -39,13 +39,6 @@ public class Relation {
 		nhanLocation = nhan("Location");
 	}
 	
-	public void show() {
-		for (model.Relation r : listRelation) {
-//			Entity x = r.getEntity1();
-			System.out.println(r.getEntity1());
-		}
-	}
-	
 	public  void genNRelation(int n) throws IOException {
 		for(int i=0;i<n;i++){
 			gen1RDRelation();

@@ -25,8 +25,7 @@ public class mainAp {
 		entity.genNEntity(nBEntity);
 		System.out.println("\n---------quanhe-------");
 		rl.genNRelation(nBRelation);
-//		rl.showListRelation();
-		rl.show();
+		rl.showListRelation();
 		
 	}
 }
