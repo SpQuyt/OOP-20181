@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="connect.connectGraphDB"/>
+<fullyQualifiedTypeName name="org.eclipse.rdf4j.query.TupleQuery"/>
+<fullyQualifiedTypeName name="org.eclipse.rdf4j.query.QueryLanguage"/>
+<fullyQualifiedTypeName name="org.eclipse.rdf4j.query.TupleQueryResult"/>
+<fullyQualifiedTypeName name="org.eclipse.rdf4j.query.BindingSet"/>
+<fullyQualifiedTypeName name="org.eclipse.rdf4j.model.Value"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 packages to &apos;rdf4j-getting-started/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;oop&apos;&#x0D;&#x0A;- Destination element: &apos;rdf4j-getting-started/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     oop/src/gendata&#x0D;&#x0A;     oop/src/main&#x0D;&#x0A;     oop/src/model&#x0D;&#x0A;- Update references to refactored element" description="Move packages" destination="=rdf4j-getting-started/src\/main\/java" element1="/src&lt;gendata" element2="/src&lt;main" element3="/src&lt;model" flags="589830" fragments="3" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1544840514791" version="1.0"/>
+</session>
