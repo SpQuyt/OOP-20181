@@ -11,102 +11,108 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import model.Country;
+import model.Event;
+import model.Location;
+import model.Organization;
+import model.Person;
+import model.Time;
+import upload.uploadGraphDB;
 
 public class Relation {
 
-	 ArrayList<model.Relation> listRelation = new ArrayList<>();
+	ArrayList<model.Relation> listRelationFull = new ArrayList<>();
 
-	 ArrayList<String> nhanPerson = new ArrayList<>();
-	 ArrayList<String> nhanCountry = new ArrayList<>();
-	 ArrayList<String> nhanEvent = new ArrayList<>();
-	 ArrayList<String> nhanLocation = new ArrayList<>();
-	 ArrayList<String> nhanOrganization = new ArrayList<>();
+	static Person person = new Person();
+	static Country country = new Country();
+	static Event event = new Event();
+	static Location location = new Location();
+	static Organization organi = new Organization();
+	static Time time = new Time();
+	static String rela;
 
-	 String relaPerWCountry[] = { "sống", "đến", "ở tại", "đến thăm", "đi du lịch", "rời khỏi" };
-	 String relaPerWOrgani[] = { "làm việc", "thuộc", "đến", "tham gia", "bỏ việc", "rời khỏi" };
-	 String relaPerLocation[] = { " ở lại", "làm việc", "thuộc", "đến", "tham gia", " đến thăm", " tham dự tại",
-			"đi du lịch", "rời khỏi" };
-	 String relaPerWEvent[] = { "làm việc tại", "thuộc", "đến", "tham gia", "doi kh", "tổ chức" };
+	String relaPerWCountry[] = { "sống_ở", "đến", "ở_tại", "đến_thăm", "đi_du_lịch_ở", "rời_khỏi" };
+	String relaPerWOrgani[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "bỏ_việc_ở", "rời_khỏi" };
+	String relaPerLocation[] = { "ở_lại", "làm_việc_ở", "thuộc", "đến", "đến_thăm", "tham_dự_tại",
+			"đi_du_lịch", "rời_khỏi" };
+	String relaPerWEvent[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "rời_khỏi", "tổ_chức" };
 
-	 String relaEventWCountry[] = { "tổ chức tại", "diễn ra tại" };
-	 String relaEventWLocation[] = { "tổ chức tại", "diễn ra tại" };
+	String relaEventWCountry[] = { "tổ_chức", "diễn_ra_tại" };
+	String relaEventWLocation[] = { "tổ_chức", "diễn_ra_tại" };
 
-	public  void updateArrEntity() throws IOException {
-		nhanPerson = nhan("Person");
-		nhanOrganization = nhan("Organization");
-		nhanCountry = nhan("Country");
-		nhanEvent = nhan("Event");
-		nhanLocation = nhan("Location");
-	}
-	
-	public void show() {
-		for (model.Relation r : listRelation) {
-//			Entity x = r.getEntity1();
-			System.out.println(r.getEntity1());
-		}
-	}
-	
-	public  void genNRelation(int n) throws IOException {
-		for(int i=0;i<n;i++){
-			gen1RDRelation();
+	public void genNRelationfull(int n) throws IOException {
+		for (int i = 0; i < n; i++) {
+			gen1RDRelationFull();
 		}
 	}
 
 	// sinh 1 thuc the person
-	public  void gen1RDRelation() throws IOException {
-		updateArrEntity();
+	public void gen1RDRelationFull() throws IOException {
+
+		EntityCountry ec = new EntityCountry();
+		EntityEvent ev = new EntityEvent();
+		EntityLocation el = new EntityLocation();
+		EntityOrganization eo = new EntityOrganization();
+		EntityPerson ep = new EntityPerson();
+		EntityTime et = new EntityTime();
+
 		Random rd = new Random();
 		int k = rd.nextInt(6) + 1;
 		switch (k) {
 
 		// quan he giua person va country
 		case 1:
-			gen1Rela(nhanPerson, nhanCountry, relaPerWCountry);
+			person = ep.get1EntityPersonFFile();
+			country = ec.get1EntityCountryFFile();
+			rela = get1Relation(relaPerWCountry);
+			System.out.println(person + " " + rela + " " + country);
+			uploadGraphDB update = new uploadGraphDB();
+			update.upload(person, rela, country);
+
 			break;
 
-		// quan he giua person va country
+		// quan he giua person va origan
 		case 2:
-			gen1Rela(nhanPerson, nhanOrganization, relaPerWOrgani);
+
+			person = ep.get1EntityPersonFFile();
+			organi = eo.get1EntityOrganiFFile();
+			rela = get1Relation(relaPerWOrgani);
+			System.out.println(person + " " + rela + " " + organi);
 			break;
-		// quan he giua person va country
+		// quan he giua person va event
 		case 3:
-			gen1Rela(nhanPerson, nhanEvent, relaPerWEvent);
+
+			person = ep.get1EntityPersonFFile();
+			event = ev.get1EntityEventFFile();
+			rela = get1Relation(relaPerWEvent);
+			System.out.println(person + " " + rela + " " + event);
 			break;
 		// quan he giua person va country
 		case 4:
-			gen1Rela(nhanPerson, nhanLocation, relaEventWLocation);
+
+			person = ep.get1EntityPersonFFile();
+			location = el.get1EntityLocationFFile();
+			rela = get1Relation(relaPerLocation);
+			System.out.println(person + " " + rela + " " + location);
+
 			break;
 
-		// quan he giua person va country
+		// quan he giua event va country
 		case 5:
-			gen1Rela(nhanEvent, nhanCountry, relaEventWCountry);
+			event = ev.get1EntityEventFFile();
+			country = ec.get1EntityCountryFFile();
+			rela = get1Relation(relaEventWCountry);
+			System.out.println(event + " " + rela + " " + country);
+
 			break;
 		case 6:
-			gen1Rela(nhanEvent, nhanLocation, relaEventWLocation);
+			event = ev.get1EntityEventFFile();
+			location = el.get1EntityLocationFFile();
+			rela = get1Relation(relaEventWLocation);
+			System.out.println(event + " " + rela + " " + location);
+
 			break;
 
 		}
-	}
-
-	public  void showListRelation() {
-		for (model.Relation r : listRelation) {
-			System.out.println(r);
-		}
-	}
-
-	// lay ngau nhieu 1 phan tu tu mang
-	public  String get1Array(ArrayList<String> arr) {
-		Random rd = new Random();
-		String name = null;
-		int chiso;
-		if (arr.size() == 0)
-			System.out.println("file rong");
-		else {
-			chiso = rd.nextInt(arr.size());
-			name = arr.get(chiso);
-		}
-
-		return name;
 	}
 
 	// lay ngau nhien 1 quan he tuw mang
@@ -117,51 +123,8 @@ public class Relation {
 		return rela;
 	}
 
-	// sinh quan he hoan chinh
-	public  model.Relation gen1Rela(ArrayList<String> al1, ArrayList<String> al2, String[] arrRela) {
-
-		model.Relation relation = new model.Relation();
-
-		relation.setEntity1(get1Array(al1));
-		relation.setEntity2(get1Array(al2));
-		relation.setRela(get1Relation(arrRela));
-
-		listRelation.add(relation);
-
-		return relation;
-	}
-
-	// doc file ghi thuoc tinh ra mang
-	public  ArrayList<String> nhan(String name) throws IOException {
-		String FilePerson = "entity/" + name + "/nhan.txt";
-		ArrayList<String> listPerson = new ArrayList<>();
-		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
-		{
-
-			listPerson = (ArrayList<String>) stream.collect(Collectors.toList());
-			return listPerson;
-		}
-	}
-
-	public  void main(String[] args) throws IOException {
-
-		updateArrEntity();
-//		for (String s : nhanPerson) {
-//			System.out.println(s);
-//		}
-//		for (String s : nhanCountry) {
-//			System.out.println(s);
-//		}
-//		for (String s : nhanEvent) {
-//			System.out.println(s);
-//		}
-//		for (String s : nhanLocation) {
-//			System.out.println(s);
-//		}
-//		for (String s : nhanOrganization) {
-//			System.out.println(s);
-//		}
-		genNRelation(100);
-		showListRelation();
+	public static void main(String[] args) throws IOException {
+		Relation r = new Relation();
+		r.genNRelationfull(10);
 	}
 }

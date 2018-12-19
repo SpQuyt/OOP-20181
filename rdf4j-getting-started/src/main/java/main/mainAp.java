@@ -24,8 +24,6 @@ public class mainAp {
 		System.out.println("\n---------thucthe-------");
 		entity.genNEntity(nBEntity);
 		System.out.println("\n---------quanhe-------");
-		rl.genNRelation(nBRelation);
-		rl.showListRelation();
-		
+		rl.genNRelationfull(nBRelation);
 	}
 }

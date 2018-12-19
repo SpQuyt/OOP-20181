@@ -1,6 +1,1666 @@
-1
-2
-3
-4
-5
-6
+hugd0,hugd,laf nguoi,giao vien,p.com,2002-08-24
+anh0,anh,laf nguoi,thuquy,link.com,2002-08-24
+hugd1,hugd,laf nguoi,giao vien,d.com,2010-10-22
+ha0,ha,la giam ho,giao vien,d.com,2012-11-05
+dung0,dung,la vat dung,giao vien,p.com,2006-09-22
+hung0,hung,la vat dung,bacsi,d.com,2012-11-05
+huy0,huy,la vat dung,thuquy,link.com,2009-03-04
+anh1,anh,la giam ho,thuquy,p.com,2011-12-21
+huy1,huy,laf nguoi,thuquy,link.com,2006-09-22
+su0,su,la vat dung,thuquy,link.com,2012-11-05
+ha1,ha,la vat dung,thuquy,link.com,1994-06-26
+hung1,hung,la giam ho,bacsi,link.com,2012-11-05
+su1,su,la vat dung,bacsi,p.com,2006-09-22
+ha2,ha,laf nguoi,giao vien,d.com,2002-08-24
+an0,an,laf nguoi,giao vien,link.com,1994-06-26
+anh2,anh,la vat dung,giao vien,d.com,2002-08-24
+anh3,anh,laf nguoi,giao vien,link.com,2002-08-24
+an1,an,la vat dung,thuquy,link.com,2009-03-04
+ha3,ha,la giam ho,giao vien,d.com,1994-06-26
+anh4,anh,la giam ho,bacsi,link.com,1970-01-01
+an2,an,la vat dung,bacsi,link.com,1994-06-26
+hung2,hung,la giam ho,thuquy,p.com,2013-07-11
+anh5,anh,la giam ho,bacsi,link.com,2013-07-11
+hung3,hung,la giam ho,thuquy,d.com,2010-10-22
+anh6,anh,la giam ho,giao vien,d.com,2010-10-22
+su2,su,la vat dung,bacsi,link.com,2009-03-04
+dung1,dung,la vat dung,thuquy,p.com,2009-03-04
+ha4,ha,la vat dung,thuquy,p.com,2002-08-24
+hugd2,hugd,laf nguoi,giao vien,d.com,2011-12-21
+anh7,anh,la giam ho,thuquy,d.com,2009-03-04
+an3,an,laf nguoi,bacsi,d.com,2010-10-22
+hugd3,hugd,la giam ho,bacsi,p.com,2009-03-04
+ha5,ha,la giam ho,bacsi,d.com,2010-10-22
+dung2,dung,laf nguoi,thuquy,d.com,1970-01-01
+dung3,dung,laf nguoi,giao vien,d.com,2013-07-11
+huy2,huy,la giam ho,thuquy,link.com,2010-10-22
+huy3,huy,laf nguoi,bacsi,d.com,2002-08-24
+hugd4,hugd,la giam ho,thuquy,p.com,1970-01-01
+an4,an,laf nguoi,thuquy,d.com,1994-06-26
+hugd5,hugd,laf nguoi,giao vien,link.com,2009-03-04
+huy4,huy,la giam ho,thuquy,p.com,1994-06-26
+ha6,ha,la vat dung,giao vien,link.com,1970-01-01
+an5,an,laf nguoi,thuquy,d.com,2011-12-21
+huy5,huy,la giam ho,bacsi,link.com,2010-10-22
+su3,su,la vat dung,giao vien,p.com,1994-06-26
+ha7,ha,laf nguoi,bacsi,d.com,2011-12-21
+dung4,dung,la vat dung,thuquy,p.com,2010-10-22
+anh8,anh,la giam ho,bacsi,d.com,1994-06-26
+an6,an,la vat dung,giao vien,p.com,2013-07-11
+su4,su,la giam ho,giao vien,link.com,2013-07-11
+dung5,dung,la giam ho,bacsi,link.com,2006-09-22
+huy6,huy,laf nguoi,bacsi,link.com,2013-07-11
+an7,an,la vat dung,giao vien,d.com,2002-08-24
+ha8,ha,laf nguoi,thuquy,link.com,1970-01-01
+anh9,anh,la giam ho,thuquy,d.com,2012-11-05
+an8,an,la giam ho,thuquy,link.com,2011-12-21
+su5,su,la vat dung,thuquy,p.com,1994-06-26
+huy7,huy,la giam ho,bacsi,d.com,2006-09-22
+an9,an,la giam ho,giao vien,link.com,1994-06-26
+hugd6,hugd,la giam ho,giao vien,d.com,2002-08-24
+su6,su,la giam ho,thuquy,p.com,2006-09-22
+su7,su,la vat dung,bacsi,link.com,2002-08-24
+hugd7,hugd,la vat dung,giao vien,d.com,2006-09-22
+anh10,anh,la giam ho,bacsi,link.com,2013-07-11
+hugd8,hugd,la vat dung,giao vien,p.com,1970-01-01
+ha9,ha,la giam ho,giao vien,link.com,2006-09-22
+huy8,huy,laf nguoi,thuquy,p.com,2013-07-11
+huy9,huy,la vat dung,bacsi,p.com,1994-06-26
+su8,su,la vat dung,thuquy,p.com,1994-06-26
+an10,an,la giam ho,bacsi,link.com,2012-11-05
+su9,su,laf nguoi,giao vien,d.com,2011-12-21
+su10,su,la vat dung,thuquy,d.com,2009-03-04
+ha10,ha,laf nguoi,giao vien,link.com,2011-12-21
+an11,an,la giam ho,bacsi,p.com,2013-07-11
+dung6,dung,la giam ho,giao vien,p.com,2012-11-05
+su11,su,laf nguoi,bacsi,p.com,2002-08-24
+an12,an,la vat dung,thuquy,d.com,2009-03-04
+anh11,anh,laf nguoi,bacsi,link.com,2009-03-04
+anh12,anh,la vat dung,bacsi,d.com,1994-06-26
+ha11,ha,la vat dung,giao vien,link.com,2006-09-22
+huy10,huy,la giam ho,thuquy,link.com,2012-11-05
+su12,su,la vat dung,bacsi,d.com,2013-07-11
+an13,an,la vat dung,bacsi,link.com,1970-01-01
+ha12,ha,laf nguoi,bacsi,link.com,2006-09-22
+dung7,dung,laf nguoi,bacsi,p.com,2012-11-05
+hung4,hung,la vat dung,bacsi,link.com,1970-01-01
+su13,su,la vat dung,bacsi,d.com,1970-01-01
+dung8,dung,la vat dung,thuquy,d.com,1970-01-01
+anh13,anh,la vat dung,thuquy,p.com,1994-06-26
+huy11,huy,la giam ho,bacsi,p.com,1994-06-26
+su14,su,laf nguoi,bacsi,link.com,2002-08-24
+an14,an,la vat dung,bacsi,p.com,2006-09-22
+su15,su,la vat dung,thuquy,p.com,2011-12-21
+dung9,dung,la vat dung,thuquy,d.com,2012-11-05
+ha13,ha,laf nguoi,thuquy,link.com,2006-09-22
+dung10,dung,laf nguoi,bacsi,link.com,2011-12-21
+huy12,huy,la vat dung,thuquy,p.com,2013-07-11
+dung11,dung,la giam ho,giao vien,d.com,2006-09-22
+an15,an,laf nguoi,giao vien,p.com,1994-06-26
+anh14,anh,laf nguoi,bacsi,p.com,2013-07-11
+ha14,ha,la vat dung,thuquy,link.com,1970-01-01
+dung12,dung,la vat dung,giao vien,d.com,2013-07-11
+ha15,ha,la giam ho,thuquy,link.com,2010-10-22
+an16,an,la vat dung,thuquy,p.com,2010-10-22
+hung5,hung,laf nguoi,thuquy,link.com,1970-01-01
+su16,su,la giam ho,thuquy,d.com,1970-01-01
+huy13,huy,laf nguoi,bacsi,p.com,2006-09-22
+su17,su,laf nguoi,thuquy,p.com,2009-03-04
+anh15,anh,la giam ho,bacsi,p.com,2010-10-22
+su18,su,laf nguoi,giao vien,p.com,1970-01-01
+anh16,anh,la giam ho,thuquy,d.com,1994-06-26
+dung13,dung,la giam ho,giao vien,p.com,1970-01-01
+ha16,ha,la giam ho,bacsi,p.com,2013-07-11
+ha17,ha,la vat dung,bacsi,link.com,2013-07-11
+dung14,dung,la giam ho,giao vien,d.com,2012-11-05
+dung15,dung,la vat dung,thuquy,p.com,1994-06-26
+dung16,dung,laf nguoi,thuquy,link.com,2010-10-22
+anh17,anh,laf nguoi,bacsi,d.com,2002-08-24
+hugd9,hugd,la giam ho,bacsi,link.com,1994-06-26
+ha18,ha,la giam ho,giao vien,d.com,2006-09-22
+hung6,hung,la vat dung,thuquy,d.com,2009-03-04
+hung7,hung,la vat dung,bacsi,d.com,2009-03-04
+hung8,hung,laf nguoi,giao vien,p.com,2010-10-22
+huy14,huy,la giam ho,thuquy,link.com,2009-03-04
+anh18,anh,la vat dung,thuquy,link.com,2009-03-04
+huy15,huy,la giam ho,giao vien,link.com,2010-10-22
+hugd10,hugd,la giam ho,bacsi,d.com,2013-07-11
+huy16,huy,laf nguoi,giao vien,d.com,2010-10-22
+anh19,anh,la vat dung,giao vien,p.com,2006-09-22
+ha19,ha,la giam ho,thuquy,p.com,2009-03-04
+ha20,ha,laf nguoi,bacsi,link.com,2010-10-22
+ha21,ha,la vat dung,thuquy,p.com,2006-09-22
+anh20,anh,laf nguoi,giao vien,p.com,2009-03-04
+an17,an,la giam ho,thuquy,link.com,2009-03-04
+huy17,huy,laf nguoi,bacsi,link.com,2002-08-24
+ha22,ha,laf nguoi,thuquy,d.com,2011-12-21
+su19,su,la giam ho,giao vien,p.com,2010-10-22
+hugd11,hugd,laf nguoi,thuquy,link.com,1970-01-01
+huy18,huy,la giam ho,giao vien,p.com,2012-11-05
+an18,an,la giam ho,giao vien,link.com,2011-12-21
+an19,an,la vat dung,giao vien,d.com,1994-06-26
+huy19,huy,laf nguoi,bacsi,link.com,2009-03-04
+su20,su,laf nguoi,thuquy,p.com,2006-09-22
+hung9,hung,la giam ho,bacsi,p.com,1994-06-26
+an20,an,la vat dung,bacsi,link.com,2009-03-04
+ha23,ha,la giam ho,giao vien,d.com,2012-11-05
+su21,su,la giam ho,giao vien,p.com,2002-08-24
+hugd12,hugd,laf nguoi,bacsi,p.com,2011-12-21
+ha24,ha,la giam ho,giao vien,d.com,2009-03-04
+anh21,anh,la vat dung,thuquy,link.com,2013-07-11
+an21,an,la vat dung,bacsi,link.com,1970-01-01
+an22,an,la giam ho,giao vien,link.com,1970-01-01
+anh22,anh,la vat dung,giao vien,link.com,2009-03-04
+hugd13,hugd,laf nguoi,giao vien,d.com,2011-12-21
+su22,su,laf nguoi,thuquy,d.com,1970-01-01
+hugd14,hugd,la vat dung,thuquy,p.com,2002-08-24
+an23,an,la giam ho,giao vien,d.com,2002-08-24
+hung10,hung,laf nguoi,thuquy,d.com,2006-09-22
+dung17,dung,laf nguoi,thuquy,p.com,2010-10-22
+anh23,anh,la vat dung,thuquy,link.com,2002-08-24
+hugd15,hugd,la giam ho,thuquy,p.com,2006-09-22
+su23,su,la vat dung,bacsi,p.com,1970-01-01
+anh24,anh,laf nguoi,giao vien,link.com,2006-09-22
+su24,su,laf nguoi,thuquy,link.com,1994-06-26
+anh25,anh,laf nguoi,thuquy,d.com,2010-10-22
+hugd16,hugd,la vat dung,bacsi,link.com,2002-08-24
+dung18,dung,la giam ho,giao vien,p.com,2011-12-21
+ha25,ha,la giam ho,thuquy,link.com,2012-11-05
+hung11,hung,la vat dung,thuquy,d.com,2006-09-22
+an24,an,la vat dung,giao vien,d.com,2006-09-22
+an25,an,laf nguoi,giao vien,p.com,1970-01-01
+huy20,huy,laf nguoi,bacsi,p.com,1994-06-26
+anh26,anh,laf nguoi,bacsi,d.com,2013-07-11
+dung19,dung,la giam ho,giao vien,d.com,2011-12-21
+hugd17,hugd,laf nguoi,thuquy,d.com,1994-06-26
+hung12,hung,laf nguoi,giao vien,link.com,2010-10-22
+su25,su,laf nguoi,bacsi,link.com,2002-08-24
+anh27,anh,laf nguoi,giao vien,p.com,2009-03-04
+ha26,ha,laf nguoi,giao vien,d.com,2013-07-11
+dung20,dung,la vat dung,thuquy,d.com,2002-08-24
+hung13,hung,la vat dung,giao vien,p.com,2009-03-04
+hung14,hung,la vat dung,bacsi,d.com,1970-01-01
+huy21,huy,la vat dung,thuquy,d.com,2012-11-05
+hung15,hung,laf nguoi,giao vien,p.com,1970-01-01
+ha27,ha,laf nguoi,bacsi,d.com,1994-06-26
+ha28,ha,la vat dung,giao vien,link.com,1970-01-01
+hugd18,hugd,laf nguoi,bacsi,d.com,2012-11-05
+anh28,anh,la giam ho,thuquy,p.com,2002-08-24
+hung16,hung,la vat dung,bacsi,link.com,2011-12-21
+an26,an,laf nguoi,thuquy,link.com,2009-03-04
+huy22,huy,la vat dung,thuquy,link.com,2013-07-11
+hung17,hung,la giam ho,thuquy,d.com,2012-11-05
+huy23,huy,la vat dung,giao vien,link.com,2009-03-04
+huy24,huy,la giam ho,bacsi,d.com,2009-03-04
+hugd19,hugd,laf nguoi,bacsi,link.com,2010-10-22
+anh29,anh,laf nguoi,thuquy,link.com,2010-10-22
+su26,su,la vat dung,thuquy,link.com,2012-11-05
+an27,an,laf nguoi,giao vien,d.com,2012-11-05
+dung21,dung,la vat dung,thuquy,d.com,1994-06-26
+anh30,anh,laf nguoi,giao vien,link.com,2002-08-24
+an28,an,la giam ho,thuquy,p.com,2011-12-21
+an29,an,la giam ho,bacsi,link.com,2002-08-24
+dung22,dung,laf nguoi,thuquy,p.com,2012-11-05
+dung23,dung,la vat dung,thuquy,d.com,2011-12-21
+su27,su,la vat dung,giao vien,p.com,2002-08-24
+hung18,hung,laf nguoi,giao vien,link.com,2010-10-22
+dung24,dung,laf nguoi,giao vien,link.com,2006-09-22
+anh31,anh,la vat dung,thuquy,link.com,1970-01-01
+huy25,huy,la giam ho,bacsi,d.com,2012-11-05
+hung19,hung,la vat dung,thuquy,p.com,2013-07-11
+dung25,dung,laf nguoi,thuquy,link.com,2010-10-22
+hugd20,hugd,la vat dung,giao vien,p.com,2002-08-24
+ha29,ha,la giam ho,giao vien,d.com,1994-06-26
+hung20,hung,la giam ho,bacsi,p.com,1994-06-26
+ha30,ha,laf nguoi,thuquy,d.com,2009-03-04
+hung21,hung,la vat dung,thuquy,d.com,2002-08-24
+hugd21,hugd,la vat dung,bacsi,d.com,2012-11-05
+an30,an,laf nguoi,bacsi,d.com,2002-08-24
+hugd22,hugd,la giam ho,giao vien,p.com,2006-09-22
+hung22,hung,laf nguoi,giao vien,p.com,2011-12-21
+an31,an,la giam ho,giao vien,link.com,2002-08-24
+hugd23,hugd,laf nguoi,bacsi,link.com,2011-12-21
+huy26,huy,laf nguoi,giao vien,link.com,2011-12-21
+an32,an,la vat dung,thuquy,p.com,1994-06-26
+huy27,huy,laf nguoi,thuquy,d.com,2012-11-05
+hung23,hung,laf nguoi,thuquy,link.com,1994-06-26
+anh32,anh,laf nguoi,giao vien,d.com,2002-08-24
+hung24,hung,la giam ho,bacsi,p.com,2006-09-22
+anh33,anh,la vat dung,bacsi,link.com,2006-09-22
+an33,an,la vat dung,bacsi,d.com,1970-01-01
+dung26,dung,la giam ho,thuquy,p.com,1994-06-26
+an34,an,laf nguoi,thuquy,d.com,2013-07-11
+anh34,anh,la vat dung,thuquy,link.com,2010-10-22
+hung25,hung,laf nguoi,giao vien,p.com,2002-08-24
+huy28,huy,la giam ho,giao vien,p.com,2006-09-22
+anh35,anh,la vat dung,bacsi,p.com,2009-03-04
+ha31,ha,la giam ho,thuquy,link.com,2010-10-22
+dung27,dung,la giam ho,giao vien,p.com,2011-12-21
+su28,su,la vat dung,giao vien,p.com,1994-06-26
+hung26,hung,la vat dung,thuquy,p.com,2006-09-22
+huy29,huy,la vat dung,giao vien,p.com,2009-03-04
+anh36,anh,la giam ho,bacsi,link.com,1994-06-26
+su29,su,laf nguoi,thuquy,d.com,2010-10-22
+hugd24,hugd,la vat dung,thuquy,p.com,2006-09-22
+an35,an,la vat dung,giao vien,d.com,2009-03-04
+an36,an,laf nguoi,giao vien,d.com,2009-03-04
+hugd25,hugd,laf nguoi,bacsi,link.com,2013-07-11
+su30,su,la vat dung,giao vien,link.com,2013-07-11
+su31,su,la vat dung,thuquy,link.com,1994-06-26
+hugd26,hugd,la giam ho,bacsi,p.com,2006-09-22
+hung27,hung,la vat dung,giao vien,link.com,1970-01-01
+hung28,hung,laf nguoi,bacsi,p.com,2002-08-24
+hugd27,hugd,la giam ho,bacsi,p.com,1994-06-26
+dung28,dung,la giam ho,thuquy,d.com,2010-10-22
+hung29,hung,laf nguoi,bacsi,d.com,2009-03-04
+hung30,hung,la giam ho,giao vien,d.com,2012-11-05
+anh37,anh,la giam ho,giao vien,d.com,2002-08-24
+huy30,huy,la vat dung,giao vien,d.com,2009-03-04
+huy31,huy,la giam ho,thuquy,d.com,2012-11-05
+ha32,ha,laf nguoi,thuquy,p.com,2009-03-04
+hugd28,hugd,la vat dung,bacsi,d.com,2011-12-21
+dung29,dung,la giam ho,bacsi,link.com,2006-09-22
+hung31,hung,la giam ho,thuquy,d.com,2012-11-05
+ha33,ha,laf nguoi,giao vien,d.com,2011-12-21
+huy32,huy,laf nguoi,thuquy,d.com,1970-01-01
+ha34,ha,la vat dung,thuquy,p.com,2010-10-22
+huy33,huy,la vat dung,giao vien,d.com,2010-10-22
+su32,su,laf nguoi,giao vien,link.com,1970-01-01
+an37,an,laf nguoi,giao vien,p.com,2006-09-22
+hugd29,hugd,la giam ho,bacsi,p.com,2013-07-11
+ha35,ha,laf nguoi,thuquy,p.com,2002-08-24
+hugd30,hugd,la vat dung,bacsi,p.com,2006-09-22
+hung32,hung,la vat dung,thuquy,link.com,2011-12-21
+dung30,dung,laf nguoi,bacsi,link.com,2006-09-22
+su33,su,la giam ho,thuquy,link.com,1970-01-01
+an38,an,la giam ho,giao vien,d.com,2006-09-22
+dung31,dung,la vat dung,giao vien,d.com,2012-11-05
+dung32,dung,la giam ho,bacsi,p.com,2012-11-05
+hung33,hung,la giam ho,thuquy,link.com,2006-09-22
+dung33,dung,la giam ho,bacsi,p.com,2010-10-22
+an39,an,laf nguoi,giao vien,d.com,2006-09-22
+su34,su,laf nguoi,thuquy,link.com,2013-07-11
+huy34,huy,laf nguoi,giao vien,link.com,1970-01-01
+ha36,ha,la giam ho,giao vien,link.com,2011-12-21
+huy35,huy,laf nguoi,bacsi,link.com,2011-12-21
+hung34,hung,la vat dung,bacsi,p.com,2009-03-04
+huy36,huy,laf nguoi,bacsi,d.com,1970-01-01
+ha37,ha,la giam ho,bacsi,p.com,2006-09-22
+ha38,ha,la vat dung,giao vien,link.com,2013-07-11
+hung35,hung,la giam ho,thuquy,p.com,1994-06-26
+anh38,anh,la giam ho,giao vien,d.com,1994-06-26
+hung36,hung,la giam ho,thuquy,link.com,2009-03-04
+su35,su,la vat dung,thuquy,link.com,2006-09-22
+an40,an,la giam ho,thuquy,link.com,2012-11-05
+huy37,huy,la vat dung,thuquy,d.com,2013-07-11
+ha39,ha,la vat dung,bacsi,d.com,2011-12-21
+ha40,ha,la giam ho,bacsi,d.com,2013-07-11
+dung34,dung,laf nguoi,thuquy,link.com,2010-10-22
+an41,an,la vat dung,thuquy,d.com,1994-06-26
+su36,su,la giam ho,giao vien,d.com,2012-11-05
+anh39,anh,la vat dung,giao vien,p.com,2010-10-22
+hung37,hung,la giam ho,bacsi,p.com,1970-01-01
+dung35,dung,laf nguoi,thuquy,link.com,1994-06-26
+hung38,hung,la giam ho,thuquy,p.com,2006-09-22
+hung39,hung,la vat dung,giao vien,p.com,2012-11-05
+huy38,huy,la giam ho,giao vien,link.com,2002-08-24
+anh40,anh,la giam ho,giao vien,p.com,2010-10-22
+an42,an,la giam ho,thuquy,d.com,2009-03-04
+hugd31,hugd,la vat dung,bacsi,p.com,2011-12-21
+su37,su,laf nguoi,thuquy,d.com,1994-06-26
+ha41,ha,laf nguoi,thuquy,d.com,1970-01-01
+dung36,dung,laf nguoi,bacsi,link.com,2013-07-11
+dung37,dung,la giam ho,bacsi,d.com,2002-08-24
+hung40,hung,laf nguoi,thuquy,p.com,2006-09-22
+ha42,ha,laf nguoi,bacsi,d.com,2006-09-22
+an43,an,la giam ho,giao vien,d.com,2013-07-11
+hugd32,hugd,laf nguoi,thuquy,p.com,2013-07-11
+huy39,huy,la giam ho,thuquy,p.com,2013-07-11
+ha43,ha,laf nguoi,thuquy,p.com,2011-12-21
+huy40,huy,la giam ho,bacsi,link.com,2010-10-22
+hung41,hung,laf nguoi,thuquy,p.com,1970-01-01
+su38,su,la vat dung,thuquy,d.com,2006-09-22
+an44,an,la vat dung,bacsi,link.com,2011-12-21
+an45,an,la vat dung,thuquy,d.com,2013-07-11
+an46,an,la vat dung,giao vien,p.com,2002-08-24
+dung38,dung,la vat dung,thuquy,d.com,2006-09-22
+ha44,ha,la vat dung,thuquy,p.com,2010-10-22
+huy41,huy,la vat dung,thuquy,p.com,2013-07-11
+ha45,ha,laf nguoi,bacsi,p.com,2002-08-24
+ha46,ha,laf nguoi,giao vien,p.com,2009-03-04
+an47,an,la giam ho,giao vien,d.com,2012-11-05
+anh41,anh,laf nguoi,giao vien,link.com,2009-03-04
+dung39,dung,la giam ho,bacsi,link.com,1994-06-26
+hugd33,hugd,la vat dung,giao vien,d.com,2012-11-05
+an48,an,la vat dung,giao vien,link.com,2002-08-24
+hung42,hung,laf nguoi,giao vien,d.com,1970-01-01
+hugd34,hugd,la giam ho,giao vien,link.com,2010-10-22
+hung43,hung,laf nguoi,giao vien,link.com,2012-11-05
+ha47,ha,la giam ho,bacsi,p.com,2002-08-24
+dung40,dung,laf nguoi,thuquy,p.com,2013-07-11
+anh42,anh,laf nguoi,bacsi,link.com,1970-01-01
+ha48,ha,laf nguoi,giao vien,p.com,2011-12-21
+hung44,hung,la vat dung,giao vien,d.com,2012-11-05
+dung41,dung,la giam ho,bacsi,d.com,2013-07-11
+hung45,hung,la vat dung,bacsi,link.com,2010-10-22
+hung46,hung,laf nguoi,thuquy,d.com,1970-01-01
+dung42,dung,la vat dung,thuquy,p.com,1994-06-26
+hugd35,hugd,la giam ho,bacsi,p.com,2012-11-05
+an49,an,laf nguoi,giao vien,d.com,2013-07-11
+an50,an,la giam ho,giao vien,d.com,2012-11-05
+an51,an,la giam ho,bacsi,link.com,2002-08-24
+anh43,anh,la giam ho,bacsi,d.com,1994-06-26
+su39,su,la vat dung,giao vien,link.com,2006-09-22
+ha49,ha,la giam ho,thuquy,d.com,2002-08-24
+huy42,huy,laf nguoi,bacsi,d.com,2010-10-22
+dung43,dung,la vat dung,bacsi,link.com,2006-09-22
+huy43,huy,la vat dung,thuquy,d.com,2011-12-21
+huy44,huy,la vat dung,thuquy,link.com,2010-10-22
+ha50,ha,laf nguoi,thuquy,link.com,2009-03-04
+anh44,anh,la giam ho,bacsi,p.com,2010-10-22
+ha51,ha,laf nguoi,giao vien,link.com,2012-11-05
+huy45,huy,laf nguoi,bacsi,d.com,1970-01-01
+hugd36,hugd,laf nguoi,thuquy,d.com,2011-12-21
+anh45,anh,la vat dung,thuquy,p.com,2009-03-04
+huy46,huy,laf nguoi,bacsi,d.com,2009-03-04
+hugd37,hugd,la vat dung,thuquy,link.com,1970-01-01
+an52,an,la vat dung,bacsi,p.com,2012-11-05
+su40,su,la giam ho,giao vien,d.com,1994-06-26
+an53,an,laf nguoi,giao vien,p.com,2010-10-22
+hugd38,hugd,laf nguoi,thuquy,p.com,2011-12-21
+hung47,hung,la giam ho,thuquy,p.com,2010-10-22
+su41,su,la vat dung,bacsi,d.com,2011-12-21
+ha52,ha,la giam ho,giao vien,link.com,2010-10-22
+hung48,hung,laf nguoi,bacsi,p.com,1994-06-26
+ha53,ha,laf nguoi,bacsi,d.com,2002-08-24
+su42,su,laf nguoi,bacsi,link.com,2006-09-22
+hugd39,hugd,la giam ho,giao vien,link.com,1994-06-26
+anh46,anh,la vat dung,thuquy,d.com,2013-07-11
+hung49,hung,la giam ho,thuquy,p.com,2010-10-22
+hung50,hung,laf nguoi,bacsi,link.com,2002-08-24
+su43,su,la vat dung,bacsi,d.com,1994-06-26
+an54,an,la giam ho,giao vien,d.com,2013-07-11
+anh47,anh,la giam ho,bacsi,p.com,2013-07-11
+su44,su,la giam ho,thuquy,p.com,2012-11-05
+an55,an,laf nguoi,thuquy,link.com,2002-08-24
+huy47,huy,la vat dung,giao vien,link.com,2006-09-22
+ha54,ha,la giam ho,giao vien,d.com,1970-01-01
+an56,an,la giam ho,bacsi,d.com,2002-08-24
+anh48,anh,laf nguoi,bacsi,d.com,2002-08-24
+dung44,dung,la giam ho,giao vien,link.com,2010-10-22
+anh49,anh,la vat dung,bacsi,link.com,2013-07-11
+anh50,anh,laf nguoi,giao vien,d.com,2011-12-21
+dung45,dung,laf nguoi,thuquy,p.com,2009-03-04
+huy48,huy,la giam ho,giao vien,p.com,1994-06-26
+hung51,hung,laf nguoi,bacsi,link.com,2013-07-11
+dung46,dung,la vat dung,giao vien,link.com,2012-11-05
+ha55,ha,laf nguoi,giao vien,link.com,2002-08-24
+dung47,dung,la vat dung,bacsi,p.com,2010-10-22
+an57,an,la giam ho,giao vien,link.com,2002-08-24
+an58,an,la vat dung,thuquy,p.com,2002-08-24
+dung48,dung,la giam ho,giao vien,link.com,2002-08-24
+su45,su,la vat dung,bacsi,link.com,1970-01-01
+hung52,hung,la vat dung,bacsi,d.com,2002-08-24
+an59,an,la vat dung,thuquy,link.com,2013-07-11
+hung53,hung,la giam ho,thuquy,link.com,2009-03-04
+anh51,anh,laf nguoi,thuquy,d.com,2012-11-05
+anh52,anh,la giam ho,bacsi,d.com,1994-06-26
+hung54,hung,la vat dung,thuquy,link.com,2011-12-21
+hung55,hung,la vat dung,giao vien,link.com,2010-10-22
+an60,an,la giam ho,bacsi,d.com,2002-08-24
+an61,an,la giam ho,thuquy,link.com,2009-03-04
+hung56,hung,laf nguoi,thuquy,p.com,2010-10-22
+su46,su,la vat dung,bacsi,link.com,2006-09-22
+hugd40,hugd,la vat dung,giao vien,link.com,2013-07-11
+huy49,huy,la giam ho,bacsi,d.com,2011-12-21
+hugd41,hugd,laf nguoi,bacsi,d.com,2002-08-24
+hugd42,hugd,laf nguoi,bacsi,d.com,2013-07-11
+an62,an,la giam ho,bacsi,link.com,2012-11-05
+hugd43,hugd,la giam ho,bacsi,d.com,2002-08-24
+ha56,ha,la vat dung,giao vien,p.com,1970-01-01
+ha57,ha,laf nguoi,giao vien,p.com,2011-12-21
+dung49,dung,la vat dung,bacsi,d.com,2013-07-11
+anh53,anh,la giam ho,giao vien,p.com,2009-03-04
+anh54,anh,la vat dung,thuquy,d.com,1994-06-26
+huy50,huy,laf nguoi,thuquy,d.com,1970-01-01
+huy51,huy,laf nguoi,bacsi,d.com,1994-06-26
+su47,su,la giam ho,giao vien,link.com,2009-03-04
+dung50,dung,la vat dung,bacsi,link.com,2009-03-04
+an63,an,laf nguoi,bacsi,p.com,2013-07-11
+dung51,dung,la giam ho,giao vien,d.com,2006-09-22
+huy52,huy,laf nguoi,thuquy,d.com,1994-06-26
+hung57,hung,la vat dung,thuquy,link.com,2012-11-05
+dung52,dung,laf nguoi,thuquy,link.com,2002-08-24
+huy53,huy,la vat dung,thuquy,d.com,2011-12-21
+huy54,huy,la giam ho,thuquy,link.com,1994-06-26
+dung53,dung,la vat dung,thuquy,d.com,2009-03-04
+su48,su,la vat dung,thuquy,link.com,2013-07-11
+hung58,hung,la vat dung,giao vien,p.com,2012-11-05
+anh55,anh,la giam ho,thuquy,link.com,2012-11-05
+anh56,anh,la giam ho,giao vien,link.com,2012-11-05
+dung54,dung,laf nguoi,giao vien,d.com,1994-06-26
+hugd44,hugd,la vat dung,thuquy,p.com,1970-01-01
+ha58,ha,laf nguoi,thuquy,link.com,2013-07-11
+an64,an,laf nguoi,bacsi,p.com,2006-09-22
+su49,su,la vat dung,giao vien,link.com,2006-09-22
+hung59,hung,la giam ho,giao vien,link.com,2002-08-24
+an65,an,laf nguoi,giao vien,p.com,2006-09-22
+anh57,anh,la giam ho,thuquy,d.com,2009-03-04
+an66,an,la giam ho,thuquy,d.com,1970-01-01
+hung60,hung,la giam ho,thuquy,d.com,2009-03-04
+an67,an,la vat dung,bacsi,p.com,2006-09-22
+hung61,hung,la vat dung,bacsi,p.com,2009-03-04
+hugd45,hugd,la giam ho,bacsi,link.com,2012-11-05
+an68,an,la vat dung,giao vien,p.com,2013-07-11
+dung55,dung,la vat dung,thuquy,link.com,2013-07-11
+hugd46,hugd,la vat dung,bacsi,link.com,2002-08-24
+huy55,huy,la vat dung,giao vien,p.com,2010-10-22
+hugd47,hugd,la giam ho,bacsi,p.com,2013-07-11
+ha59,ha,la giam ho,thuquy,link.com,1994-06-26
+ha60,ha,laf nguoi,thuquy,d.com,1994-06-26
+anh58,anh,la vat dung,thuquy,link.com,2009-03-04
+huy56,huy,la giam ho,giao vien,p.com,2011-12-21
+su50,su,la giam ho,giao vien,p.com,2011-12-21
+su51,su,laf nguoi,giao vien,d.com,2002-08-24
+hugd48,hugd,la giam ho,giao vien,d.com,2002-08-24
+anh59,anh,la giam ho,thuquy,d.com,2006-09-22
+dung56,dung,la giam ho,bacsi,link.com,2009-03-04
+an69,an,la vat dung,giao vien,d.com,1970-01-01
+an70,an,la giam ho,thuquy,p.com,1970-01-01
+hugd49,hugd,la giam ho,giao vien,link.com,1970-01-01
+su52,su,la giam ho,giao vien,d.com,2010-10-22
+hugd50,hugd,laf nguoi,thuquy,p.com,2011-12-21
+dung57,dung,laf nguoi,thuquy,p.com,2006-09-22
+hung62,hung,la giam ho,bacsi,d.com,2006-09-22
+anh60,anh,la giam ho,bacsi,p.com,2012-11-05
+hung63,hung,laf nguoi,thuquy,d.com,2013-07-11
+anh61,anh,la giam ho,giao vien,p.com,2011-12-21
+ha61,ha,la vat dung,bacsi,d.com,2012-11-05
+hugd51,hugd,laf nguoi,thuquy,d.com,1994-06-26
+huy57,huy,laf nguoi,giao vien,link.com,2010-10-22
+dung58,dung,la vat dung,bacsi,p.com,2012-11-05
+dung59,dung,laf nguoi,giao vien,p.com,2010-10-22
+dung60,dung,la vat dung,giao vien,d.com,2013-07-11
+huy58,huy,la giam ho,bacsi,link.com,2010-10-22
+hung64,hung,la vat dung,thuquy,d.com,2009-03-04
+su53,su,laf nguoi,bacsi,p.com,2002-08-24
+su54,su,la vat dung,bacsi,p.com,2006-09-22
+anh62,anh,la vat dung,thuquy,d.com,2006-09-22
+an71,an,la vat dung,bacsi,link.com,2006-09-22
+ha62,ha,la vat dung,bacsi,link.com,2009-03-04
+su55,su,la vat dung,bacsi,p.com,2010-10-22
+huy59,huy,la giam ho,giao vien,d.com,1994-06-26
+hugd52,hugd,la vat dung,giao vien,d.com,2006-09-22
+an72,an,la giam ho,giao vien,p.com,1994-06-26
+hung65,hung,la vat dung,giao vien,link.com,2010-10-22
+su56,su,laf nguoi,bacsi,p.com,1970-01-01
+dung61,dung,laf nguoi,bacsi,link.com,2011-12-21
+hung66,hung,la giam ho,giao vien,p.com,2002-08-24
+dung62,dung,la giam ho,thuquy,link.com,2006-09-22
+huy60,huy,laf nguoi,giao vien,link.com,2011-12-21
+dung63,dung,la giam ho,thuquy,p.com,2013-07-11
+anh63,anh,la vat dung,thuquy,p.com,1970-01-01
+hung67,hung,la giam ho,thuquy,link.com,2013-07-11
+dung64,dung,la vat dung,bacsi,p.com,1970-01-01
+hugd53,hugd,la vat dung,giao vien,p.com,2012-11-05
+an73,an,laf nguoi,bacsi,link.com,2012-11-05
+hung68,hung,la vat dung,giao vien,d.com,2012-11-05
+hugd54,hugd,la giam ho,bacsi,d.com,2006-09-22
+su57,su,laf nguoi,thuquy,link.com,2002-08-24
+hung69,hung,la vat dung,thuquy,link.com,2013-07-11
+su58,su,la vat dung,thuquy,p.com,2012-11-05
+anh64,anh,laf nguoi,giao vien,link.com,2010-10-22
+dung65,dung,laf nguoi,bacsi,p.com,2012-11-05
+anh65,anh,la vat dung,thuquy,link.com,2013-07-11
+ha63,ha,la giam ho,bacsi,d.com,2011-12-21
+su59,su,la vat dung,giao vien,d.com,2002-08-24
+hugd55,hugd,la vat dung,giao vien,d.com,2009-03-04
+su60,su,laf nguoi,bacsi,p.com,1970-01-01
+an74,an,la vat dung,giao vien,link.com,2002-08-24
+an75,an,la vat dung,giao vien,d.com,2011-12-21
+huy61,huy,la vat dung,bacsi,p.com,2006-09-22
+su61,su,laf nguoi,thuquy,link.com,2002-08-24
+ha64,ha,laf nguoi,giao vien,p.com,2009-03-04
+dung66,dung,la vat dung,giao vien,p.com,2010-10-22
+su62,su,la vat dung,thuquy,p.com,2011-12-21
+huy62,huy,la vat dung,bacsi,p.com,2009-03-04
+hugd56,hugd,laf nguoi,bacsi,d.com,2012-11-05
+huy63,huy,la giam ho,bacsi,link.com,2013-07-11
+huy64,huy,la vat dung,giao vien,link.com,2002-08-24
+dung67,dung,la vat dung,bacsi,d.com,1970-01-01
+hugd57,hugd,la vat dung,giao vien,link.com,2009-03-04
+hung70,hung,la vat dung,bacsi,p.com,2009-03-04
+dung68,dung,laf nguoi,thuquy,link.com,2010-10-22
+ha65,ha,laf nguoi,bacsi,p.com,1970-01-01
+dung69,dung,la giam ho,bacsi,link.com,1970-01-01
+hung71,hung,laf nguoi,giao vien,d.com,2009-03-04
+ha66,ha,laf nguoi,giao vien,link.com,1970-01-01
+an76,an,la vat dung,giao vien,d.com,1970-01-01
+hung72,hung,la vat dung,thuquy,link.com,2010-10-22
+hugd58,hugd,laf nguoi,thuquy,link.com,2009-03-04
+hung73,hung,la giam ho,giao vien,link.com,2013-07-11
+hugd59,hugd,laf nguoi,giao vien,p.com,2002-08-24
+dung70,dung,la giam ho,giao vien,d.com,2010-10-22
+hung74,hung,laf nguoi,giao vien,link.com,1994-06-26
+huy65,huy,la giam ho,bacsi,link.com,1994-06-26
+hugd60,hugd,la giam ho,giao vien,d.com,2010-10-22
+hugd61,hugd,la vat dung,bacsi,p.com,2012-11-05
+huy66,huy,laf nguoi,thuquy,d.com,2009-03-04
+hugd62,hugd,laf nguoi,bacsi,link.com,1994-06-26
+su63,su,la giam ho,giao vien,d.com,1994-06-26
+ha67,ha,laf nguoi,bacsi,p.com,2002-08-24
+ha68,ha,la giam ho,bacsi,p.com,2002-08-24
+an77,an,la giam ho,bacsi,link.com,2010-10-22
+su64,su,la vat dung,bacsi,link.com,2010-10-22
+dung71,dung,la giam ho,thuquy,d.com,2013-07-11
+huy67,huy,laf nguoi,bacsi,d.com,1994-06-26
+ha69,ha,la giam ho,bacsi,d.com,2012-11-05
+su65,su,la giam ho,bacsi,p.com,2013-07-11
+an78,an,la giam ho,bacsi,link.com,1994-06-26
+huy68,huy,la vat dung,bacsi,d.com,2009-03-04
+huy69,huy,la vat dung,thuquy,link.com,1994-06-26
+dung72,dung,la vat dung,bacsi,d.com,1970-01-01
+anh66,anh,la giam ho,giao vien,link.com,2002-08-24
+ha70,ha,la giam ho,giao vien,d.com,2012-11-05
+su66,su,la vat dung,giao vien,d.com,2011-12-21
+ha71,ha,la vat dung,thuquy,p.com,1994-06-26
+an79,an,la vat dung,giao vien,link.com,2006-09-22
+huy70,huy,la vat dung,thuquy,p.com,1994-06-26
+anh67,anh,la vat dung,bacsi,p.com,2006-09-22
+ha72,ha,la giam ho,thuquy,p.com,2009-03-04
+hugd63,hugd,laf nguoi,bacsi,p.com,2012-11-05
+hung75,hung,la giam ho,thuquy,link.com,2013-07-11
+su67,su,laf nguoi,giao vien,link.com,2002-08-24
+hugd64,hugd,la giam ho,bacsi,link.com,2011-12-21
+anh68,anh,laf nguoi,thuquy,d.com,2011-12-21
+dung73,dung,la vat dung,thuquy,d.com,2013-07-11
+ha73,ha,laf nguoi,thuquy,link.com,1970-01-01
+hung76,hung,laf nguoi,giao vien,p.com,2006-09-22
+dung74,dung,la giam ho,bacsi,d.com,2009-03-04
+su68,su,laf nguoi,thuquy,link.com,2013-07-11
+anh69,anh,la vat dung,giao vien,d.com,2010-10-22
+hugd65,hugd,la vat dung,bacsi,p.com,1994-06-26
+hugd66,hugd,laf nguoi,bacsi,link.com,2011-12-21
+dung75,dung,laf nguoi,thuquy,link.com,2009-03-04
+hung77,hung,la giam ho,giao vien,d.com,1994-06-26
+huy71,huy,la vat dung,thuquy,link.com,1970-01-01
+hung78,hung,laf nguoi,giao vien,link.com,2009-03-04
+huy72,huy,la vat dung,giao vien,link.com,2010-10-22
+dung76,dung,laf nguoi,giao vien,link.com,2011-12-21
+huy73,huy,la giam ho,giao vien,d.com,2009-03-04
+ha74,ha,la vat dung,bacsi,link.com,2011-12-21
+dung77,dung,la vat dung,giao vien,p.com,2010-10-22
+anh70,anh,la vat dung,thuquy,link.com,2011-12-21
+dung78,dung,la vat dung,giao vien,p.com,1970-01-01
+ha75,ha,laf nguoi,bacsi,d.com,1970-01-01
+hugd67,hugd,la vat dung,bacsi,link.com,2012-11-05
+su69,su,laf nguoi,giao vien,p.com,2010-10-22
+su70,su,la vat dung,bacsi,p.com,2006-09-22
+dung79,dung,la giam ho,bacsi,d.com,1970-01-01
+anh71,anh,la vat dung,bacsi,p.com,2011-12-21
+an80,an,la giam ho,bacsi,link.com,2011-12-21
+dung80,dung,la giam ho,giao vien,link.com,2010-10-22
+hung79,hung,la giam ho,bacsi,p.com,2011-12-21
+huy74,huy,la giam ho,thuquy,link.com,2011-12-21
+anh72,anh,laf nguoi,giao vien,link.com,2013-07-11
+dung81,dung,laf nguoi,bacsi,link.com,2010-10-22
+dung82,dung,laf nguoi,giao vien,link.com,2013-07-11
+huy75,huy,laf nguoi,giao vien,d.com,1994-06-26
+ha76,ha,la giam ho,bacsi,p.com,2006-09-22
+su71,su,laf nguoi,giao vien,d.com,2010-10-22
+hung80,hung,laf nguoi,bacsi,p.com,2002-08-24
+dung83,dung,la giam ho,giao vien,d.com,2006-09-22
+hugd68,hugd,la vat dung,giao vien,link.com,1970-01-01
+anh73,anh,la vat dung,giao vien,p.com,2002-08-24
+hugd69,hugd,la giam ho,thuquy,d.com,1970-01-01
+huy76,huy,la vat dung,giao vien,d.com,2006-09-22
+dung84,dung,la giam ho,thuquy,link.com,1970-01-01
+su72,su,la giam ho,giao vien,p.com,2013-07-11
+huy77,huy,laf nguoi,bacsi,d.com,2013-07-11
+su73,su,la giam ho,giao vien,d.com,2012-11-05
+an81,an,la vat dung,bacsi,d.com,2002-08-24
+dung85,dung,laf nguoi,bacsi,link.com,2002-08-24
+an82,an,la vat dung,giao vien,link.com,2009-03-04
+huy78,huy,la vat dung,thuquy,d.com,2009-03-04
+anh74,anh,la vat dung,giao vien,link.com,2010-10-22
+hugd70,hugd,la giam ho,giao vien,link.com,1970-01-01
+dung86,dung,la giam ho,giao vien,p.com,2012-11-05
+dung87,dung,la giam ho,bacsi,p.com,2010-10-22
+hung81,hung,laf nguoi,giao vien,p.com,1970-01-01
+huy79,huy,laf nguoi,thuquy,p.com,2011-12-21
+hugd71,hugd,laf nguoi,thuquy,p.com,2006-09-22
+hugd72,hugd,laf nguoi,bacsi,link.com,2010-10-22
+ha77,ha,la giam ho,thuquy,d.com,2006-09-22
+hugd73,hugd,laf nguoi,thuquy,link.com,2012-11-05
+su74,su,laf nguoi,bacsi,p.com,2011-12-21
+ha78,ha,la giam ho,giao vien,p.com,2006-09-22
+hugd74,hugd,la vat dung,bacsi,p.com,2006-09-22
+su75,su,laf nguoi,giao vien,link.com,2012-11-05
+an83,an,laf nguoi,thuquy,d.com,2002-08-24
+huy80,huy,la giam ho,giao vien,p.com,2012-11-05
+hung82,hung,la vat dung,thuquy,link.com,2009-03-04
+an84,an,la vat dung,thuquy,p.com,1970-01-01
+anh75,anh,laf nguoi,giao vien,link.com,2012-11-05
+su76,su,laf nguoi,giao vien,link.com,1970-01-01
+huy81,huy,laf nguoi,bacsi,p.com,1994-06-26
+anh76,anh,la giam ho,bacsi,p.com,2006-09-22
+ha79,ha,laf nguoi,thuquy,p.com,2002-08-24
+hung83,hung,la vat dung,bacsi,d.com,2009-03-04
+an85,an,laf nguoi,bacsi,link.com,2011-12-21
+dung88,dung,la giam ho,bacsi,p.com,2006-09-22
+hugd75,hugd,laf nguoi,giao vien,d.com,1994-06-26
+hugd76,hugd,la giam ho,giao vien,p.com,2002-08-24
+su77,su,laf nguoi,bacsi,d.com,2010-10-22
+hugd77,hugd,la giam ho,thuquy,p.com,2002-08-24
+huy82,huy,laf nguoi,giao vien,link.com,2012-11-05
+hugd78,hugd,la vat dung,thuquy,link.com,1970-01-01
+an86,an,laf nguoi,bacsi,link.com,2006-09-22
+hung84,hung,la giam ho,bacsi,p.com,2013-07-11
+huy83,huy,laf nguoi,thuquy,p.com,2002-08-24
+an87,an,la vat dung,giao vien,p.com,2011-12-21
+hung85,hung,laf nguoi,giao vien,link.com,1994-06-26
+dung89,dung,la giam ho,thuquy,p.com,2010-10-22
+ha80,ha,la vat dung,thuquy,link.com,2009-03-04
+huy84,huy,laf nguoi,giao vien,link.com,2011-12-21
+su78,su,laf nguoi,bacsi,d.com,2012-11-05
+dung90,dung,la giam ho,bacsi,p.com,2002-08-24
+hung86,hung,la giam ho,thuquy,p.com,2010-10-22
+an88,an,la giam ho,giao vien,d.com,1994-06-26
+su79,su,la giam ho,thuquy,d.com,2006-09-22
+huy85,huy,la giam ho,bacsi,d.com,2013-07-11
+hugd79,hugd,la vat dung,giao vien,link.com,2012-11-05
+an89,an,la giam ho,giao vien,link.com,2013-07-11
+dung91,dung,laf nguoi,bacsi,p.com,2013-07-11
+su80,su,la vat dung,giao vien,p.com,2009-03-04
+dung92,dung,la giam ho,thuquy,link.com,2011-12-21
+su81,su,la giam ho,giao vien,p.com,2010-10-22
+su82,su,laf nguoi,thuquy,d.com,1994-06-26
+hung87,hung,la giam ho,thuquy,p.com,2011-12-21
+hugd80,hugd,laf nguoi,bacsi,p.com,2013-07-11
+dung93,dung,la vat dung,thuquy,link.com,2013-07-11
+anh77,anh,laf nguoi,bacsi,p.com,2006-09-22
+su83,su,la vat dung,bacsi,p.com,2011-12-21
+hugd81,hugd,la vat dung,giao vien,p.com,2009-03-04
+dung94,dung,la vat dung,thuquy,p.com,1970-01-01
+hugd82,hugd,la giam ho,bacsi,p.com,2006-09-22
+hugd83,hugd,la vat dung,giao vien,d.com,2009-03-04
+hung88,hung,laf nguoi,giao vien,d.com,2013-07-11
+hung89,hung,la vat dung,bacsi,link.com,2012-11-05
+huy86,huy,la giam ho,thuquy,p.com,1994-06-26
+su84,su,laf nguoi,bacsi,p.com,1994-06-26
+anh78,anh,la giam ho,giao vien,link.com,2010-10-22
+huy87,huy,laf nguoi,thuquy,p.com,2013-07-11
+hugd84,hugd,la vat dung,giao vien,p.com,2013-07-11
+hugd85,hugd,la giam ho,bacsi,d.com,2013-07-11
+huy88,huy,la giam ho,thuquy,d.com,2009-03-04
+huy89,huy,la vat dung,giao vien,link.com,2010-10-22
+su85,su,la vat dung,thuquy,p.com,2010-10-22
+dung95,dung,la vat dung,bacsi,link.com,2002-08-24
+huy90,huy,la giam ho,bacsi,link.com,2002-08-24
+an90,an,la giam ho,giao vien,link.com,2010-10-22
+anh79,anh,la vat dung,giao vien,link.com,1970-01-01
+su86,su,la giam ho,bacsi,d.com,2002-08-24
+su87,su,laf nguoi,thuquy,link.com,1970-01-01
+hugd86,hugd,la vat dung,bacsi,p.com,2013-07-11
+hung90,hung,laf nguoi,thuquy,d.com,1970-01-01
+ha81,ha,la giam ho,bacsi,link.com,2002-08-24
+an91,an,la vat dung,thuquy,d.com,2010-10-22
+huy91,huy,la giam ho,thuquy,link.com,2009-03-04
+anh80,anh,laf nguoi,thuquy,link.com,2006-09-22
+an92,an,la vat dung,bacsi,link.com,1994-06-26
+an93,an,laf nguoi,giao vien,d.com,2009-03-04
+anh81,anh,laf nguoi,giao vien,p.com,1994-06-26
+huy92,huy,la giam ho,thuquy,d.com,2002-08-24
+huy93,huy,laf nguoi,giao vien,p.com,2010-10-22
+su88,su,laf nguoi,giao vien,p.com,2002-08-24
+hugd87,hugd,la vat dung,bacsi,p.com,2010-10-22
+anh82,anh,la vat dung,bacsi,link.com,2011-12-21
+ha82,ha,la giam ho,thuquy,link.com,1970-01-01
+ha83,ha,la giam ho,thuquy,d.com,2010-10-22
+su89,su,la vat dung,bacsi,link.com,2002-08-24
+hung91,hung,la giam ho,thuquy,link.com,2013-07-11
+huy94,huy,laf nguoi,thuquy,link.com,2013-07-11
+an94,an,la vat dung,thuquy,link.com,2006-09-22
+su90,su,laf nguoi,thuquy,link.com,2002-08-24
+su91,su,la vat dung,bacsi,link.com,2012-11-05
+ha84,ha,la vat dung,bacsi,link.com,1994-06-26
+hung92,hung,la giam ho,thuquy,p.com,2010-10-22
+hung93,hung,laf nguoi,bacsi,d.com,2006-09-22
+dung96,dung,la vat dung,giao vien,link.com,2012-11-05
+ha85,ha,la vat dung,thuquy,p.com,2010-10-22
+su92,su,la vat dung,thuquy,p.com,2013-07-11
+hugd88,hugd,laf nguoi,thuquy,d.com,2006-09-22
+hugd89,hugd,la vat dung,giao vien,link.com,2010-10-22
+su93,su,la giam ho,bacsi,d.com,2009-03-04
+hung94,hung,laf nguoi,thuquy,p.com,2010-10-22
+anh83,anh,la giam ho,bacsi,link.com,2012-11-05
+anh84,anh,la vat dung,bacsi,link.com,1994-06-26
+anh85,anh,laf nguoi,giao vien,link.com,2006-09-22
+dung97,dung,la giam ho,bacsi,link.com,2009-03-04
+hung95,hung,laf nguoi,thuquy,p.com,2011-12-21
+anh86,anh,laf nguoi,bacsi,p.com,2010-10-22
+an95,an,laf nguoi,giao vien,p.com,2012-11-05
+huy95,huy,la giam ho,giao vien,link.com,2013-07-11
+huy96,huy,laf nguoi,bacsi,p.com,2010-10-22
+hugd90,hugd,laf nguoi,thuquy,link.com,2002-08-24
+an96,an,la vat dung,bacsi,p.com,2002-08-24
+hung96,hung,la vat dung,thuquy,p.com,1970-01-01
+hugd91,hugd,la vat dung,thuquy,link.com,2010-10-22
+an97,an,la giam ho,giao vien,link.com,2006-09-22
+hugd92,hugd,la vat dung,giao vien,p.com,2002-08-24
+huy97,huy,la giam ho,giao vien,d.com,2012-11-05
+hung97,hung,la vat dung,bacsi,link.com,2009-03-04
+dung98,dung,la vat dung,bacsi,link.com,2012-11-05
+ha86,ha,la vat dung,bacsi,link.com,2002-08-24
+an98,an,la vat dung,thuquy,p.com,2013-07-11
+ha87,ha,la giam ho,bacsi,d.com,1994-06-26
+huy98,huy,la vat dung,giao vien,link.com,2009-03-04
+dung99,dung,la vat dung,thuquy,link.com,2013-07-11
+anh87,anh,la giam ho,thuquy,link.com,2002-08-24
+dung100,dung,la giam ho,giao vien,d.com,2009-03-04
+ha88,ha,la giam ho,bacsi,d.com,2009-03-04
+anh88,anh,la giam ho,thuquy,d.com,2012-11-05
+an99,an,la giam ho,bacsi,p.com,2013-07-11
+hung98,hung,la vat dung,bacsi,link.com,1970-01-01
+hung99,hung,la vat dung,giao vien,p.com,2006-09-22
+ha89,ha,la vat dung,bacsi,p.com,2011-12-21
+su94,su,laf nguoi,giao vien,p.com,2011-12-21
+an100,an,laf nguoi,bacsi,link.com,2013-07-11
+an101,an,la vat dung,bacsi,link.com,1994-06-26
+su95,su,la giam ho,bacsi,p.com,1970-01-01
+su96,su,la vat dung,giao vien,p.com,2010-10-22
+ha90,ha,la vat dung,thuquy,p.com,2012-11-05
+an102,an,la giam ho,giao vien,link.com,2012-11-05
+ha91,ha,la giam ho,giao vien,link.com,1970-01-01
+ha92,ha,laf nguoi,thuquy,link.com,2006-09-22
+anh89,anh,la giam ho,thuquy,d.com,1970-01-01
+ha93,ha,la vat dung,bacsi,d.com,2011-12-21
+ha94,ha,laf nguoi,bacsi,d.com,2010-10-22
+an103,an,la vat dung,bacsi,link.com,2006-09-22
+hung100,hung,la giam ho,giao vien,p.com,2013-07-11
+ha95,ha,la giam ho,thuquy,p.com,2013-07-11
+su97,su,la giam ho,giao vien,d.com,2010-10-22
+hugd93,hugd,la giam ho,giao vien,d.com,2012-11-05
+hung101,hung,laf nguoi,thuquy,link.com,2006-09-22
+ha96,ha,la vat dung,bacsi,d.com,2013-07-11
+dung101,dung,laf nguoi,bacsi,d.com,2009-03-04
+su98,su,laf nguoi,thuquy,link.com,2002-08-24
+an104,an,la vat dung,giao vien,d.com,2013-07-11
+anh90,anh,laf nguoi,giao vien,link.com,2006-09-22
+su99,su,la vat dung,giao vien,d.com,2013-07-11
+su100,su,laf nguoi,bacsi,link.com,2009-03-04
+su101,su,la vat dung,giao vien,link.com,1994-06-26
+anh91,anh,la vat dung,giao vien,p.com,2012-11-05
+hugd94,hugd,la vat dung,thuquy,d.com,2011-12-21
+su102,su,la giam ho,giao vien,link.com,2002-08-24
+anh92,anh,la giam ho,thuquy,p.com,2009-03-04
+hugd95,hugd,laf nguoi,bacsi,p.com,2006-09-22
+dung102,dung,la vat dung,giao vien,d.com,2002-08-24
+hung102,hung,la vat dung,giao vien,d.com,1970-01-01
+anh93,anh,la giam ho,giao vien,p.com,2011-12-21
+dung103,dung,laf nguoi,bacsi,link.com,2010-10-22
+hung103,hung,laf nguoi,thuquy,d.com,2013-07-11
+hung104,hung,la giam ho,bacsi,link.com,1994-06-26
+huy99,huy,la vat dung,giao vien,link.com,2011-12-21
+hung105,hung,laf nguoi,thuquy,d.com,2012-11-05
+su103,su,la vat dung,thuquy,p.com,2011-12-21
+su104,su,laf nguoi,bacsi,d.com,2006-09-22
+su105,su,la vat dung,bacsi,d.com,2009-03-04
+hugd96,hugd,laf nguoi,bacsi,link.com,2009-03-04
+dung104,dung,la vat dung,giao vien,d.com,2006-09-22
+an105,an,la vat dung,bacsi,d.com,2012-11-05
+ha97,ha,la giam ho,giao vien,p.com,2009-03-04
+anh94,anh,la vat dung,giao vien,p.com,2006-09-22
+su106,su,laf nguoi,bacsi,link.com,2013-07-11
+su107,su,la giam ho,giao vien,d.com,1994-06-26
+su108,su,la giam ho,thuquy,p.com,2012-11-05
+huy100,huy,laf nguoi,thuquy,link.com,2002-08-24
+huy101,huy,la giam ho,thuquy,p.com,2011-12-21
+su109,su,la giam ho,giao vien,d.com,2002-08-24
+anh95,anh,laf nguoi,thuquy,link.com,2012-11-05
+dung105,dung,la vat dung,thuquy,d.com,2002-08-24
+su110,su,laf nguoi,bacsi,link.com,2011-12-21
+hung106,hung,la vat dung,thuquy,p.com,2011-12-21
+an106,an,laf nguoi,giao vien,p.com,1994-06-26
+hugd97,hugd,laf nguoi,bacsi,d.com,2012-11-05
+anh96,anh,laf nguoi,giao vien,link.com,2012-11-05
+ha98,ha,la vat dung,bacsi,d.com,2011-12-21
+ha99,ha,la vat dung,giao vien,d.com,2011-12-21
+anh97,anh,la giam ho,giao vien,d.com,2011-12-21
+su111,su,la giam ho,bacsi,d.com,2013-07-11
+dung106,dung,la giam ho,bacsi,link.com,2011-12-21
+hugd98,hugd,laf nguoi,giao vien,d.com,2012-11-05
+huy102,huy,laf nguoi,bacsi,link.com,2006-09-22
+hung107,hung,la giam ho,thuquy,p.com,2002-08-24
+huy103,huy,la giam ho,giao vien,link.com,2009-03-04
+su112,su,laf nguoi,bacsi,p.com,2009-03-04
+an107,an,la giam ho,bacsi,p.com,2002-08-24
+anh98,anh,laf nguoi,bacsi,link.com,2002-08-24
+su113,su,la vat dung,giao vien,p.com,1970-01-01
+su114,su,la vat dung,giao vien,p.com,1970-01-01
+huy104,huy,la giam ho,bacsi,d.com,2002-08-24
+dung107,dung,la giam ho,thuquy,p.com,2011-12-21
+huy105,huy,laf nguoi,giao vien,p.com,1970-01-01
+an108,an,la giam ho,giao vien,p.com,2009-03-04
+ha100,ha,la giam ho,giao vien,p.com,2013-07-11
+an109,an,laf nguoi,bacsi,p.com,2009-03-04
+huy106,huy,laf nguoi,bacsi,p.com,2011-12-21
+an110,an,la vat dung,giao vien,d.com,1970-01-01
+su115,su,la vat dung,giao vien,p.com,2002-08-24
+anh99,anh,laf nguoi,thuquy,p.com,1970-01-01
+hung108,hung,la vat dung,bacsi,link.com,1970-01-01
+su116,su,la giam ho,giao vien,p.com,2002-08-24
+anh100,anh,la vat dung,bacsi,p.com,2009-03-04
+hung109,hung,la vat dung,thuquy,link.com,2006-09-22
+ha101,ha,laf nguoi,thuquy,p.com,2006-09-22
+huy107,huy,laf nguoi,thuquy,link.com,2012-11-05
+su117,su,la vat dung,giao vien,d.com,2006-09-22
+anh101,anh,la vat dung,giao vien,d.com,2012-11-05
+anh102,anh,la giam ho,thuquy,d.com,2013-07-11
+hung110,hung,la giam ho,bacsi,d.com,1970-01-01
+ha102,ha,la vat dung,bacsi,link.com,2009-03-04
+huy108,huy,laf nguoi,giao vien,d.com,2013-07-11
+ha103,ha,la vat dung,giao vien,d.com,1994-06-26
+hung111,hung,la vat dung,bacsi,d.com,1994-06-26
+an111,an,la giam ho,bacsi,p.com,2002-08-24
+su118,su,laf nguoi,giao vien,d.com,2011-12-21
+dung108,dung,la vat dung,thuquy,link.com,2010-10-22
+an112,an,la vat dung,thuquy,link.com,2011-12-21
+anh103,anh,laf nguoi,giao vien,link.com,1994-06-26
+ha104,ha,laf nguoi,giao vien,link.com,1994-06-26
+hung112,hung,la giam ho,bacsi,p.com,2009-03-04
+huy109,huy,la giam ho,bacsi,d.com,2012-11-05
+huy110,huy,la vat dung,giao vien,p.com,1994-06-26
+su119,su,la vat dung,giao vien,link.com,2011-12-21
+anh104,anh,la vat dung,thuquy,link.com,2010-10-22
+anh105,anh,laf nguoi,thuquy,link.com,1970-01-01
+hung113,hung,la giam ho,giao vien,link.com,2013-07-11
+hugd99,hugd,la vat dung,thuquy,p.com,2012-11-05
+huy111,huy,la vat dung,thuquy,p.com,2011-12-21
+ha105,ha,laf nguoi,giao vien,d.com,1994-06-26
+dung109,dung,la vat dung,bacsi,link.com,2009-03-04
+an113,an,laf nguoi,giao vien,p.com,2012-11-05
+anh106,anh,laf nguoi,thuquy,d.com,1994-06-26
+hung114,hung,la vat dung,bacsi,link.com,2013-07-11
+huy112,huy,la giam ho,bacsi,p.com,2012-11-05
+hung115,hung,laf nguoi,thuquy,link.com,2012-11-05
+anh107,anh,laf nguoi,bacsi,d.com,2010-10-22
+dung110,dung,la vat dung,giao vien,p.com,2006-09-22
+an114,an,laf nguoi,thuquy,d.com,2006-09-22
+hugd100,hugd,la giam ho,thuquy,d.com,2012-11-05
+hung116,hung,la vat dung,giao vien,d.com,2011-12-21
+an115,an,la giam ho,thuquy,p.com,1970-01-01
+hugd101,hugd,la vat dung,bacsi,d.com,2002-08-24
+an116,an,laf nguoi,thuquy,link.com,2009-03-04
+hung117,hung,la giam ho,giao vien,link.com,1970-01-01
+su120,su,la giam ho,giao vien,p.com,2013-07-11
+hugd102,hugd,la giam ho,thuquy,d.com,2013-07-11
+huy113,huy,la vat dung,giao vien,d.com,1970-01-01
+su121,su,la vat dung,thuquy,p.com,1970-01-01
+dung111,dung,laf nguoi,bacsi,link.com,2011-12-21
+su122,su,laf nguoi,giao vien,d.com,2013-07-11
+an117,an,laf nguoi,thuquy,link.com,2002-08-24
+ha106,ha,laf nguoi,bacsi,p.com,2006-09-22
+su123,su,la vat dung,bacsi,p.com,2006-09-22
+ha107,ha,la giam ho,bacsi,link.com,2013-07-11
+ha108,ha,la vat dung,thuquy,d.com,2010-10-22
+dung112,dung,la giam ho,bacsi,link.com,2009-03-04
+an118,an,laf nguoi,bacsi,p.com,2011-12-21
+hung118,hung,la giam ho,giao vien,link.com,2011-12-21
+huy114,huy,la vat dung,giao vien,d.com,2010-10-22
+huy115,huy,la vat dung,thuquy,d.com,2009-03-04
+anh108,anh,laf nguoi,thuquy,link.com,2002-08-24
+huy116,huy,la vat dung,bacsi,d.com,2011-12-21
+an119,an,la giam ho,thuquy,link.com,1970-01-01
+hung119,hung,la giam ho,bacsi,p.com,1994-06-26
+anh109,anh,la giam ho,thuquy,link.com,2013-07-11
+dung113,dung,la vat dung,giao vien,p.com,2002-08-24
+hugd103,hugd,la giam ho,thuquy,p.com,1970-01-01
+an120,an,laf nguoi,thuquy,d.com,2011-12-21
+dung114,dung,la vat dung,bacsi,p.com,1970-01-01
+ha109,ha,laf nguoi,thuquy,link.com,2011-12-21
+an121,an,laf nguoi,bacsi,link.com,2006-09-22
+ha110,ha,la giam ho,thuquy,d.com,2012-11-05
+huy117,huy,laf nguoi,bacsi,d.com,2006-09-22
+anh110,anh,laf nguoi,giao vien,d.com,2010-10-22
+hugd104,hugd,la giam ho,giao vien,p.com,2013-07-11
+dung115,dung,la giam ho,bacsi,p.com,2010-10-22
+huy118,huy,la vat dung,bacsi,d.com,2010-10-22
+su124,su,laf nguoi,giao vien,p.com,2011-12-21
+anh111,anh,laf nguoi,giao vien,link.com,1970-01-01
+an122,an,la vat dung,giao vien,d.com,2002-08-24
+su125,su,la giam ho,giao vien,link.com,2002-08-24
+huy119,huy,laf nguoi,bacsi,p.com,2010-10-22
+anh112,anh,la giam ho,thuquy,p.com,2013-07-11
+hugd105,hugd,laf nguoi,thuquy,p.com,1994-06-26
+huy120,huy,laf nguoi,thuquy,d.com,2002-08-24
+hugd106,hugd,la vat dung,bacsi,p.com,2011-12-21
+dung116,dung,la vat dung,bacsi,d.com,2002-08-24
+dung117,dung,laf nguoi,thuquy,d.com,1994-06-26
+su126,su,la giam ho,thuquy,p.com,1970-01-01
+huy121,huy,laf nguoi,giao vien,link.com,2002-08-24
+dung118,dung,la vat dung,giao vien,link.com,2002-08-24
+su127,su,la vat dung,bacsi,p.com,2009-03-04
+hugd107,hugd,la vat dung,thuquy,d.com,2011-12-21
+hung120,hung,la giam ho,giao vien,p.com,2011-12-21
+hugd108,hugd,la giam ho,giao vien,p.com,2012-11-05
+anh113,anh,laf nguoi,thuquy,link.com,2013-07-11
+ha111,ha,laf nguoi,thuquy,d.com,2006-09-22
+anh114,anh,la vat dung,bacsi,p.com,2011-12-21
+su128,su,la vat dung,bacsi,link.com,2009-03-04
+su129,su,laf nguoi,bacsi,p.com,2009-03-04
+su130,su,la vat dung,thuquy,link.com,2006-09-22
+dung119,dung,la vat dung,bacsi,link.com,2010-10-22
+an123,an,laf nguoi,thuquy,d.com,2010-10-22
+hugd109,hugd,laf nguoi,thuquy,d.com,2010-10-22
+su131,su,laf nguoi,thuquy,d.com,2013-07-11
+an124,an,la giam ho,bacsi,link.com,2010-10-22
+hung121,hung,la vat dung,giao vien,d.com,2010-10-22
+su132,su,laf nguoi,thuquy,d.com,1994-06-26
+huy122,huy,laf nguoi,thuquy,d.com,2002-08-24
+dung120,dung,la vat dung,thuquy,p.com,2006-09-22
+dung121,dung,laf nguoi,bacsi,link.com,2002-08-24
+hugd110,hugd,la giam ho,giao vien,p.com,1994-06-26
+huy123,huy,laf nguoi,thuquy,d.com,2009-03-04
+huy124,huy,laf nguoi,giao vien,link.com,2010-10-22
+hung122,hung,laf nguoi,bacsi,d.com,2010-10-22
+huy125,huy,laf nguoi,bacsi,d.com,2011-12-21
+an125,an,laf nguoi,bacsi,d.com,2009-03-04
+hugd111,hugd,la giam ho,thuquy,link.com,2006-09-22
+an126,an,laf nguoi,bacsi,d.com,1970-01-01
+hung123,hung,laf nguoi,thuquy,link.com,2012-11-05
+an127,an,laf nguoi,bacsi,link.com,2002-08-24
+ha112,ha,la vat dung,bacsi,link.com,2011-12-21
+anh115,anh,laf nguoi,thuquy,p.com,1994-06-26
+hugd112,hugd,laf nguoi,thuquy,link.com,2011-12-21
+ha113,ha,la vat dung,giao vien,link.com,2010-10-22
+ha114,ha,la vat dung,bacsi,p.com,2006-09-22
+an128,an,la vat dung,thuquy,d.com,2010-10-22
+huy126,huy,laf nguoi,thuquy,d.com,2011-12-21
+su133,su,la vat dung,bacsi,d.com,1970-01-01
+hung124,hung,laf nguoi,thuquy,link.com,2011-12-21
+hung125,hung,la vat dung,bacsi,p.com,2009-03-04
+ha115,ha,la vat dung,giao vien,d.com,2002-08-24
+hung126,hung,la giam ho,thuquy,p.com,2002-08-24
+su134,su,la giam ho,thuquy,link.com,2002-08-24
+huy127,huy,laf nguoi,giao vien,d.com,1970-01-01
+anh116,anh,la giam ho,bacsi,link.com,2012-11-05
+huy128,huy,la giam ho,thuquy,d.com,2002-08-24
+huy129,huy,la vat dung,bacsi,d.com,2009-03-04
+huy130,huy,la vat dung,thuquy,link.com,1970-01-01
+hugd113,hugd,la giam ho,giao vien,link.com,2012-11-05
+huy131,huy,la giam ho,giao vien,link.com,2010-10-22
+dung122,dung,laf nguoi,bacsi,link.com,2006-09-22
+huy132,huy,laf nguoi,thuquy,d.com,2006-09-22
+dung123,dung,la vat dung,thuquy,p.com,2012-11-05
+hung127,hung,laf nguoi,bacsi,p.com,2006-09-22
+dung124,dung,la giam ho,thuquy,link.com,2006-09-22
+hugd114,hugd,la giam ho,bacsi,d.com,2006-09-22
+ha116,ha,la vat dung,thuquy,d.com,2011-12-21
+dung125,dung,la vat dung,giao vien,d.com,2010-10-22
+huy133,huy,la giam ho,thuquy,link.com,2012-11-05
+hugd115,hugd,laf nguoi,bacsi,p.com,2002-08-24
+hung128,hung,laf nguoi,bacsi,d.com,2002-08-24
+su135,su,la giam ho,thuquy,d.com,2006-09-22
+hung129,hung,la giam ho,thuquy,p.com,2012-11-05
+su136,su,la giam ho,thuquy,link.com,2013-07-11
+anh117,anh,la giam ho,thuquy,link.com,2011-12-21
+dung126,dung,la vat dung,giao vien,p.com,2011-12-21
+hugd116,hugd,la giam ho,bacsi,link.com,2013-07-11
+an129,an,la vat dung,thuquy,link.com,2011-12-21
+an130,an,laf nguoi,giao vien,p.com,2011-12-21
+ha117,ha,la vat dung,bacsi,link.com,2012-11-05
+dung127,dung,la giam ho,thuquy,p.com,2011-12-21
+dung128,dung,la giam ho,bacsi,d.com,2009-03-04
+ha118,ha,la vat dung,giao vien,link.com,1994-06-26
+anh118,anh,la giam ho,thuquy,link.com,2006-09-22
+hung130,hung,laf nguoi,giao vien,d.com,2006-09-22
+su137,su,la vat dung,bacsi,p.com,2006-09-22
+anh119,anh,laf nguoi,giao vien,d.com,2002-08-24
+su138,su,laf nguoi,giao vien,d.com,2010-10-22
+an131,an,laf nguoi,giao vien,d.com,2013-07-11
+huy134,huy,la giam ho,giao vien,link.com,2006-09-22
+hugd117,hugd,la vat dung,giao vien,p.com,2002-08-24
+dung129,dung,laf nguoi,bacsi,d.com,1994-06-26
+huy135,huy,la giam ho,giao vien,d.com,2009-03-04
+su139,su,la vat dung,bacsi,link.com,1994-06-26
+huy136,huy,laf nguoi,bacsi,p.com,1994-06-26
+hugd118,hugd,laf nguoi,thuquy,p.com,1994-06-26
+anh120,anh,la giam ho,giao vien,link.com,2009-03-04
+dung130,dung,la giam ho,giao vien,p.com,2009-03-04
+an132,an,laf nguoi,giao vien,d.com,2010-10-22
+anh121,anh,laf nguoi,bacsi,link.com,2011-12-21
+hugd119,hugd,la giam ho,giao vien,d.com,2010-10-22
+dung131,dung,la giam ho,thuquy,link.com,1970-01-01
+ha119,ha,laf nguoi,bacsi,p.com,1994-06-26
+hung131,hung,laf nguoi,giao vien,d.com,2013-07-11
+huy137,huy,la giam ho,giao vien,link.com,2010-10-22
+ha120,ha,la giam ho,thuquy,p.com,2006-09-22
+anh122,anh,la giam ho,giao vien,link.com,1994-06-26
+anh123,anh,la vat dung,bacsi,link.com,2006-09-22
+huy138,huy,la vat dung,thuquy,p.com,2002-08-24
+an133,an,la vat dung,giao vien,link.com,2006-09-22
+su140,su,laf nguoi,giao vien,d.com,2013-07-11
+an134,an,laf nguoi,giao vien,p.com,2002-08-24
+anh124,anh,laf nguoi,bacsi,d.com,2009-03-04
+ha121,ha,laf nguoi,thuquy,d.com,2009-03-04
+huy139,huy,laf nguoi,bacsi,p.com,2011-12-21
+an135,an,laf nguoi,giao vien,p.com,2009-03-04
+huy140,huy,la vat dung,bacsi,link.com,1970-01-01
+huy141,huy,laf nguoi,thuquy,d.com,2010-10-22
+anh125,anh,la giam ho,thuquy,p.com,2011-12-21
+huy142,huy,la vat dung,thuquy,p.com,2002-08-24
+huy143,huy,la vat dung,giao vien,d.com,1970-01-01
+anh126,anh,la vat dung,bacsi,p.com,2006-09-22
+hung132,hung,la giam ho,giao vien,d.com,2011-12-21
+hung133,hung,la giam ho,thuquy,d.com,2010-10-22
+an136,an,laf nguoi,giao vien,d.com,1970-01-01
+huy144,huy,la giam ho,giao vien,p.com,2002-08-24
+ha122,ha,la vat dung,thuquy,d.com,2006-09-22
+anh127,anh,la vat dung,thuquy,d.com,2009-03-04
+dung132,dung,la vat dung,bacsi,link.com,2002-08-24
+anh128,anh,laf nguoi,thuquy,link.com,1994-06-26
+su141,su,la vat dung,giao vien,link.com,2010-10-22
+an137,an,la vat dung,giao vien,p.com,2013-07-11
+dung133,dung,la giam ho,bacsi,d.com,2006-09-22
+dung134,dung,la giam ho,bacsi,link.com,2012-11-05
+dung135,dung,la giam ho,thuquy,link.com,2010-10-22
+anh129,anh,la vat dung,giao vien,link.com,2012-11-05
+anh130,anh,la vat dung,thuquy,p.com,2010-10-22
+hugd120,hugd,la vat dung,giao vien,p.com,2009-03-04
+dung136,dung,la vat dung,bacsi,link.com,2012-11-05
+su142,su,laf nguoi,thuquy,p.com,2006-09-22
+ha123,ha,la giam ho,bacsi,d.com,1994-06-26
+huy145,huy,la vat dung,giao vien,d.com,2011-12-21
+an138,an,la vat dung,giao vien,p.com,1970-01-01
+su143,su,laf nguoi,thuquy,d.com,2010-10-22
+hung134,hung,laf nguoi,bacsi,d.com,2010-10-22
+ha124,ha,la vat dung,thuquy,p.com,2013-07-11
+an139,an,la giam ho,thuquy,d.com,1970-01-01
+dung137,dung,la vat dung,bacsi,d.com,2012-11-05
+an140,an,la vat dung,giao vien,d.com,2011-12-21
+anh131,anh,la giam ho,thuquy,p.com,2010-10-22
+ha125,ha,la vat dung,giao vien,d.com,1970-01-01
+ha126,ha,laf nguoi,thuquy,p.com,2010-10-22
+su144,su,laf nguoi,giao vien,d.com,1994-06-26
+hugd121,hugd,laf nguoi,giao vien,p.com,2002-08-24
+anh132,anh,la giam ho,thuquy,d.com,2006-09-22
+hung135,hung,la vat dung,bacsi,p.com,2009-03-04
+anh133,anh,la giam ho,giao vien,link.com,2002-08-24
+ha127,ha,laf nguoi,thuquy,p.com,2010-10-22
+ha128,ha,laf nguoi,thuquy,link.com,2012-11-05
+dung138,dung,laf nguoi,bacsi,link.com,2006-09-22
+su145,su,la giam ho,thuquy,d.com,2013-07-11
+huy146,huy,la vat dung,giao vien,d.com,2006-09-22
+su146,su,laf nguoi,thuquy,d.com,2013-07-11
+dung139,dung,laf nguoi,giao vien,p.com,2002-08-24
+an141,an,la giam ho,bacsi,d.com,2009-03-04
+an142,an,laf nguoi,thuquy,p.com,2009-03-04
+dung140,dung,la vat dung,thuquy,p.com,2012-11-05
+huy147,huy,la vat dung,thuquy,link.com,2013-07-11
+hung136,hung,la giam ho,giao vien,link.com,2010-10-22
+ha129,ha,laf nguoi,thuquy,d.com,2009-03-04
+dung141,dung,la giam ho,giao vien,link.com,2006-09-22
+su147,su,la vat dung,giao vien,p.com,2009-03-04
+hugd122,hugd,laf nguoi,bacsi,link.com,1970-01-01
+hung137,hung,la vat dung,giao vien,d.com,1994-06-26
+anh134,anh,la giam ho,giao vien,link.com,2002-08-24
+huy148,huy,la vat dung,thuquy,p.com,1970-01-01
+dung142,dung,la giam ho,bacsi,p.com,2006-09-22
+dung143,dung,la vat dung,thuquy,link.com,2013-07-11
+anh135,anh,la vat dung,bacsi,link.com,2006-09-22
+hung138,hung,la vat dung,bacsi,link.com,2002-08-24
+an143,an,la giam ho,bacsi,d.com,2011-12-21
+huy149,huy,laf nguoi,bacsi,p.com,2010-10-22
+ha130,ha,laf nguoi,thuquy,p.com,2002-08-24
+ha131,ha,la vat dung,thuquy,p.com,2010-10-22
+su148,su,laf nguoi,bacsi,d.com,1970-01-01
+anh136,anh,laf nguoi,thuquy,link.com,2012-11-05
+su149,su,la vat dung,giao vien,d.com,2009-03-04
+hung139,hung,laf nguoi,bacsi,p.com,1994-06-26
+su150,su,la giam ho,giao vien,p.com,2006-09-22
+hugd123,hugd,laf nguoi,thuquy,p.com,2002-08-24
+su151,su,la vat dung,thuquy,d.com,2006-09-22
+su152,su,la giam ho,bacsi,p.com,2012-11-05
+hugd124,hugd,laf nguoi,bacsi,p.com,2006-09-22
+hugd125,hugd,la giam ho,thuquy,p.com,2010-10-22
+hugd126,hugd,la vat dung,bacsi,p.com,2009-03-04
+hugd127,hugd,laf nguoi,bacsi,link.com,2006-09-22
+anh137,anh,la giam ho,bacsi,d.com,2002-08-24
+dung144,dung,laf nguoi,thuquy,d.com,1970-01-01
+hugd128,hugd,la giam ho,thuquy,link.com,2010-10-22
+anh138,anh,la vat dung,giao vien,d.com,2002-08-24
+su153,su,la giam ho,thuquy,link.com,2002-08-24
+hung140,hung,la giam ho,bacsi,link.com,2009-03-04
+hugd129,hugd,la giam ho,giao vien,p.com,2013-07-11
+su154,su,la giam ho,thuquy,d.com,1970-01-01
+hugd130,hugd,la giam ho,thuquy,p.com,2009-03-04
+ha132,ha,la giam ho,bacsi,link.com,2010-10-22
+anh139,anh,la vat dung,giao vien,d.com,2002-08-24
+su155,su,la vat dung,giao vien,d.com,2013-07-11
+anh140,anh,la giam ho,bacsi,p.com,1994-06-26
+an144,an,laf nguoi,bacsi,link.com,2013-07-11
+dung145,dung,la giam ho,giao vien,p.com,2009-03-04
+huy150,huy,la giam ho,thuquy,d.com,2009-03-04
+anh141,anh,la vat dung,giao vien,p.com,2012-11-05
+huy151,huy,la giam ho,thuquy,link.com,1994-06-26
+hung141,hung,laf nguoi,giao vien,p.com,2013-07-11
+hugd131,hugd,laf nguoi,thuquy,link.com,2013-07-11
+ha133,ha,la vat dung,giao vien,d.com,2006-09-22
+su156,su,laf nguoi,giao vien,d.com,1994-06-26
+huy152,huy,la giam ho,bacsi,d.com,2011-12-21
+an145,an,la vat dung,giao vien,p.com,1970-01-01
+hung142,hung,la vat dung,bacsi,p.com,2012-11-05
+hung143,hung,laf nguoi,bacsi,link.com,2002-08-24
+huy153,huy,la giam ho,bacsi,d.com,1994-06-26
+hung144,hung,la vat dung,bacsi,d.com,2002-08-24
+huy154,huy,la vat dung,giao vien,d.com,1970-01-01
+hung145,hung,laf nguoi,giao vien,link.com,1970-01-01
+anh142,anh,la vat dung,giao vien,d.com,1994-06-26
+su157,su,la vat dung,bacsi,link.com,2009-03-04
+su158,su,laf nguoi,thuquy,p.com,2010-10-22
+an146,an,laf nguoi,thuquy,p.com,2002-08-24
+huy155,huy,la giam ho,giao vien,d.com,2012-11-05
+dung146,dung,laf nguoi,thuquy,link.com,1970-01-01
+hugd132,hugd,la giam ho,thuquy,link.com,2011-12-21
+huy156,huy,la vat dung,giao vien,p.com,2010-10-22
+anh143,anh,la giam ho,thuquy,d.com,2009-03-04
+ha134,ha,la vat dung,giao vien,link.com,2011-12-21
+su159,su,laf nguoi,giao vien,d.com,2006-09-22
+hung146,hung,laf nguoi,giao vien,p.com,2006-09-22
+hung147,hung,la giam ho,thuquy,link.com,2012-11-05
+hugd133,hugd,la vat dung,thuquy,p.com,2013-07-11
+anh144,anh,la giam ho,bacsi,p.com,2011-12-21
+huy157,huy,la vat dung,thuquy,link.com,2006-09-22
+ha135,ha,la giam ho,giao vien,d.com,2006-09-22
+huy158,huy,la vat dung,thuquy,d.com,2002-08-24
+huy159,huy,la giam ho,bacsi,link.com,1994-06-26
+su160,su,laf nguoi,bacsi,link.com,1970-01-01
+an147,an,la giam ho,bacsi,link.com,1994-06-26
+hung148,hung,la giam ho,thuquy,d.com,2011-12-21
+anh145,anh,la giam ho,giao vien,p.com,2002-08-24
+hugd134,hugd,laf nguoi,giao vien,link.com,2009-03-04
+an148,an,la vat dung,bacsi,d.com,2002-08-24
+hugd135,hugd,la giam ho,bacsi,p.com,2006-09-22
+huy160,huy,la vat dung,giao vien,p.com,2006-09-22
+an149,an,la vat dung,thuquy,d.com,2006-09-22
+ha136,ha,laf nguoi,giao vien,link.com,2010-10-22
+hung149,hung,la vat dung,thuquy,link.com,1970-01-01
+ha137,ha,la giam ho,thuquy,link.com,2002-08-24
+hugd136,hugd,laf nguoi,bacsi,p.com,1994-06-26
+an150,an,la vat dung,giao vien,p.com,2012-11-05
+anh146,anh,la vat dung,thuquy,p.com,1994-06-26
+hung150,hung,la giam ho,giao vien,d.com,2010-10-22
+huy161,huy,laf nguoi,bacsi,link.com,2012-11-05
+huy162,huy,laf nguoi,bacsi,d.com,1970-01-01
+dung147,dung,la giam ho,giao vien,d.com,2006-09-22
+hung151,hung,la vat dung,thuquy,link.com,1994-06-26
+an151,an,la vat dung,giao vien,d.com,2009-03-04
+huy163,huy,la vat dung,thuquy,link.com,1970-01-01
+su161,su,la vat dung,thuquy,link.com,2006-09-22
+anh147,anh,la giam ho,thuquy,d.com,2002-08-24
+hung152,hung,la giam ho,giao vien,p.com,2010-10-22
+hung153,hung,la giam ho,giao vien,p.com,2006-09-22
+an152,an,la vat dung,bacsi,d.com,2011-12-21
+dung148,dung,la vat dung,giao vien,d.com,2009-03-04
+ha138,ha,laf nguoi,giao vien,link.com,1994-06-26
+su162,su,laf nguoi,giao vien,d.com,1994-06-26
+su163,su,la vat dung,giao vien,p.com,1994-06-26
+hung154,hung,la giam ho,thuquy,p.com,1994-06-26
+dung149,dung,laf nguoi,thuquy,d.com,2012-11-05
+anh148,anh,laf nguoi,thuquy,p.com,2012-11-05
+anh149,anh,la giam ho,giao vien,d.com,2013-07-11
+hung155,hung,laf nguoi,thuquy,link.com,2006-09-22
+hugd137,hugd,la giam ho,giao vien,p.com,2011-12-21
+dung150,dung,la vat dung,giao vien,d.com,1994-06-26
+an153,an,la giam ho,giao vien,p.com,2011-12-21
+ha139,ha,la giam ho,thuquy,d.com,2009-03-04
+ha140,ha,la vat dung,giao vien,d.com,1970-01-01
+hung156,hung,la giam ho,bacsi,p.com,2006-09-22
+ha141,ha,la vat dung,giao vien,p.com,2009-03-04
+su164,su,la vat dung,thuquy,link.com,2002-08-24
+anh150,anh,la vat dung,bacsi,p.com,2009-03-04
+ha142,ha,la giam ho,giao vien,link.com,1970-01-01
+hung157,hung,la vat dung,thuquy,d.com,2011-12-21
+su165,su,laf nguoi,bacsi,link.com,2009-03-04
+su166,su,la vat dung,thuquy,link.com,2012-11-05
+dung151,dung,la vat dung,giao vien,p.com,1970-01-01
+hung158,hung,la vat dung,bacsi,link.com,2002-08-24
+huy164,huy,la giam ho,bacsi,p.com,2002-08-24
+hung159,hung,la giam ho,thuquy,d.com,2006-09-22
+ha143,ha,la vat dung,giao vien,p.com,2002-08-24
+dung152,dung,la vat dung,thuquy,link.com,2009-03-04
+ha144,ha,la giam ho,giao vien,d.com,2006-09-22
+anh151,anh,la giam ho,bacsi,link.com,2002-08-24
+su167,su,laf nguoi,thuquy,link.com,2006-09-22
+huy165,huy,la giam ho,giao vien,d.com,2011-12-21
+su168,su,la giam ho,giao vien,d.com,2002-08-24
+dung153,dung,la giam ho,giao vien,d.com,2006-09-22
+anh152,anh,la giam ho,thuquy,link.com,1994-06-26
+huy166,huy,la vat dung,bacsi,link.com,2012-11-05
+dung154,dung,laf nguoi,bacsi,p.com,1994-06-26
+anh153,anh,la vat dung,thuquy,d.com,2012-11-05
+dung155,dung,la vat dung,bacsi,p.com,2013-07-11
+huy167,huy,la giam ho,thuquy,p.com,2009-03-04
+huy168,huy,la giam ho,giao vien,p.com,2011-12-21
+ha145,ha,la giam ho,thuquy,p.com,2009-03-04
+hugd138,hugd,la vat dung,bacsi,link.com,2013-07-11
+dung156,dung,la vat dung,giao vien,d.com,2009-03-04
+hung160,hung,laf nguoi,giao vien,d.com,1970-01-01
+hugd139,hugd,la vat dung,giao vien,d.com,2013-07-11
+ha146,ha,la giam ho,bacsi,link.com,2011-12-21
+huy169,huy,la giam ho,thuquy,link.com,1994-06-26
+an154,an,la vat dung,thuquy,link.com,2006-09-22
+su169,su,laf nguoi,bacsi,d.com,2011-12-21
+anh154,anh,la vat dung,thuquy,p.com,2002-08-24
+anh155,anh,la vat dung,giao vien,d.com,2010-10-22
+an155,an,la giam ho,thuquy,p.com,2012-11-05
+dung157,dung,la vat dung,thuquy,link.com,2006-09-22
+dung158,dung,la vat dung,bacsi,d.com,2006-09-22
+hung161,hung,la vat dung,thuquy,d.com,2011-12-21
+ha147,ha,la vat dung,thuquy,p.com,1970-01-01
+huy170,huy,la giam ho,thuquy,d.com,2013-07-11
+hung162,hung,laf nguoi,thuquy,p.com,2002-08-24
+anh156,anh,laf nguoi,bacsi,link.com,2011-12-21
+ha148,ha,la vat dung,thuquy,d.com,2012-11-05
+an156,an,la vat dung,giao vien,link.com,2006-09-22
+hugd140,hugd,laf nguoi,giao vien,d.com,1994-06-26
+dung159,dung,la vat dung,bacsi,d.com,2010-10-22
+anh157,anh,la giam ho,bacsi,link.com,1994-06-26
+hung163,hung,la vat dung,bacsi,d.com,2013-07-11
+hung164,hung,laf nguoi,thuquy,link.com,1970-01-01
+dung160,dung,la giam ho,bacsi,d.com,2012-11-05
+hugd141,hugd,la vat dung,giao vien,p.com,2002-08-24
+anh158,anh,laf nguoi,giao vien,p.com,2009-03-04
+hugd142,hugd,laf nguoi,bacsi,link.com,2010-10-22
+dung161,dung,laf nguoi,giao vien,link.com,2009-03-04
+hung165,hung,la vat dung,thuquy,link.com,2013-07-11
+su170,su,laf nguoi,giao vien,link.com,2002-08-24
+ha149,ha,la vat dung,bacsi,p.com,2002-08-24
+an157,an,laf nguoi,bacsi,d.com,2009-03-04
+huy171,huy,la giam ho,giao vien,d.com,2010-10-22
+hugd143,hugd,la giam ho,bacsi,link.com,2011-12-21
+hugd144,hugd,laf nguoi,giao vien,link.com,1994-06-26
+ha150,ha,la vat dung,thuquy,link.com,1970-01-01
+hung166,hung,la vat dung,giao vien,p.com,1994-06-26
+hung167,hung,laf nguoi,thuquy,p.com,1970-01-01
+anh159,anh,la giam ho,giao vien,link.com,2012-11-05
+anh160,anh,la vat dung,thuquy,link.com,2013-07-11
+huy172,huy,laf nguoi,thuquy,d.com,2011-12-21
+hung168,hung,laf nguoi,giao vien,d.com,1994-06-26
+hugd145,hugd,la vat dung,bacsi,link.com,1970-01-01
+hung169,hung,la vat dung,thuquy,link.com,2013-07-11
+ha151,ha,laf nguoi,thuquy,p.com,2006-09-22
+dung162,dung,laf nguoi,thuquy,p.com,1994-06-26
+ha152,ha,la vat dung,bacsi,d.com,2006-09-22
+hugd146,hugd,la giam ho,bacsi,d.com,1994-06-26
+hung170,hung,la giam ho,thuquy,d.com,1970-01-01
+su171,su,laf nguoi,bacsi,link.com,2010-10-22
+an158,an,la giam ho,bacsi,p.com,1994-06-26
+anh161,anh,laf nguoi,thuquy,link.com,2002-08-24
+an159,an,la giam ho,bacsi,d.com,2006-09-22
+su172,su,la giam ho,bacsi,p.com,2013-07-11
+hung171,hung,la giam ho,thuquy,link.com,2011-12-21
+su173,su,laf nguoi,bacsi,d.com,2006-09-22
+anh162,anh,laf nguoi,giao vien,d.com,2009-03-04
+hung172,hung,laf nguoi,bacsi,d.com,1994-06-26
+huy173,huy,laf nguoi,thuquy,d.com,1994-06-26
+dung163,dung,la vat dung,bacsi,p.com,2011-12-21
+su174,su,laf nguoi,thuquy,link.com,2009-03-04
+hugd147,hugd,la vat dung,bacsi,link.com,2006-09-22
+anh163,anh,la vat dung,giao vien,link.com,2010-10-22
+anh164,anh,laf nguoi,giao vien,link.com,2002-08-24
+ha153,ha,la vat dung,thuquy,d.com,2002-08-24
+su175,su,la giam ho,giao vien,p.com,2002-08-24
+anh165,anh,laf nguoi,thuquy,p.com,2010-10-22
+hugd148,hugd,la giam ho,giao vien,d.com,2012-11-05
+ha154,ha,laf nguoi,giao vien,link.com,2013-07-11
+hung173,hung,la vat dung,thuquy,p.com,2010-10-22
+su176,su,laf nguoi,bacsi,link.com,1994-06-26
+ha155,ha,la giam ho,thuquy,link.com,2011-12-21
+su177,su,laf nguoi,thuquy,d.com,2009-03-04
+su178,su,la vat dung,giao vien,d.com,2009-03-04
+an160,an,laf nguoi,bacsi,p.com,2002-08-24
+hung174,hung,laf nguoi,thuquy,link.com,1994-06-26
+dung164,dung,la vat dung,giao vien,d.com,2006-09-22
+huy174,huy,laf nguoi,thuquy,link.com,2013-07-11
+ha156,ha,laf nguoi,bacsi,d.com,2006-09-22
+dung165,dung,la vat dung,bacsi,p.com,2011-12-21
+su179,su,la giam ho,giao vien,link.com,2012-11-05
+anh166,anh,la giam ho,giao vien,d.com,2012-11-05
+hugd149,hugd,laf nguoi,bacsi,d.com,1970-01-01
+hugd150,hugd,la giam ho,bacsi,link.com,2010-10-22
+dung166,dung,laf nguoi,bacsi,link.com,2010-10-22
+dung167,dung,la giam ho,giao vien,link.com,2009-03-04
+hung175,hung,la giam ho,bacsi,p.com,2009-03-04
+su180,su,la giam ho,thuquy,d.com,2010-10-22
+dung168,dung,la giam ho,giao vien,d.com,2002-08-24
+hugd151,hugd,la giam ho,bacsi,d.com,2002-08-24
+dung169,dung,la vat dung,bacsi,p.com,2006-09-22
+hung176,hung,la giam ho,bacsi,link.com,2002-08-24
+hung177,hung,laf nguoi,thuquy,d.com,1994-06-26
+huy175,huy,la giam ho,thuquy,link.com,2010-10-22
+an161,an,la vat dung,giao vien,p.com,2009-03-04
+huy176,huy,laf nguoi,thuquy,p.com,2013-07-11
+su181,su,laf nguoi,bacsi,p.com,1994-06-26
+anh167,anh,la giam ho,giao vien,p.com,2006-09-22
+huy177,huy,la vat dung,bacsi,d.com,2009-03-04
+su182,su,la giam ho,thuquy,link.com,2006-09-22
+ha157,ha,la giam ho,thuquy,d.com,1970-01-01
+su183,su,laf nguoi,giao vien,p.com,2009-03-04
+hung178,hung,la giam ho,thuquy,d.com,2013-07-11
+an162,an,la giam ho,bacsi,d.com,2011-12-21
+ha158,ha,la giam ho,bacsi,link.com,1970-01-01
+ha159,ha,la vat dung,bacsi,link.com,2009-03-04
+hung179,hung,la giam ho,giao vien,link.com,1994-06-26
+hugd152,hugd,la vat dung,bacsi,p.com,2012-11-05
+su184,su,la giam ho,thuquy,d.com,2013-07-11
+an163,an,laf nguoi,giao vien,p.com,2010-10-22
+su185,su,la giam ho,thuquy,d.com,2012-11-05
+ha160,ha,la giam ho,giao vien,d.com,2006-09-22
+huy178,huy,laf nguoi,bacsi,p.com,2013-07-11
+su186,su,la giam ho,thuquy,p.com,2012-11-05
+huy179,huy,laf nguoi,thuquy,link.com,2002-08-24
+su187,su,la giam ho,giao vien,link.com,2011-12-21
+hugd153,hugd,la giam ho,bacsi,link.com,2010-10-22
+su188,su,la giam ho,giao vien,d.com,1994-06-26
+huy180,huy,laf nguoi,bacsi,d.com,2002-08-24
+huy181,huy,la vat dung,giao vien,link.com,1994-06-26
+anh168,anh,la vat dung,thuquy,link.com,2012-11-05
+hung180,hung,la vat dung,giao vien,d.com,2010-10-22
+an164,an,la giam ho,giao vien,link.com,1994-06-26
+huy182,huy,la vat dung,thuquy,d.com,2002-08-24
+hugd154,hugd,la vat dung,bacsi,p.com,1994-06-26
+hung181,hung,la giam ho,bacsi,link.com,1970-01-01
+hung182,hung,la giam ho,bacsi,link.com,2002-08-24
+su189,su,la vat dung,bacsi,p.com,2002-08-24
+hugd155,hugd,la vat dung,giao vien,p.com,2013-07-11
+huy183,huy,la giam ho,giao vien,d.com,2012-11-05
+dung170,dung,la vat dung,thuquy,link.com,1994-06-26
+dung171,dung,la giam ho,bacsi,d.com,2006-09-22
+hugd156,hugd,la giam ho,bacsi,d.com,1970-01-01
+ha161,ha,la vat dung,giao vien,d.com,2010-10-22
+anh169,anh,la vat dung,bacsi,d.com,2012-11-05
+hung183,hung,laf nguoi,bacsi,d.com,2010-10-22
+dung172,dung,laf nguoi,bacsi,d.com,1970-01-01
+hugd157,hugd,la vat dung,thuquy,d.com,2009-03-04
+ha162,ha,la vat dung,giao vien,d.com,2012-11-05
+an165,an,la vat dung,bacsi,link.com,2013-07-11
+an166,an,laf nguoi,bacsi,d.com,2012-11-05
+hugd158,hugd,laf nguoi,thuquy,link.com,2011-12-21
+hung184,hung,la vat dung,thuquy,d.com,2009-03-04
+hugd159,hugd,la giam ho,giao vien,link.com,2002-08-24
+hugd160,hugd,laf nguoi,bacsi,link.com,2013-07-11
+an167,an,la giam ho,thuquy,p.com,2011-12-21
+hung185,hung,la giam ho,giao vien,p.com,1970-01-01
+hung186,hung,la giam ho,giao vien,p.com,2002-08-24
+su190,su,la vat dung,giao vien,p.com,1994-06-26
+hugd161,hugd,laf nguoi,thuquy,p.com,2006-09-22
+huy184,huy,la vat dung,giao vien,p.com,2002-08-24
+ha163,ha,laf nguoi,thuquy,link.com,2009-03-04
+dung173,dung,laf nguoi,giao vien,p.com,2013-07-11
+hung187,hung,la vat dung,giao vien,d.com,2010-10-22
+anh170,anh,la vat dung,bacsi,link.com,2013-07-11
+dung174,dung,laf nguoi,thuquy,link.com,1994-06-26
+anh171,anh,la giam ho,thuquy,p.com,2009-03-04
+hugd162,hugd,laf nguoi,thuquy,link.com,2002-08-24
+hung188,hung,laf nguoi,thuquy,p.com,2011-12-21
+hung189,hung,la giam ho,thuquy,link.com,1970-01-01
+huy185,huy,laf nguoi,thuquy,link.com,1970-01-01
+su191,su,la vat dung,thuquy,d.com,2012-11-05
+ha164,ha,la giam ho,giao vien,p.com,2013-07-11
+su192,su,la giam ho,bacsi,d.com,2009-03-04
+ha165,ha,laf nguoi,thuquy,d.com,2011-12-21
+huy186,huy,la giam ho,giao vien,link.com,2010-10-22
+hung190,hung,laf nguoi,bacsi,p.com,2013-07-11
+ha166,ha,la giam ho,bacsi,d.com,2013-07-11
+huy187,huy,la giam ho,giao vien,d.com,2010-10-22
+hugd163,hugd,laf nguoi,giao vien,link.com,2013-07-11
+hung191,hung,la vat dung,bacsi,p.com,1994-06-26
+dung175,dung,la vat dung,bacsi,d.com,2010-10-22
+ha167,ha,la giam ho,thuquy,p.com,2010-10-22
+su193,su,la giam ho,bacsi,link.com,1994-06-26
+an168,an,la giam ho,thuquy,d.com,2006-09-22
+anh172,anh,la giam ho,giao vien,link.com,2006-09-22
+ha168,ha,la giam ho,thuquy,link.com,2011-12-21
+ha169,ha,la giam ho,thuquy,d.com,2010-10-22
+an169,an,la giam ho,bacsi,p.com,2006-09-22
+ha170,ha,laf nguoi,bacsi,p.com,1970-01-01
+an170,an,la giam ho,bacsi,link.com,2010-10-22
+su194,su,la vat dung,thuquy,link.com,2012-11-05
+an171,an,laf nguoi,giao vien,p.com,2006-09-22
+hugd164,hugd,la giam ho,giao vien,d.com,1994-06-26
+anh173,anh,laf nguoi,bacsi,p.com,2010-10-22
+anh174,anh,la vat dung,thuquy,p.com,2012-11-05
+su195,su,la vat dung,giao vien,link.com,2013-07-11
+ha171,ha,laf nguoi,giao vien,link.com,1970-01-01
+anh175,anh,la giam ho,bacsi,d.com,2009-03-04
+an172,an,laf nguoi,thuquy,link.com,2012-11-05
+su196,su,la vat dung,bacsi,p.com,1970-01-01
+ha172,ha,laf nguoi,giao vien,p.com,1994-06-26
+su197,su,la giam ho,giao vien,link.com,2012-11-05
+anh176,anh,la vat dung,bacsi,link.com,1994-06-26
+huy188,huy,laf nguoi,giao vien,p.com,2010-10-22
+an173,an,laf nguoi,thuquy,p.com,2009-03-04
+ha173,ha,la vat dung,thuquy,d.com,2010-10-22
+hung192,hung,la vat dung,thuquy,link.com,2012-11-05
+hugd165,hugd,laf nguoi,giao vien,d.com,2002-08-24
+dung176,dung,laf nguoi,giao vien,link.com,2013-07-11
+dung177,dung,la giam ho,thuquy,link.com,2010-10-22
+su198,su,la giam ho,bacsi,link.com,2012-11-05
+hung193,hung,laf nguoi,thuquy,p.com,2006-09-22
+hung194,hung,la giam ho,bacsi,link.com,2010-10-22
+dung178,dung,la giam ho,bacsi,p.com,2009-03-04
+huy189,huy,la giam ho,giao vien,link.com,2012-11-05
+hung195,hung,la giam ho,giao vien,link.com,2002-08-24
+ha174,ha,laf nguoi,thuquy,p.com,1994-06-26
+ha175,ha,la giam ho,bacsi,d.com,2009-03-04
+hugd166,hugd,la giam ho,giao vien,d.com,2011-12-21
+hugd167,hugd,laf nguoi,thuquy,p.com,2011-12-21
+dung179,dung,la vat dung,bacsi,link.com,2012-11-05
+dung180,dung,la giam ho,bacsi,d.com,1994-06-26
+anh177,anh,laf nguoi,giao vien,d.com,2010-10-22
+anh178,anh,laf nguoi,thuquy,p.com,2009-03-04
+ha176,ha,la giam ho,bacsi,link.com,1970-01-01
+hung196,hung,laf nguoi,bacsi,d.com,2012-11-05
+hugd168,hugd,la giam ho,giao vien,p.com,2010-10-22
+anh179,anh,laf nguoi,bacsi,d.com,2006-09-22
+huy190,huy,la vat dung,thuquy,p.com,1970-01-01
+dung181,dung,laf nguoi,bacsi,d.com,2002-08-24
+anh180,anh,la vat dung,bacsi,link.com,2009-03-04
+dung182,dung,la giam ho,bacsi,p.com,2012-11-05
+an174,an,laf nguoi,thuquy,link.com,2013-07-11
+hugd169,hugd,la giam ho,bacsi,p.com,2012-11-05
+huy191,huy,laf nguoi,bacsi,p.com,2009-03-04
+hung197,hung,laf nguoi,thuquy,d.com,2009-03-04
+hung198,hung,la vat dung,bacsi,d.com,2011-12-21
+anh181,anh,la giam ho,giao vien,p.com,2011-12-21
+anh182,anh,la vat dung,giao vien,link.com,2006-09-22
+dung183,dung,la vat dung,thuquy,link.com,2013-07-11
+su199,su,la vat dung,thuquy,p.com,2002-08-24
+an175,an,la vat dung,bacsi,p.com,2010-10-22
+hung199,hung,laf nguoi,bacsi,link.com,2011-12-21
+su200,su,laf nguoi,thuquy,d.com,2013-07-11
+huy192,huy,la vat dung,thuquy,d.com,2006-09-22
+huy193,huy,la giam ho,giao vien,d.com,2006-09-22
+huy194,huy,la giam ho,bacsi,link.com,2011-12-21
+hugd170,hugd,laf nguoi,thuquy,link.com,2006-09-22
+dung184,dung,la vat dung,bacsi,link.com,2012-11-05
+dung185,dung,laf nguoi,bacsi,d.com,2012-11-05
+hugd171,hugd,la vat dung,giao vien,d.com,2012-11-05
+ha177,ha,la vat dung,thuquy,link.com,2011-12-21
+ha178,ha,la vat dung,giao vien,p.com,2011-12-21
+ha179,ha,laf nguoi,giao vien,link.com,1970-01-01
+dung186,dung,laf nguoi,bacsi,p.com,1994-06-26
+hung200,hung,laf nguoi,giao vien,link.com,2006-09-22
+dung187,dung,la giam ho,bacsi,link.com,2010-10-22
+ha180,ha,laf nguoi,bacsi,link.com,1970-01-01
+hung201,hung,laf nguoi,giao vien,link.com,2010-10-22
+huy195,huy,la vat dung,thuquy,p.com,2012-11-05
+su201,su,la vat dung,giao vien,link.com,1970-01-01
+an176,an,laf nguoi,thuquy,p.com,2002-08-24
+hung202,hung,laf nguoi,giao vien,p.com,2010-10-22
+hugd172,hugd,la vat dung,giao vien,p.com,2012-11-05
+huy196,huy,laf nguoi,bacsi,link.com,2006-09-22
+an177,an,la giam ho,bacsi,d.com,1994-06-26
+anh183,anh,la vat dung,bacsi,d.com,2010-10-22
+huy197,huy,la giam ho,giao vien,link.com,1994-06-26
+anh184,anh,laf nguoi,thuquy,p.com,2011-12-21
+hugd173,hugd,la giam ho,bacsi,d.com,2011-12-21
+dung188,dung,la vat dung,giao vien,p.com,2012-11-05
+dung189,dung,la giam ho,bacsi,link.com,2011-12-21
+hung203,hung,la giam ho,thuquy,link.com,1994-06-26
+anh185,anh,la vat dung,thuquy,d.com,2002-08-24
+hung204,hung,laf nguoi,giao vien,link.com,2011-12-21
+an178,an,la vat dung,thuquy,link.com,1994-06-26
+su202,su,la giam ho,thuquy,p.com,2010-10-22
+su203,su,la giam ho,bacsi,link.com,2011-12-21
+huy198,huy,laf nguoi,giao vien,d.com,2002-08-24
+anh186,anh,la giam ho,thuquy,p.com,1994-06-26
+huy199,huy,la vat dung,giao vien,link.com,2012-11-05
+anh187,anh,la vat dung,giao vien,d.com,2006-09-22
+su204,su,laf nguoi,bacsi,link.com,2002-08-24
+an179,an,la vat dung,giao vien,d.com,1970-01-01
+an180,an,la vat dung,giao vien,d.com,2002-08-24
+hung205,hung,la giam ho,bacsi,p.com,2012-11-05
+dung190,dung,la vat dung,bacsi,d.com,2011-12-21
+ha181,ha,la vat dung,thuquy,d.com,1970-01-01
+huy200,huy,la vat dung,thuquy,p.com,1970-01-01
+an181,an,la giam ho,bacsi,link.com,2002-08-24
+an182,an,laf nguoi,giao vien,d.com,2010-10-22
+hung206,hung,la vat dung,bacsi,link.com,2002-08-24
+su205,su,laf nguoi,bacsi,p.com,1970-01-01
+huy201,huy,la giam ho,bacsi,p.com,2012-11-05
+anh188,anh,la vat dung,bacsi,link.com,1970-01-01
+ha182,ha,laf nguoi,thuquy,p.com,1994-06-26
+ha183,ha,la vat dung,thuquy,p.com,2013-07-11
+an183,an,laf nguoi,bacsi,d.com,1994-06-26
+an184,an,laf nguoi,bacsi,p.com,1994-06-26
+su206,su,laf nguoi,giao vien,d.com,2002-08-24
+hugd174,hugd,la vat dung,thuquy,link.com,2013-07-11
+su207,su,laf nguoi,thuquy,p.com,2006-09-22
+ha184,ha,la giam ho,thuquy,d.com,1970-01-01
+hung207,hung,laf nguoi,giao vien,link.com,2002-08-24
+dung191,dung,la giam ho,thuquy,d.com,2010-10-22
+hugd175,hugd,la giam ho,thuquy,d.com,1994-06-26
+ha185,ha,laf nguoi,bacsi,link.com,2010-10-22
+ha186,ha,la vat dung,giao vien,p.com,2012-11-05
+hung208,hung,la giam ho,bacsi,d.com,1994-06-26
+dung192,dung,la giam ho,giao vien,link.com,2009-03-04
+ha187,ha,laf nguoi,bacsi,d.com,1994-06-26
+su208,su,la giam ho,giao vien,p.com,2002-08-24
+su209,su,la vat dung,thuquy,p.com,1994-06-26
+an185,an,la giam ho,thuquy,p.com,2012-11-05
+su210,su,laf nguoi,thuquy,p.com,1970-01-01
+ha188,ha,la vat dung,thuquy,p.com,2012-11-05
+su211,su,la vat dung,giao vien,link.com,2011-12-21
+su212,su,laf nguoi,giao vien,link.com,2011-12-21
+hugd176,hugd,la giam ho,giao vien,d.com,2010-10-22
+hung209,hung,la vat dung,giao vien,p.com,2012-11-05
+huy202,huy,la giam ho,thuquy,link.com,1994-06-26
+hugd177,hugd,la vat dung,thuquy,d.com,2011-12-21
+hung210,hung,la giam ho,giao vien,p.com,2002-08-24
+anh189,anh,la giam ho,giao vien,link.com,2010-10-22
+su213,su,la giam ho,thuquy,p.com,2009-03-04
+dung193,dung,la vat dung,giao vien,p.com,1994-06-26
+an186,an,la vat dung,giao vien,p.com,2010-10-22
+hugd178,hugd,laf nguoi,thuquy,d.com,2013-07-11
+an187,an,la giam ho,bacsi,link.com,2010-10-22
+dung194,dung,laf nguoi,bacsi,link.com,2006-09-22
+huy203,huy,la giam ho,thuquy,p.com,1970-01-01
+an188,an,la vat dung,thuquy,p.com,2010-10-22
+ha189,ha,la giam ho,bacsi,d.com,2011-12-21
+anh190,anh,laf nguoi,bacsi,link.com,2010-10-22
+su214,su,la giam ho,bacsi,p.com,2002-08-24
+dung195,dung,la giam ho,thuquy,p.com,2006-09-22
+huy204,huy,laf nguoi,giao vien,d.com,2010-10-22
+dung196,dung,la vat dung,bacsi,link.com,2012-11-05
+anh191,anh,la giam ho,bacsi,d.com,2010-10-22
+ha190,ha,la vat dung,thuquy,p.com,2006-09-22
+anh192,anh,laf nguoi,thuquy,link.com,1994-06-26
+huy205,huy,laf nguoi,giao vien,d.com,1970-01-01
+su215,su,laf nguoi,giao vien,link.com,2009-03-04
+hugd179,hugd,la giam ho,thuquy,d.com,2011-12-21
+huy206,huy,laf nguoi,bacsi,d.com,1994-06-26
+dung197,dung,la giam ho,giao vien,d.com,2010-10-22
+ha191,ha,la giam ho,thuquy,d.com,1994-06-26
+su216,su,la giam ho,giao vien,p.com,2006-09-22
+dung198,dung,laf nguoi,thuquy,p.com,2002-08-24
+anh193,anh,la vat dung,thuquy,link.com,2002-08-24
+anh194,anh,la vat dung,giao vien,d.com,2012-11-05
+hung211,hung,la giam ho,giao vien,link.com,2009-03-04
+anh195,anh,la giam ho,bacsi,d.com,1994-06-26
+an189,an,laf nguoi,bacsi,d.com,1970-01-01
+anh196,anh,la giam ho,thuquy,link.com,2013-07-11
+dung199,dung,laf nguoi,bacsi,d.com,1970-01-01
+hung212,hung,la giam ho,giao vien,link.com,2013-07-11
+ha192,ha,laf nguoi,thuquy,link.com,2010-10-22
+dung200,dung,la giam ho,bacsi,d.com,2013-07-11
+hung213,hung,la giam ho,bacsi,p.com,1994-06-26
+an190,an,la giam ho,bacsi,link.com,1970-01-01
+anh197,anh,laf nguoi,thuquy,link.com,2013-07-11
+hung214,hung,la vat dung,giao vien,link.com,2011-12-21
+hung215,hung,la vat dung,giao vien,p.com,2011-12-21
+hugd180,hugd,la vat dung,thuquy,link.com,2009-03-04
+dung201,dung,laf nguoi,thuquy,link.com,2009-03-04
+ha193,ha,la vat dung,thuquy,d.com,2010-10-22
+huy207,huy,la vat dung,bacsi,p.com,2013-07-11
+dung202,dung,la vat dung,bacsi,d.com,2010-10-22
+hung216,hung,la giam ho,bacsi,p.com,1970-01-01
+su217,su,la giam ho,thuquy,p.com,2006-09-22
+su218,su,la vat dung,bacsi,d.com,1970-01-01
+hugd181,hugd,la vat dung,thuquy,d.com,2013-07-11
+ha194,ha,la vat dung,bacsi,link.com,2002-08-24
+hugd182,hugd,la vat dung,giao vien,p.com,2010-10-22
+huy208,huy,la vat dung,bacsi,link.com,2002-08-24
+hugd183,hugd,la vat dung,bacsi,p.com,1970-01-01
+anh198,anh,la giam ho,bacsi,link.com,2006-09-22
+dung203,dung,la giam ho,bacsi,p.com,2011-12-21
+hung217,hung,la giam ho,bacsi,p.com,2013-07-11
+ha195,ha,la giam ho,thuquy,link.com,2012-11-05
+huy209,huy,la giam ho,bacsi,p.com,2002-08-24
+su219,su,la vat dung,giao vien,p.com,2002-08-24
+hung218,hung,la giam ho,giao vien,link.com,2006-09-22
+hung219,hung,la giam ho,thuquy,p.com,1994-06-26
+dung204,dung,la giam ho,bacsi,link.com,2002-08-24
+huy210,huy,la giam ho,giao vien,d.com,2002-08-24
+dung205,dung,la vat dung,bacsi,link.com,1994-06-26
+hung220,hung,la vat dung,thuquy,d.com,2009-03-04
+hugd184,hugd,la vat dung,giao vien,link.com,2009-03-04
+an191,an,laf nguoi,giao vien,p.com,2011-12-21
+ha196,ha,la giam ho,giao vien,d.com,2002-08-24
+an192,an,la giam ho,bacsi,p.com,2002-08-24
+dung206,dung,la vat dung,thuquy,p.com,2010-10-22
+dung207,dung,laf nguoi,bacsi,link.com,2009-03-04
+anh199,anh,laf nguoi,bacsi,link.com,2013-07-11
+su220,su,la giam ho,giao vien,d.com,2002-08-24
+huy211,huy,la vat dung,thuquy,d.com,1970-01-01
+ha197,ha,laf nguoi,bacsi,link.com,2006-09-22
+huy212,huy,la vat dung,bacsi,p.com,2012-11-05
+hugd185,hugd,laf nguoi,thuquy,d.com,2006-09-22
+ha198,ha,laf nguoi,thuquy,link.com,2012-11-05
+an193,an,la giam ho,bacsi,link.com,2002-08-24
+anh200,anh,laf nguoi,giao vien,p.com,2002-08-24
+dung208,dung,laf nguoi,giao vien,p.com,2009-03-04
+anh201,anh,la vat dung,giao vien,link.com,2013-07-11
+su221,su,laf nguoi,thuquy,p.com,2002-08-24
+dung209,dung,la giam ho,bacsi,d.com,2006-09-22
+an194,an,la giam ho,bacsi,d.com,1994-06-26
+su222,su,la giam ho,giao vien,d.com,2013-07-11
+hung221,hung,laf nguoi,thuquy,p.com,2013-07-11
+su223,su,la vat dung,giao vien,p.com,1970-01-01
+dung210,dung,la vat dung,bacsi,p.com,2013-07-11
+hugd186,hugd,la giam ho,bacsi,p.com,1994-06-26
+an195,an,laf nguoi,bacsi,link.com,2002-08-24
+dung211,dung,laf nguoi,giao vien,link.com,1970-01-01
+anh202,anh,laf nguoi,bacsi,link.com,2010-10-22
+ha199,ha,laf nguoi,thuquy,p.com,2011-12-21
+an196,an,la vat dung,thuquy,p.com,2012-11-05
+anh203,anh,laf nguoi,bacsi,d.com,2002-08-24
+anh204,anh,la giam ho,thuquy,d.com,2009-03-04
+an197,an,la vat dung,bacsi,d.com,1994-06-26
+hugd187,hugd,la giam ho,giao vien,d.com,2013-07-11
+ha200,ha,la vat dung,giao vien,d.com,2011-12-21
+an198,an,laf nguoi,giao vien,d.com,2012-11-05
+hugd188,hugd,la vat dung,giao vien,p.com,2013-07-11
+dung212,dung,laf nguoi,giao vien,d.com,2002-08-24

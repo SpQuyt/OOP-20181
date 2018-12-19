@@ -1,5 +1,6 @@
 package gendata;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -10,6 +11,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import model.Organization;
 import model.Person;
 
 public class EntityPerson {
@@ -48,6 +50,7 @@ public class EntityPerson {
 	public void genNEntityPerson(int n) throws IOException {
 		for(int i=0;i<n;i++) {
 			gen1EntityPersion();
+			writeFilePerson();
 		}
 	}
 	
@@ -55,18 +58,6 @@ public class EntityPerson {
 	public void showListPerson() {
 		for(Person p:listPerson) {
 			System.out.println(p);
-		}
-	}
-
-	// doc file ghi ra mang
-	public static ArrayList<String> readFilePerson() throws IOException {
-		String FilePerson = "/home/lvh/Desktop/entity/person";
-		ArrayList<String> listPerson = new ArrayList<>();
-		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
-		{
-
-			listPerson = (ArrayList<String>) stream.collect(Collectors.toList());
-			return listPerson;
 		}
 	}
 
@@ -84,14 +75,41 @@ public class EntityPerson {
 		
 		return property;
 	}
+	
+	// ghi list country ra file
+	public void writeFilePerson() throws IOException {
+		FileWriter out = new FileWriter("entity/Person/person.txt");
+		for (Person c : listPerson) {
+			out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMoTa() + "," + c.getChucVu() + "," + c.getLink()
+					+ "," + c.getDate() + "\n");
+		}
+		out.close();
+	}
+
+	public Person get1EntityPersonFFile() throws IOException {
+		Person country= new Person();
+		String FileCountry = "entity/Person/person.txt";
+		ArrayList<String> listCountry = new ArrayList<>();
+		Stream<String> stream = Files.lines(Paths.get(FileCountry), StandardCharsets.UTF_8);
+		{
+
+			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
+			Random rd= new Random();
+			String []ar=listCountry.get(rd.nextInt(listCountry.size())).split(",");	// lấy ngau nhiên  thuecj thẻ  count
+			country.setDinhDanh(ar[0]);
+			country.setNhan(ar[1]);
+			country.setMoTa(ar[2]);
+			country.setChucVu(ar[3]);
+			country.setLink(ar[4]);
+			country.setDate(Date.valueOf(ar[5]));
+		}
+		return country;
+
+	}
 
 	public static void main(String[] args) throws IOException {
 		EntityPerson ep= new EntityPerson();
-		Person person = new Person();
-		ArrayList<String> nhan = person.nhanPerson();
-		ep.genNEntityPerson(300);
-		
-		ep.showListPerson();
+		System.out.println(ep.get1EntityPersonFFile());
 		
 		
 	}

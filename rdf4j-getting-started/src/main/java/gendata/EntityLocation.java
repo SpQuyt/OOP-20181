@@ -1,5 +1,6 @@
 package gendata;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -10,6 +11,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import model.Event;
 import model.Location;
 import model.Person;
 
@@ -47,6 +49,7 @@ public class EntityLocation {
 	public void genNEntityLocation(int n) throws IOException {
 		for(int i=0;i<n;i++) {
 			gen1EntityLocation();
+			writeFileLocation();
 		}
 	}
 	
@@ -54,18 +57,6 @@ public class EntityLocation {
 	public void showListLocation() {
 		for(Location p:listLocation) {
 			System.out.println(p);
-		}
-	}
-
-	// doc file ghi ra mang
-	public static ArrayList<String> readFilePerson() throws IOException {
-		String FilePerson = "entity/person";
-		ArrayList<String> listPerson = new ArrayList<>();
-		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
-		{
-
-			listPerson = (ArrayList<String>) stream.collect(Collectors.toList());
-			return listPerson;
 		}
 	}
 
@@ -83,11 +74,39 @@ public class EntityLocation {
 		
 		return property;
 	}
+	
+	public void writeFileLocation() throws IOException {
+		FileWriter out = new FileWriter("entity/Location/location.txt");
+		for (Location c : listLocation) {
+			out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMota() + "," + c.getLink() + "," + c.getDate()
+					+ "\n");
+		}
+		out.close();
+	}
+
+	public Location get1EntityLocationFFile() throws IOException {
+		Location country = new Location();
+		String FileCountry = "entity/Location/location.txt";
+		ArrayList<String> listCountry = new ArrayList<>();
+		Stream<String> stream = Files.lines(Paths.get(FileCountry), StandardCharsets.UTF_8);
+		{
+
+			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
+			Random rd = new Random();
+			String[] ar = listCountry.get(rd.nextInt(listCountry.size())).split(","); // lấy ngau nhiên thuecj thẻ count
+			country.setDinhDanh(ar[0]);
+			country.setNhan(ar[1]);
+			country.setMota(ar[2]);
+			country.setLink(ar[3]);
+			country.setDate(Date.valueOf(ar[4]));
+		}
+		return country;
+
+	}
 
 	public static void main(String[] args) throws IOException {
 		EntityLocation ep= new EntityLocation();
-		Person person = new Person();
-		ArrayList<String> nhan = person.nhanPerson();
+		System.out.println(ep.get1EntityLocationFFile());
 	
 		
 	}

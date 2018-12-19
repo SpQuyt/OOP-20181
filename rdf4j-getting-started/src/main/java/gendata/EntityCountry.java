@@ -1,5 +1,6 @@
 package gendata;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -49,6 +50,7 @@ public class EntityCountry {
 	public void genNEntityCountry(int n) throws IOException {
 		for (int i = 0; i < n; i++) {
 			gen1EntityCountry();
+			writeFileCountry();
 		}
 	}
 
@@ -59,16 +61,35 @@ public class EntityCountry {
 		}
 	}
 
-	// doc file ghi ra mang
-	public static ArrayList<String> readFilePerson() throws IOException {
-		String FilePerson = "entity/person";
-		ArrayList<String> listPerson = new ArrayList<>();
-		Stream<String> stream = Files.lines(Paths.get(FilePerson), StandardCharsets.UTF_8);
+	// ghi list country ra file
+	public void writeFileCountry() throws IOException {
+		FileWriter out = new FileWriter("entity/Country/country.txt");
+		for (Country c : listCountry) {
+			out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMota() + "," + c.getQuocGia() + "," + c.getLink()
+					+ "," + c.getDate() + "\n");
+		}
+		out.close();
+	}
+
+	public Country get1EntityCountryFFile() throws IOException {
+		Country country= new Country();
+		String FileCountry = "entity/Country/country.txt";
+		ArrayList<String> listCountry = new ArrayList<>();
+		Stream<String> stream = Files.lines(Paths.get(FileCountry), StandardCharsets.UTF_8);
 		{
 
-			listPerson = (ArrayList<String>) stream.collect(Collectors.toList());
-			return listPerson;
+			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
+			Random rd= new Random();
+			String []ar=listCountry.get(rd.nextInt(listCountry.size())).split(",");	// lấy ngau nhiên  thuecj thẻ  count
+			country.setDinhDanh(ar[0]);
+			country.setNhan(ar[1]);
+			country.setMota(ar[2]);
+			country.setQuocGia(ar[3]);
+			country.setLink(ar[4]);
+			country.setDate(Date.valueOf(ar[5]));
 		}
+		return country;
+
 	}
 
 	// lay ngau nhieu 1 phan tu tu mang
@@ -88,7 +109,9 @@ public class EntityCountry {
 
 	public static void main(String[] args) throws IOException {
 		EntityCountry ep = new EntityCountry();
-		Country c = new Country();
+		ep.genNEntityCountry(30);
+		ep.showListCountry();
+		
 
 	}
 }
