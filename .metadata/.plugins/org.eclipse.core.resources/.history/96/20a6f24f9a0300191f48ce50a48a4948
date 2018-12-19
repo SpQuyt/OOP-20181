@@ -26,9 +26,6 @@ public class mainAp {
 		PrintWriter writer3 = new PrintWriter("entity/Organization/Organization.txt");
 		writer3.print("");
 		writer3.close();
-		PrintWriter writer4 = new PrintWriter("entity/Event/event.txt");
-		writer4.print("");
-		writer4.close();
 		
 		Relation rl= new Relation();
 		Entity entity= new Entity();
@@ -36,7 +33,7 @@ public class mainAp {
 		Scanner sc= new Scanner(System.in);
 		int nBEntity= sc.nextInt();
 		
-		System.out.println("sinh quan he, nhap so luong (m>=n):");
+		System.out.println("sinh quan he, nhap so luong ((m>=n):");
 		int nBRelation= sc.nextInt();
 		System.out.println("\n---------thucthe-------");
 		entity.genNEntity(nBEntity);

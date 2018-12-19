@@ -16,7 +16,6 @@ import model.Location;
 import model.Organization;
 import model.Person;
 import model.Time;
-import upload.uploadGraphDB;
 
 public class Relation {
 
@@ -68,8 +67,6 @@ public class Relation {
 			country =ec.get1EntityCountryFFile();
 			rela=get1Relation(relaPerWCountry);
 			System.out.println(person+" "+rela+" "+country);
-			uploadGraphDB upload = new uploadGraphDB();
-			upload.upload(person, rela, country);
 			
 			break;
 
@@ -95,7 +92,7 @@ public class Relation {
 			person= ep.get1EntityPersonFFile();
 			location=el.get1EntityLocationFFile();
 			rela=get1Relation(relaPerLocation);
-			System.out.println(person+" "+rela+" "+location);
+			System.out.println(person+""+rela+""+location);
 			
 			break;
 

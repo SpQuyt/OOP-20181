@@ -16,7 +16,6 @@ import model.Location;
 import model.Organization;
 import model.Person;
 import model.Time;
-import upload.uploadGraphDB;
 
 public class Relation {
 
@@ -32,14 +31,14 @@ public class Relation {
 	 
 	 
 
-	String relaPerWCountry[] = { "sống_ở", "đến", "ở_tại", "đến_thăm", "đi_du_lịch_ở", "rời_khỏi" };
-	String relaPerWOrgani[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "bỏ_việc_ở", "rời_khỏi" };
-	String relaPerLocation[] = { "ở_lại", "làm_việc_ở", "thuộc", "đến", "đến_thăm", "tham_dự_tại",
-			"đi_du_lịch", "rời_khỏi" };
-	String relaPerWEvent[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "rời_khỏi", "tổ_chức" };
+	 String relaPerWCountry[] = { "song", "den", "ow tai", "den tham", "di di lich", "roi khoi" };
+	 String relaPerWOrgani[] = { "lam viec", "thuoc", "den", "thamgia", "bo viec", "doi khoi" };
+	 String relaPerLocation[] = { " o lai", "lam viec", "thuoc", "den", "thamgia", " den tham", " tham du tai",
+			"di du lich", "roi kkhoi" };
+	 String relaPerWEvent[] = { "lam viec", "thuoc", "den", "thamgia", "doi kh", "to chuc" };
 
-	String relaEventWCountry[] = { "tổ_chức", "diễn_ra_tại" };
-	String relaEventWLocation[] = { "tổ_chức", "diễn_ra_tại" };
+	 String relaEventWCountry[] = { "to chuc", "dien ra tai" };
+	 String relaEventWLocation[] = { "to chuc", "dien ra tai" };
 
 	
 	public  void genNRelationfull(int n) throws IOException {
@@ -68,8 +67,6 @@ public class Relation {
 			country =ec.get1EntityCountryFFile();
 			rela=get1Relation(relaPerWCountry);
 			System.out.println(person+" "+rela+" "+country);
-			uploadGraphDB upload = new uploadGraphDB();
-			upload.upload(person, rela, country);
 			
 			break;
 
@@ -95,7 +92,7 @@ public class Relation {
 			person= ep.get1EntityPersonFFile();
 			location=el.get1EntityLocationFFile();
 			rela=get1Relation(relaPerLocation);
-			System.out.println(person+" "+rela+" "+location);
+			System.out.println(person+""+rela+""+location);
 			
 			break;
 
