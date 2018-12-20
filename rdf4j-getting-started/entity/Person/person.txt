@@ -1,6 +1,3 @@
-an0,an,la_giam_ho,bac_si,d.com,2012-11-05
-an1,an,la_vat_dung,bac_si,link.com,1994-06-26
-hung0,hung,la_vat_dung,giao_vien,d.com,2013-07-12
-hung1,hung,la_vat_dung,giao_vien,p.com,2011-12-22
-anh0,anh,la_nguoi,bac_si,p.com,2010-10-22
-huy0,huy,la_vat_dung,bac_si,p.com,2011-12-22
+dung0,dung,la_nguoi,giao_vien,d.com,1994-06-27
+dung1,dung,la_vat_dung,giao_vien,p.com,2009-03-05
+hung0,hung,la_giam_ho,thu_quy,link.com,2011-12-22

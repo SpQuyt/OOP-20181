@@ -1,10 +1,5 @@
-sukien30,sukien3,mota3,p.com,2002-08-24
-sukien31,sukien3,mota2,p.com,2012-11-05
-sukien10,sukien1,mota3,d.com,1970-01-01
-sukien40,sukien4,mota4,d.com,2006-09-23
-sukien11,sukien1,mota1,link.com,2002-08-24
-sukien12,sukien1,mota3,link.com,2013-07-12
-sukien32,sukien3,mota5,d.com,2011-12-22
-sukien20,sukien2,mota5,link.com,2011-12-22
-sukien13,sukien1,mota5,link.com,1970-01-01
-sukien33,sukien3,mota5,d.com,2013-07-12
+sukien40,sukien4,mota4,p.com,2010-10-22
+sukien20,sukien2,mota1,d.com,1970-01-01
+sukien41,sukien4,mota5,d.com,2011-12-22
+sukien30,sukien3,mota4,d.com,2009-03-05
+sukien42,sukien4,mota4,d.com,2006-09-23

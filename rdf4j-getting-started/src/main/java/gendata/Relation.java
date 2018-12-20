@@ -58,6 +58,8 @@ public class Relation {
 		EntityPerson ep= new EntityPerson();
 		EntityTime et= new EntityTime();
 		
+		uploadGraphDB upload = new uploadGraphDB();
+		
 		Random rd = new Random();
 		int k = rd.nextInt(6) + 1;
 		switch (k) {
@@ -68,8 +70,7 @@ public class Relation {
 			country =ec.get1EntityCountryFFile();
 			rela=get1Relation(relaPerWCountry);
 			System.out.println(person+" "+rela+" "+country);
-			uploadGraphDB upload = new uploadGraphDB();
-			upload.upload(person, rela, country);
+			upload.uploadPvC(person, rela, country);
 			
 			break;
 
@@ -80,6 +81,8 @@ public class Relation {
 			organi= eo.get1EntityOrganiFFile();
 			rela=get1Relation(relaPerWOrgani);
 			System.out.println(person+ " "+rela+" "+organi);
+			upload.uploadPvO(person, rela, organi);
+			
 			break;
 		// quan he giua person va event
 		case 3:
@@ -88,6 +91,8 @@ public class Relation {
 			event=ev.get1EntityEventFFile();
 			rela=get1Relation(relaPerWEvent);
 			System.out.println(person+ " "+rela+" "+event);
+			upload.uploadPvE(person, rela, event);
+			
 			break;
 		// quan he giua person va country
 		case 4:
@@ -96,6 +101,7 @@ public class Relation {
 			location=el.get1EntityLocationFFile();
 			rela=get1Relation(relaPerLocation);
 			System.out.println(person+" "+rela+" "+location);
+			upload.uploadPvL(person, rela, location);
 			
 			break;
 
@@ -105,6 +111,7 @@ public class Relation {
 			country=ec.get1EntityCountryFFile();
 			rela=get1Relation(relaEventWCountry);
 			System.out.println(event+" "+rela+" "+country);
+			upload.uploadEvC(event, rela, country);
 			
 			break;
 		case 6:
@@ -112,6 +119,7 @@ public class Relation {
 			location =el.get1EntityLocationFFile();
 			rela= get1Relation(relaEventWLocation);
 			System.out.println(event+" "+rela+" "+location);
+			upload.uploadEvL(event, rela, location);
 			
 			break;
 

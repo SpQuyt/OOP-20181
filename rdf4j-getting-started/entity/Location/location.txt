@@ -1,6 +1,3 @@
-nha0,nha,diachi,p.com,2010-10-22
-san0,san,canh,d.com,1970-01-01
-thidau0,thidau,tham so,d.com,2009-03-05
-nha1,nha,tham so,p.com,2002-08-24
-san1,san,diachi,link.com,2009-03-05
-thidau1,thidau,nen,p.com,2002-08-24
+goc0,goc,diachi,p.com,1994-06-27
+thidau0,thidau,diachi,p.com,2013-07-12
+goc1,goc,canh,d.com,2010-10-22
