@@ -1,3 +1,6 @@
-congti_d0,congti_d,tham_hoa,anh,link.com,2010-10-22
-congti_b0,congti_b,ca_nhan,thailan,link.com,2002-08-24
-congti_b1,congti_b,cong_ti,trungquoc,p.com,2002-08-24
+congti_a0,congti_a,ca_nhan,trungquoc,p.com,2006-09-23
+congti_a1,congti_a,to_chuc,mi,d.com,2009-03-05
+congti_c0,congti_c,ca_nhan,halan,link.com,1970-01-01
+congti_d0,congti_d,to_chuc,halan,p.com,2011-12-22
+congti_d1,congti_d,to_chuc,thailan,d.com,2013-07-12
+congti_b0,congti_b,tham_hoa,anh,p.com,2012-11-05

@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 import gendata.Entity;
 import gendata.Relation;
+import upload.uploadGraphDB;
 
 public class mainAp {
 	public static void main(String[] args) throws IOException {
@@ -14,21 +15,8 @@ public class mainAp {
 		
 	}
 	public static void Gen() throws IOException {
-		PrintWriter writer = new PrintWriter("entity/Country/country.txt");
-		writer.print("");
-		writer.close();
-		PrintWriter writer1 = new PrintWriter("entity/Location/location.txt");
-		writer1.print("");
-		writer1.close();
-		PrintWriter writer2 = new PrintWriter("entity/Person/person.txt");
-		writer2.print("");
-		writer2.close();
-		PrintWriter writer3 = new PrintWriter("entity/Organization/Organization.txt");
-		writer3.print("");
-		writer3.close();
-		PrintWriter writer4 = new PrintWriter("entity/Event/event.txt");
-		writer4.print("");
-		writer4.close();
+		uploadGraphDB upload = new uploadGraphDB();
+		upload.initialize();
 		
 		Relation rl= new Relation();
 		Entity entity= new Entity();

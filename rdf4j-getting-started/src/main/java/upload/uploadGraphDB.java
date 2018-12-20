@@ -42,18 +42,18 @@ public class uploadGraphDB {
 					"{ "
 					+ "GRAPH <http://test/OOP-20181> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
-					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " " + person.getNhan() + " .\r\n"
-					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " " + person.getChucVu() + " .\r\n"
-					+ "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " " + person.getMoTa() + " .\r\n"
-					+ "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " " + person.getRandomTime() + " .\r\n"
-					+ "test:" + person.getDinhDanh() + " " + "test:link_trích_rút" + " " + person.getLink() + " .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + person.getRandomTime() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + person.getLink() + "\" .\r\n"
 					
 					+ "test:" + country.getDinhDanh() + " " + "a" + " " + "test:Country .\r\n"
-					+ "test:" + country.getDinhDanh() + " " + "test:nhãn" + " " + country.getNhan() + " .\r\n"
-					+ "test:" + country.getDinhDanh() + " " + "test:mô_tả" + " " + country.getMota() + " .\r\n"
-					+ "test:" + country.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " " + country.getRandomTime() + " .\r\n"
-					+ "test:" + country.getDinhDanh() + " " + "test:link_trích_rút" + " " + country.getLink() + " .\r\n"
-					+ "test:" + country.getDinhDanh() + " " + "test:thuộc_quốc_gia" + " " + country.getQuocGia() + " .\r\n"
+					+ "test:" + country.getDinhDanh() + " " + "test:nhãn" + " \"" + country.getNhan() + "\" .\r\n"
+					+ "test:" + country.getDinhDanh() + " " + "test:mô_tả" + " \"" + country.getMota() + "\" .\r\n"
+					+ "test:" + country.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + country.getRandomTime() + "\" .\r\n"
+					+ "test:" + country.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + country.getLink() + "\" .\r\n"
+					+ "test:" + country.getDinhDanh() + " " + "test:thuộc_quốc_gia" + " \"" + country.getQuocGia() + "\" .\r\n"
 					
 					+ "test:" + person.getDinhDanh() + " " + "test:" + rela + " " + "test:" + country.getDinhDanh() + " .\r\n"
 					+ "} "
@@ -69,7 +69,43 @@ public class uploadGraphDB {
 				
 	}
 	
-	public static void main(String[] args) throws RDFParseException, RDFHandlerException, IOException {			
+	public void initialize() throws RDFParseException, RDFHandlerException, IOException {		
+		//Create empty files in entity folder
+		PrintWriter writer = new PrintWriter("entity/Country/country.txt");
+		writer.print("");
+		writer.close();
+		PrintWriter writer1 = new PrintWriter("entity/Location/location.txt");
+		writer1.print("");
+		writer1.close();
+		PrintWriter writer2 = new PrintWriter("entity/Person/person.txt");
+		writer2.print("");
+		writer2.close();
+		PrintWriter writer3 = new PrintWriter("entity/Organization/Organization.txt");
+		writer3.print("");
+		writer3.close();
+		PrintWriter writer4 = new PrintWriter("entity/Event/event.txt");
+		writer4.print("");
+		writer4.close();
 		
+		//Remember to turn on GraphDB local server first!
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("02122018");
+		
+		
+		try (RepositoryConnection con = repository.getConnection()) {
+			   String queryString = 
+					"clear graph <http://test/OOP-20181>";
+			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);
+			   updateQuery.execute();	
+			   
+			// Shutdown connection, repository and manager
+			   con.close();
+			   repository.shutDown();
+			   repositoryManager.shutDown();
+			}
 	}
 }
