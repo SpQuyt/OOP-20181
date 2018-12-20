@@ -38,8 +38,8 @@ public class Relation {
 			"đi_du_lịch", "rời_khỏi" };
 	String relaPerWEvent[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "rời_khỏi", "tổ_chức" };
 
-	String relaEventWCountry[] = { "tổ_chức", "diễn_ra_tại" };
-	String relaEventWLocation[] = { "tổ_chức", "diễn_ra_tại" };
+	String relaEventWCountry[] = { "được_tổ_chức_ở", "diễn_ra_tại" };
+	String relaEventWLocation[] = { "được_tổ_chức_ở", "diễn_ra_tại" };
 
 	
 	public  void genNRelationfull(int n) throws IOException {

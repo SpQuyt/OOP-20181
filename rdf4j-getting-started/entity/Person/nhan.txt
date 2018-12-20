@@ -6,3 +6,5 @@ su
 dung
 anh
 phu
+Thủ tướng Nguyễn Xuân Phúc
+Mark ZuckenBerg

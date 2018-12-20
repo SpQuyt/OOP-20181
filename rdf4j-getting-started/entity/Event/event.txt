@@ -1,5 +1,5 @@
-sukien40,sukien4,mota4,p.com,2010-10-22
-sukien20,sukien2,mota1,d.com,1970-01-01
-sukien41,sukien4,mota5,d.com,2011-12-22
-sukien30,sukien3,mota4,d.com,2009-03-05
-sukien42,sukien4,mota4,d.com,2006-09-23
+Đấu_trường_Winner0,Đấu_trường_Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,p.com,1994-06-27
+Apple_ra_mắt_Iphone_X0,Apple_ra_mắt_Iphone_X,1 sự kiện bắn pháo hoa,p.com,1994-06-27
+Lễ_hội_bắn_pháo_hoa0,Lễ_hội_bắn_pháo_hoa,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,2012-11-06
+Lễ_hội_bắn_pháo_hoa1,Lễ_hội_bắn_pháo_hoa,1 sự kiện liên quan tới hãng điện thoại Apple,d.com,2013-07-12
+Hội_Nghị_APEC_20180,Hội_Nghị_APEC_2018,1 sự kiện liên quan tới hãng điện thoại Apple,link.com,2012-11-06

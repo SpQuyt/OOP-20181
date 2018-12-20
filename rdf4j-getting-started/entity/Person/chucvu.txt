@@ -1,3 +1,10 @@
-giao_vien
-thu_quy
-bac_si
+giáo viên
+công dân
+bác sĩ
+thủ quỹ
+công dân
+công dân
+công dân
+công dân
+thủ tướng
+CEO

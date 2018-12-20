@@ -1,4 +1,6 @@
-hanoi
-danang
-tphcm
-nhatrang
+Hà Nội
+Đà Nẵng
+TpHCM
+Nha Trang
+Moscow
+Virginia

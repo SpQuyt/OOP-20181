@@ -1,3 +1,3 @@
-dung0,dung,la_nguoi,giao_vien,d.com,1994-06-27
-dung1,dung,la_vat_dung,giao_vien,p.com,2009-03-05
-hung0,hung,la_giam_ho,thu_quy,link.com,2011-12-22
+phu0,phu,la_nguoi,thu_quy,link.com,2012-11-06
+ha0,ha,la_giam_ho,thu_quy,link.com,2013-07-12
+anh0,anh,la_vat_dung,giao_vien,p.com,2011-12-22
