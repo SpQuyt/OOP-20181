@@ -1,3 +1,16 @@
-phu0,phu,la_nguoi,thu_quy,link.com,2012-11-06
-ha0,ha,la_giam_ho,thu_quy,link.com,2013-07-12
-anh0,anh,la_vat_dung,giao_vien,p.com,2011-12-22
+hung000,hung,là người,công dân,link.com,2006-09-24
+anh000,anh,là người,công dân,d.com,2012-11-07
+phu000,phu,là người,công dân,link.com,2009-03-06
+anh001,anh,là người,công dân,p.com,2011-12-23
+hung001,hung,là người,công dân,link.com,2012-11-07
+su000,su,là người,công dân,link.com,2012-11-07
+an000,an,là người,thủ quỹ,link.com,2006-09-24
+MarkZuckenBerg000,Mark ZuckenBerg,nhà sáng lập Facebook,CEO,p.com,1994-06-27
+ThủtướngNguyễnXuânPhúc000,Thủ tướng Nguyễn Xuân Phúc,Thủ tướng nước CHXHCN Việt Nam,thủ tướng,d.com,2009-03-06
+MarkZuckenBerg001,Mark ZuckenBerg,nhà sáng lập Facebook,CEO,d.com,1994-06-27
+anh002,anh,là người,công dân,d.com,1994-06-27
+anh003,anh,là người,công dân,link.com,1994-06-27
+huy000,huy,là người,giáo viên,d.com,2010-10-23
+MarkZuckenBerg002,Mark ZuckenBerg,nhà sáng lập Facebook,CEO,d.com,2002-08-25
+ThủtướngNguyễnXuânPhúc001,Thủ tướng Nguyễn Xuân Phúc,Thủ tướng nước CHXHCN Việt Nam,thủ tướng,p.com,2012-11-07
+anh004,anh,là người,công dân,d.com,2010-10-23

@@ -1,3 +1,4 @@
+﻿CEO Facebook
 giáo viên
 công dân
 bác sĩ
@@ -7,4 +8,106 @@ công dân
 công dân
 công dân
 thủ tướng
-CEO
+Biên đạo Múa
+Huấn luyện viên Đặc biệt
+Sư Phạm Mầm non
+Sư phạm Tiểu học
+Sư phạm Mĩ thuật Đồ họa
+hoạ sỹ
+Sư Phạm Mĩ thuật
+Sư phạm Hoạ 
+Sư phạm Giáo dục Công dân
+Sư phạm Mĩ thuật Công tác Đội
+Sư phạm Mĩ thuật-Giáo dục Công dân
+Nhà thiết kế
+Trưởng phòng Mĩ thuật Công nghiệp (Đồ họa vi tính)
+phó phòng Mĩ thuật Công nghiệp (Thiết kế thời trang)
+Tổ trưởng Mĩ thuật ứng dụng 
+Nhân Viên Đồ hoạ ứng dụng
+Nhân viên Đồ hoạ đa phương tiện
+Nhân Viên Trang trí nội thất
+Nhiếp ảnh Gia
+Nhiếp ảnh quảng cáo
+Sư Phạm Họa 
+Chuyên Gia Kinh tế gia đình
+Sư phạm Hoạ
+Sư phạm Mĩ thuật 
+Công tác đội
+Nhà Điêu khắc
+Chuyên Gia Nhạc cụ phương Tây
+Chuyên Gia Nhạc cụ truyền thống
+Diễn viên
+SƯ phạm Âm nhạc
+Sư phạm Âm nhạc Công tác Đội
+Sư phạm Mĩ thuật
+Sư phạm Nhạc – Công tác đội
+Sư phạm Văn
+Đạo diễn (chuyên ngành Đạo diễn sân khấu)
+Đạo diễn truyền hình
+Quay phim
+Quay phim điện ảnh
+Quay phim  truyền hình
+Lí luận phê bình đIện ảnh
+Diễn viên (Diễn viên kịch nói và điện ảnh)
+Diễn viên Kịch Điện ảnh
+Diễn viên sân khấu đIện ảnh
+Diễn viên cải lương
+Diễn viên chèo
+Biên đạo múa
+Biên kịch điện ảnh
+Chuyên gia Dinh dưỡng và Sức khỏe
+Dược sỹ
+Y tá Hồi sức
+Hộ sinh
+Chuyên gia Nghiên Cứu Sức Khoẻ
+Nha sỹ
+Chuyên Gia Sinh lý học
+Chuyên Gia Tâm lý học
+Tư vấn viên
+Chuyên Gia Vật lý trị liệu
+Y tá
+Y tá Điều dưỡng
+Y tế công cộng
+Nhà Báo
+Chính trị gia
+Công tác viên
+Chuyên gia Kinh tế
+Chuyên gia Ngôn ngữ học
+Nhiếp ảnh gia
+Chuyên gia Nhân học
+Sáng tác viên
+Truyền thông viên
+Chuyên gia Xã hội học
+Chuyên gia Địa nhân học
+Chuyên gia Công nghệ thực phẩm
+Chuyên gia Hóa học
+Chuyên gia Khoa học Môi trường
+Chuyên gia Khoa học Trái đất
+Chuyên gia Khoa học vật liệu
+Chuyên gia Khoa học về Đời sống
+Chuyên gia Khoa học đại cương
+Chuyên gia Sinh học
+Chuyên gia Thiên văn học
+Vận động viên
+Chuyên gia Toán học
+Chuyên gia Vật lý
+Chuyên gia Y sinh học
+Chuyên gia Địa Vật lý
+Bộ trưởng
+Hiệu trưởng
+phó hiệu trưởng
+Giáo Viên
+phó tổng giám đốc
+tổng giám đốc, chủ tịch
+Ca Sĩ
+Vận Động Viên
+Diễn Viên
+Vận Động Viên
+Ca Sĩ
+Ca Sĩ
+Vận động viên
+Ca sĩ
+Vận động viên bóng rổ
+ca sĩ
+Ca sĩ
+Ca sĩ

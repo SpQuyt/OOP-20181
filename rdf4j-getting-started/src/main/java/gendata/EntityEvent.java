@@ -29,18 +29,20 @@ public class EntityEvent {
 		Date date = event.getRandomTime();
 
 		int dd = 0;
-		String nhanDon = get1Array(nhan);
+		int index=get1Array(nhan);
+		String nhanDon = nhan.get(index);
 		for (int i = 0; i < listEvent.size(); i++) {
 			if (listEvent.get(i).getNhan().equals(nhanDon))
 				dd++;
 		}
 
-		String dinhdanh = "" + nhanDon + dd;
+		String dinhdanh =nhanDon + String.format("%03d", dd);
+		dinhdanh=dinhdanh.replaceAll("\\s", "");
 		event.setDinhDanh(dinhdanh);
 		event.setDate(date);
 		event.setNhan(nhanDon);
-		event.setMota(get1Array(mota));
-		event.setLink(get1Array(link));
+		event.setMota(mota.get(index));
+		event.setLink(link.get(get1Array(link)));
 
 		listEvent.add(event);
 
@@ -63,18 +65,17 @@ public class EntityEvent {
 
 
 	// lay ngau nhieu 1 phan tu tu mang
-	public String get1Array(ArrayList<String> arr) {
+	public int get1Array(ArrayList<String> arr) {
 		Random rd = new Random();
-		String property = null;
-		int chiso;
+		int chiso = 0;
 		if (arr.size() == 0)
 			System.out.println("file rong");
 		else {
 			chiso = rd.nextInt(arr.size());
-			property = arr.get(chiso);
+			
 		}
 
-		return property;
+		return chiso;
 	}
 
 	public void writeFileEvent() throws IOException {
@@ -108,6 +109,7 @@ public class EntityEvent {
 
 	public static void main(String[] args) throws IOException {
 		EntityEvent ep = new EntityEvent();
-		System.out.println(ep.get1EntityEventFFile());
+		ep.genNEntityEvent(10);
+		ep.showListEvent();
 	}
 }

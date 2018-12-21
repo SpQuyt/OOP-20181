@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 import gendata.Entity;
 import gendata.Relation;
+import querydata.queryGraphDB;
 import upload.uploadGraphDB;
 
 public class mainAp {
@@ -30,5 +31,9 @@ public class mainAp {
 		entity.genNEntity(nBEntity);
 		System.out.println("\n---------quanhe-------");
 		rl.genNRelationfull(nBRelation);
+		
+		System.out.println("\n---------truyvan-------");
+		queryGraphDB query = new queryGraphDB();
+		query.queryMenu();
 	}
 }

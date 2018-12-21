@@ -28,20 +28,22 @@ public class EntityOrganization {
 		ArrayList<String> link = organ.LinkOrgan();
 		Date date = organ.getRandomTime();
 		
-		int dd=0;
-		String nhanDon=get1Array(nhan);
-		for(int i=0;i<listOrganization.size();i++) {
-			if(listOrganization.get(i).getNhan().equals(nhanDon))
+		int dd = 0;
+		int index=get1Array(nhan);
+		String nhanDon = nhan.get(index);
+		for (int i = 0; i < listOrganization.size(); i++) {
+			if (listOrganization.get(i).getNhan().equals(nhanDon))
 				dd++;
 		}
-		
-		String dinhdanh=""+nhanDon+dd;
+
+		String dinhdanh =nhanDon + String.format("%03d", dd);
+		dinhdanh=dinhdanh.replaceAll("\\s", "");
 		organ.setDinhDanh(dinhdanh);
 		organ.setDate(date);
 		organ.setNhan(nhanDon);
-		organ.setMota(get1Array(mota));
-		organ.setTruso(get1Array(truso));
-		organ.setLink(get1Array(link));
+		organ.setMota(mota.get(index));
+		organ.setTruso(truso.get(index));
+		organ.setLink(link.get(get1Array(link)));
 		
 		listOrganization.add(organ);
 		
@@ -64,18 +66,18 @@ public class EntityOrganization {
 
 
 	// lay ngau nhieu 1 phan tu tu mang
-	public String get1Array(ArrayList<String> arr) {
+	public int get1Array(ArrayList<String> arr) {
 		Random rd = new Random();
-		String property = null;
-		int chiso;
+		
+		int chiso = 0;
 		if (arr.size() == 0)
 			System.out.println("file rong");
 		else {
 			chiso = rd.nextInt(arr.size());
-			property=arr.get(chiso);
+			
 		}
 		
-		return property;
+		return chiso;
 	}
 	// ghi list country ra file
 		public void writeFileOrganization() throws IOException {
@@ -110,8 +112,8 @@ public class EntityOrganization {
 
 	public static void main(String[] args) throws IOException {
 		EntityOrganization ep= new EntityOrganization();
-		ep.genNEntityOrganization(20);
-		System.out.println( ep.get1EntityOrganiFFile());
+		ep.genNEntityOrganization(10);
+		ep.showListOrganization();
 		
 		
 		

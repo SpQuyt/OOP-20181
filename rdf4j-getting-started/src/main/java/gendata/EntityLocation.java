@@ -27,19 +27,21 @@ public class EntityLocation {
 		ArrayList<String> link =location.LinkLocation();
 		Date date = location.getRandomTime();
 		
-		int dd=0;
-		String nhanDon=get1Array(nhan);
-		for(int i=0;i<listLocation.size();i++) {
-			if(listLocation.get(i).getNhan().equals(nhanDon))
+		int dd = 0;
+		int index=get1Array(nhan);
+		String nhanDon = nhan.get(index);
+		for (int i = 0; i < listLocation.size(); i++) {
+			if (listLocation.get(i).getNhan().equals(nhanDon))
 				dd++;
 		}
-		
-		String dinhdanh=""+nhanDon+dd;
+
+		String dinhdanh =nhanDon + String.format("%03d", dd);
+		dinhdanh=dinhdanh.replaceAll("\\s", "");
 		location.setDinhDanh(dinhdanh);
 		location.setDate(date);
 		location.setNhan(nhanDon);
-		location.setMota(get1Array(mota));
-		location.setLink(get1Array(link));
+		location.setMota(mota.get(index));
+		location.setLink(link.get(get1Array(link)));
 		
 		listLocation.add(location);
 		
@@ -61,18 +63,18 @@ public class EntityLocation {
 	}
 
 	// lay ngau nhieu 1 phan tu tu mang
-	public String get1Array(ArrayList<String> arr) {
+	public int get1Array(ArrayList<String> arr) {
 		Random rd = new Random();
-		String property = null;
-		int chiso;
+		
+		int chiso=0;
 		if (arr.size() == 0)
 			System.out.println("file rong");
 		else {
 			chiso = rd.nextInt(arr.size());
-			property=arr.get(chiso);
+			
 		}
 		
-		return property;
+		return chiso;
 	}
 	
 	public void writeFileLocation() throws IOException {
@@ -106,7 +108,8 @@ public class EntityLocation {
 
 	public static void main(String[] args) throws IOException {
 		EntityLocation ep= new EntityLocation();
-		System.out.println(ep.get1EntityLocationFFile());
+		ep.genNEntityLocation(10);
+		ep.showListLocation();
 	
 		
 	}

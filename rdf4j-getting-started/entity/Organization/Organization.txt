@@ -1,3 +1,16 @@
-congti_c0,congti_c,tham_hoa,vietnam,p.com,2011-12-22
-congti_c1,congti_c,ca_nhan,thailan,d.com,2013-07-12
-congti_c2,congti_c,to_chuc,anh,d.com,1994-06-27
+CôngtyTNHHPhươngNam000,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,link.com,2006-09-24
+HãngphimMarvel000,Hãng phim Marvel,1 hãng phim cực kì nổi tiếng về các siêu anh hùng,Mỹ,link.com,2013-07-13
+CôngtyTNHHPhươngNam001,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,d.com,2011-12-23
+Facebook000,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,link.com,2012-11-07
+HãngphimMarvel001,Hãng phim Marvel,1 hãng phim cực kì nổi tiếng về các siêu anh hùng,Mỹ,d.com,2006-09-24
+HãngphimMarvel002,Hãng phim Marvel,1 hãng phim cực kì nổi tiếng về các siêu anh hùng,Mỹ,link.com,2002-08-25
+Facebook001,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,p.com,2002-08-25
+Facebook002,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,p.com,2011-12-23
+CôngtyTNHHPhươngNam002,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,d.com,2002-08-25
+CôngtyTNHHPhươngNam003,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,p.com,2002-08-25
+HãngphimMarvel003,Hãng phim Marvel,1 hãng phim cực kì nổi tiếng về các siêu anh hùng,Mỹ,p.com,2013-07-13
+Facebook003,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,d.com,2009-03-06
+Facebook004,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,p.com,2006-09-24
+CôngtyTNHHPhươngNam004,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,link.com,2006-09-24
+CôngtyTNHHPhươngNam005,Công ty TNHH Phương Nam,1 công ty của Việt Nam,Việt Nam,p.com,2012-11-07
+Apple000,Apple,là công ty sản xuất điện thoại chạy trên hệ điều hành iOS,Mỹ,link.com,2009-03-06

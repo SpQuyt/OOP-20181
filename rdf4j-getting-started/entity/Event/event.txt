@@ -1,5 +1,20 @@
-Đấu_trường_Winner0,Đấu_trường_Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,p.com,1994-06-27
-Apple_ra_mắt_Iphone_X0,Apple_ra_mắt_Iphone_X,1 sự kiện bắn pháo hoa,p.com,1994-06-27
-Lễ_hội_bắn_pháo_hoa0,Lễ_hội_bắn_pháo_hoa,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,2012-11-06
-Lễ_hội_bắn_pháo_hoa1,Lễ_hội_bắn_pháo_hoa,1 sự kiện liên quan tới hãng điện thoại Apple,d.com,2013-07-12
-Hội_Nghị_APEC_20180,Hội_Nghị_APEC_2018,1 sự kiện liên quan tới hãng điện thoại Apple,link.com,2012-11-06
+Ngàygắnkếtyêuthương000,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,link.com,2010-10-23
+AppleramắtIphoneX000,Apple ra mắt IphoneX,1 sự kiện liên quan tới hãng điện thoại Apple,p.com,2011-12-23
+ĐấutrườngWinner000,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,link.com,2011-12-23
+ĐấutrườngWinner001,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,2009-03-06
+Lễhộibắnpháohoa000,Lễ hội bắn pháo hoa,1 sự kiện bắn pháo hoa,p.com,1994-06-27
+Ngàygắnkếtyêuthương001,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,p.com,2012-11-07
+Lễhộibắnpháohoa001,Lễ hội bắn pháo hoa,1 sự kiện bắn pháo hoa,link.com,2013-07-13
+HộiNghịAPEC2018000,Hội Nghị APEC 2018,1 sự kiện quan trọng được tổ chức ở Việt Nam,link.com,2002-08-25
+Lễhộibắnpháohoa002,Lễ hội bắn pháo hoa,1 sự kiện bắn pháo hoa,p.com,2013-07-13
+HộiNghịAPEC2018001,Hội Nghị APEC 2018,1 sự kiện quan trọng được tổ chức ở Việt Nam,link.com,2012-11-07
+ĐấutrườngWinner002,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,2009-03-06
+Ngàygắnkếtyêuthương002,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,link.com,1970-01-01
+Ngàygắnkếtyêuthương003,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,p.com,2006-09-24
+Ngàygắnkếtyêuthương004,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,d.com,2009-03-06
+ĐấutrườngWinner003,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,1994-06-27
+ĐấutrườngWinner004,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,d.com,2006-09-24
+HộiNghịAPEC2018002,Hội Nghị APEC 2018,1 sự kiện quan trọng được tổ chức ở Việt Nam,d.com,2010-10-23
+Ngàygắnkếtyêuthương005,Ngày gắn kết yêu thương,1 hoạt động hiến máu thường niên của trường ĐHBK Hà Nội,d.com,2006-09-24
+ĐấutrườngWinner005,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,p.com,2012-11-07
+ĐấutrườngWinner006,Đấu trường Winner,1 sự kiện tổ chức ở ĐHBK Hà Nội,link.com,2011-12-23

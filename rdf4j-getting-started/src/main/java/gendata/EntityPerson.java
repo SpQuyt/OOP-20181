@@ -27,20 +27,22 @@ public class EntityPerson {
 		ArrayList<String> link = person.LinkPerson();
 		Date date = person.getRandomTime();
 		
-		int dd=0;
-		String nhanDon=get1Array(nhan);
-		for(int i=0;i<listPerson.size();i++) {
-			if(listPerson.get(i).getNhan().equals(nhanDon))
+		int dd = 0;
+		int index=get1Array(nhan);
+		String nhanDon = nhan.get(index);
+		for (int i = 0; i < listPerson.size(); i++) {
+			if (listPerson.get(i).getNhan().equals(nhanDon))
 				dd++;
 		}
-		
-		String dinhdanh=""+nhanDon+dd;
+
+		String dinhdanh =nhanDon + String.format("%03d", dd);
+		dinhdanh=dinhdanh.replaceAll("\\s", "");
 		person.setDinhDanh(dinhdanh);
 		person.setDate(date);
 		person.setNhan(nhanDon);
-		person.setMoTa(get1Array(mota));
-		person.setChucVu(get1Array(chucvu));
-		person.setLink(get1Array(link));
+		person.setMoTa(mota.get(index));
+		person.setChucVu(chucvu.get(index));
+		person.setLink(link.get(get1Array(link)));
 		
 		listPerson.add(person);
 		
@@ -62,18 +64,18 @@ public class EntityPerson {
 	}
 
 	// lay ngau nhieu 1 phan tu tu mang
-	public String get1Array(ArrayList<String> arr) {
+	public int get1Array(ArrayList<String> arr) {
 		Random rd = new Random();
-		String property = null;
-		int chiso;
+		
+		int chiso = 0;
 		if (arr.size() == 0)
 			System.out.println("file rong");
 		else {
 			chiso = rd.nextInt(arr.size());
-			property=arr.get(chiso);
+			
 		}
 		
-		return property;
+		return chiso;
 	}
 	
 	// ghi list country ra file
@@ -109,7 +111,8 @@ public class EntityPerson {
 
 	public static void main(String[] args) throws IOException {
 		EntityPerson ep= new EntityPerson();
-		System.out.println(ep.get1EntityPersonFFile());
+		ep.genNEntityPerson(10);
+		ep.showListPerson();
 		
 		
 	}

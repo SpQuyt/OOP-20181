@@ -1,3 +1,16 @@
-Đà_Nẵng0,Đà_Nẵng,là 1 bang của Mỹ,Việt Nam,p.com,1970-01-01
-Nha_Trang0,Nha_Trang,là thủ đô của Việt Nam ,Việt Nam,d.com,1970-01-01
-Đà_Nẵng1,Đà_Nẵng,là thủ đô của Việt Nam ,Việt Nam,link.com,2006-09-23
+Moscow000,Moscow,là thủ đô của Nga,Nga,d.com,2013-07-13
+TpHCM000,TpHCM,là 1 thành phố của Việt Nam,Việt Nam,link.com,1994-06-27
+TpHCM001,TpHCM,là 1 thành phố của Việt Nam,Việt Nam,p.com,1994-06-27
+Virginia000,Virginia,là 1 bang của Mỹ,Mỹ,link.com,2006-09-24
+Moscow001,Moscow,là thủ đô của Nga,Nga,d.com,2013-07-13
+ĐàNẵng000,Đà Nẵng,là 1 thành phố của Việt Nam,Việt Nam,p.com,2006-09-24
+Virginia001,Virginia,là 1 bang của Mỹ,Mỹ,p.com,2013-07-13
+Moscow002,Moscow,là thủ đô của Nga,Nga,link.com,2002-08-25
+Moscow003,Moscow,là thủ đô của Nga,Nga,link.com,1994-06-27
+NhaTrang000,Nha Trang,là 1 thành phố của Việt Nam,Việt Nam,link.com,2013-07-13
+TpHCM002,TpHCM,là 1 thành phố của Việt Nam,Việt Nam,p.com,2011-12-23
+HàNội000,Hà Nội,là thủ đô của Việt Nam ,Việt Nam,p.com,2002-08-25
+Moscow004,Moscow,là thủ đô của Nga,Nga,link.com,2013-07-13
+TpHCM003,TpHCM,là 1 thành phố của Việt Nam,Việt Nam,p.com,2006-09-24
+ĐàNẵng001,Đà Nẵng,là 1 thành phố của Việt Nam,Việt Nam,p.com,2010-10-23
+ĐàNẵng002,Đà Nẵng,là 1 thành phố của Việt Nam,Việt Nam,p.com,2002-08-25
