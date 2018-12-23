@@ -95,7 +95,7 @@ public class EntityLocation {
 
 			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
 			Random rd = new Random();
-			String[] ar = listCountry.get(rd.nextInt(listCountry.size())).split(","); // lấy ngau nhiên thuecj thẻ count
+			String[] ar = listCountry.get(rd.nextInt(listCountry.size())).split(","); // lấy ngẫu nhiên thực thể count
 			country.setDinhDanh(ar[0]);
 			country.setNhan(ar[1]);
 			country.setMota(ar[2]);

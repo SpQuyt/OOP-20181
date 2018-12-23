@@ -19,7 +19,7 @@ import model.Time;
 import upload.uploadGraphDB;
 
 public class Relation {
-
+	 public int count = 0;
 	 ArrayList<model.Relation> listRelationFull = new ArrayList<>();
 
 	 static Person person= new Person();
@@ -69,7 +69,8 @@ public class Relation {
 			person =ep.get1EntityPersonFFile();
 			country =ec.get1EntityCountryFFile();
 			rela=get1Relation(relaPerWCountry);
-			System.out.println(person+" "+rela+" "+country);
+			count = count + 1;
+			System.out.println(count + ": "+ person+" "+rela+" "+country);
 			upload.uploadPvC(person, rela, country);
 			
 			break;
@@ -80,7 +81,8 @@ public class Relation {
 			person= ep.get1EntityPersonFFile();
 			organi= eo.get1EntityOrganiFFile();
 			rela=get1Relation(relaPerWOrgani);
-			System.out.println(person+ " "+rela+" "+organi);
+			count = count + 1;
+			System.out.println(count + ": "+ person+ " "+rela+" "+organi);
 			upload.uploadPvO(person, rela, organi);
 			
 			break;
@@ -90,7 +92,8 @@ public class Relation {
 			person= ep.get1EntityPersonFFile();
 			event=ev.get1EntityEventFFile();
 			rela=get1Relation(relaPerWEvent);
-			System.out.println(person+ " "+rela+" "+event);
+			count = count + 1;
+			System.out.println(count + ": "+ person+ " "+rela+" "+event);
 			upload.uploadPvE(person, rela, event);
 			
 			break;
@@ -100,7 +103,8 @@ public class Relation {
 			person= ep.get1EntityPersonFFile();
 			location=el.get1EntityLocationFFile();
 			rela=get1Relation(relaPerLocation);
-			System.out.println(person+" "+rela+" "+location);
+			count = count + 1;
+			System.out.println(count + ": "+ person+" "+rela+" "+location);
 			upload.uploadPvL(person, rela, location);
 			
 			break;
@@ -110,7 +114,8 @@ public class Relation {
 			event= ev.get1EntityEventFFile();
 			country=ec.get1EntityCountryFFile();
 			rela=get1Relation(relaEventWCountry);
-			System.out.println(event+" "+rela+" "+country);
+			count = count + 1;
+			System.out.println(count + ": "+ event+" "+rela+" "+country);
 			upload.uploadEvC(event, rela, country);
 			
 			break;
@@ -118,7 +123,8 @@ public class Relation {
 			event=ev.get1EntityEventFFile();
 			location =el.get1EntityLocationFFile();
 			rela= get1Relation(relaEventWLocation);
-			System.out.println(event+" "+rela+" "+location);
+			count = count + 1;
+			System.out.println(count + ": "+ event+" "+rela+" "+location);
 			upload.uploadEvL(event, rela, location);
 			
 			break;

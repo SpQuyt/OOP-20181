@@ -40,7 +40,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -84,7 +84,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -128,7 +128,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -171,7 +171,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -214,7 +214,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
@@ -257,7 +257,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181> { "
+					+ "GRAPH <http://test/OOP-20181-lvl3> { "
 					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
@@ -284,7 +284,9 @@ public class uploadGraphDB {
 				
 	}
 	
-	public void initialize() throws RDFParseException, RDFHandlerException, IOException {		
+	public void initialize() throws RDFParseException, RDFHandlerException, IOException {	
+		System.out.println("Xin vui lòng chờ 1 lát. Đang khởi tạo chương trình...");
+		
 		//Create empty files in entity folder
 		PrintWriter writer = new PrintWriter("entity/Country/country.txt");
 		writer.print("");
@@ -310,7 +312,7 @@ public class uploadGraphDB {
 		// Get the repository from repository manager, note the repository id set in configuration .ttl file
 		Repository repository = repositoryManager.getRepository("02122018");
 		
-		// Clear graph and all data
+		// Clear graph and all data of database DEMO
 		try (RepositoryConnection con = repository.getConnection()) {
 			   String queryString = 
 					"clear graph <http://test/OOP-20181>";
@@ -322,5 +324,6 @@ public class uploadGraphDB {
 			   repository.shutDown();
 			   repositoryManager.shutDown();
 			}
+		System.out.println("Đã khởi tạo xong!\n\n");
 	}
 }

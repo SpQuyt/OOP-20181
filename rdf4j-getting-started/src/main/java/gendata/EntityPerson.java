@@ -98,6 +98,7 @@ public class EntityPerson {
 			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
 			Random rd= new Random();
 			String []ar=listCountry.get(rd.nextInt(listCountry.size())).split(",");	// lấy ngau nhiên  thuecj thẻ  count
+			System.out.println("\n\n" + ar[0]);
 			country.setDinhDanh(ar[0]);
 			country.setNhan(ar[1]);
 			country.setMoTa(ar[2]);

@@ -20,8 +20,8 @@ Sư phạm Giáo dục Công dân
 Sư phạm Mĩ thuật Công tác Đội
 Sư phạm Mĩ thuật-Giáo dục Công dân
 Nhà thiết kế
-Trưởng phòng Mĩ thuật Công nghiệp (Đồ họa vi tính)
-phó phòng Mĩ thuật Công nghiệp (Thiết kế thời trang)
+Trưởng phòng Mĩ thuật Công nghiệp
+phó phòng Mĩ thuật Công nghiệp
 Tổ trưởng Mĩ thuật ứng dụng 
 Nhân Viên Đồ hoạ ứng dụng
 Nhân viên Đồ hoạ đa phương tiện
@@ -40,15 +40,15 @@ Diễn viên
 SƯ phạm Âm nhạc
 Sư phạm Âm nhạc Công tác Đội
 Sư phạm Mĩ thuật
-Sư phạm Nhạc – Công tác đội
+Sư phạm Nhạc _ Công tác đội
 Sư phạm Văn
-Đạo diễn (chuyên ngành Đạo diễn sân khấu)
+Đạo diễn
 Đạo diễn truyền hình
 Quay phim
 Quay phim điện ảnh
 Quay phim  truyền hình
 Lí luận phê bình đIện ảnh
-Diễn viên (Diễn viên kịch nói và điện ảnh)
+Diễn viên
 Diễn viên Kịch Điện ảnh
 Diễn viên sân khấu đIện ảnh
 Diễn viên cải lương
@@ -98,7 +98,7 @@ Hiệu trưởng
 phó hiệu trưởng
 Giáo Viên
 phó tổng giám đốc
-tổng giám đốc, chủ tịch
+tổng giám đốc
 Ca Sĩ
 Vận Động Viên
 Diễn Viên
