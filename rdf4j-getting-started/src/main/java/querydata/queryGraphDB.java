@@ -36,16 +36,22 @@ public class queryGraphDB {
 		Scanner sc = new Scanner(System.in);
 		// Choose level
 		int levelList[] = { 0, 1, 2, 3, 4, 5 };
+		int level;
+		String graph = "";
 		Object[] graphList = { "    graph <http://test/OOP-20181> {\r\n",
 				"    graph <http://test/OOP-20181-lvl1> {\r\n", "    graph <http://test/OOP-20181-lvl2> {\r\n",
 				"    graph <http://test/OOP-20181-lvl3> {\r\n", "    graph <http://test/OOP-20181-lvl4> {\r\n",
 				"    graph <http://test/OOP-20181-lvl5> {\r\n" };
-		System.out.print("1. Level 1 (100 entities - 200 statements)\n"
+
+		System.out.print("0. Level 0 (DEMO Cho Buổi bảo vệ)\n" + "1. Level 1 (100 entities - 200 statements)\n"
 				+ "2. Level 2 (5000 entities - 7000 statements)\n" + "3. Level 3 (60000 entities - 80000 statements)\n"
-				+ "4. Level 4 (500 entities - 1000 statements)\n" + "5. Level 5 (2000 entities - 4000 statements)\n"
-				+ "Nhập level của cơ sở dữ liệu: ");
-		int level = sc.nextInt();
-		String graph = "";
+				+ "4. Level 4 (500 entities - 1000 statements)\n" + "5. Level 5 (2000 entities - 4000 statements)\n");
+
+		do {
+			System.out.print("Nhập level của cơ sở dữ liệu: ");
+			level = sc.nextInt();
+		} while (level < 0 || level > 5);
+
 		switch (level) {
 		case 0:
 			graph = (String) graphList[0];
@@ -73,14 +79,15 @@ public class queryGraphDB {
 					+ "2. Ai tổ chức sự kiện Hội Nghị APEC 2018?\n" + "3. Thông tin mô tả của Lady Gaga?\n"
 					+ "4. Những thực thể được trích rút vào ngày 2012-11-07?\n"
 					+ "5. Những thực thể được trích rút từ nguồn p.com?\n"
-					+ "6. Danh sách <= 100 triples đầu tiên của database?\n"
-					+ "7. Liệt kê <= 300 thực thể thuộc lớp Event?\n"
-					+ "8. Liệt kê các thực thể có nhãn Hội Nghị APEC 2018 với nhãn sắp xếp giảm dần?\n"
-					+ "9. Ai tốt nghiệp vào ngày 1994-06-28?\n"
-					+ "10. Thông tin mô tả sự kiện Hoa hậu hoàn vũ thế giới 2013?\n"
-					+ "11. Bao nhiêu thực thể được trích rút vào ngày 2009-03-07?\n"
-					+ "12. Bao nhiêu thực thể được trích rút từ nguồn d.com?\n"
-					+ "13. Có bao nhiêu định danh có nhãn Hội Nghị APEC 2018?\n"
+					+ "6. Ai tốt nghiệp vào ngày 1994-06-28?\n"
+					+ "7. Thông tin mô tả sự kiện Hoa hậu hoàn vũ thế giới 2013?\n"
+					+ "8. Bao nhiêu thực thể được trích rút vào ngày 2009-03-07?\n"
+					+ "9. Bao nhiêu thực thể được trích rút từ nguồn d.com?\n"
+					+ "10. Có bao nhiêu định danh có nhãn Hội Nghị APEC 2018?\n"
+
+					+ "11. Danh sách <= 100 triples đầu tiên của database?\n"
+					+ "12. Liệt kê <= 300 thực thể thuộc lớp Event?\n"
+					+ "13. Liệt kê các thực thể có nhãn Hội Nghị APEC 2018 với nhãn sắp xếp giảm dần?\n"
 					+ "14. Bao nhiêu thưc thể có nhãn Lady Gaga và đến thăm Edinburgh?\n"
 					+ "15. In ra định danh, tên và mô tả của các thực thể lớp Person trong Database?\n"
 					+ "16. In ra định danh, tên và mô tả của các thực thể lớp Event trong Database\n"
@@ -121,18 +128,6 @@ public class queryGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" + "select distinct ?object {\r\n" + graph
 							+ "	?object test:link_trích_rút \"p.com\" .\r\n" + "}\r\n" + "}",
 
-					// liệt kê 100 triples trong database
-					"select * where { \r\n" + graph + "	?s ?p ?o .\r\n" + "}\r\n " + "}\r\n " + "limit 100 ",
-
-					// 300 thực thể thuộc lớp Event
-					"PREFIX test: <http://test.com/ns#>\r\n" + "select ?object {\r\n" + graph
-							+ "	?object a test:Event .\r\n" + "}\r\n" + "}\r\n limit 300 ",
-
-					// liệt kê các thực thể có nhãn Hội Nghị APEC 2018 với nhãn sắp xếp giảm dần
-					"PREFIX test: <http://test.com/ns#>\r\n" + "select ?object {\r\n" + graph
-							+ "    ?object test:nhãn \"Hội Nghị APEC 2018\" .\r\n" + "}\r\n" + "}\r\n"
-							+ " order by desc(?object)",
-
 					// ai tốt nghiệp lúc 1994-06-28
 					"PREFIX test: <http://test.com/ns#>\r\n" + "select ?object {\r\n" + graph
 							+ "        ?object test:tốt_nghiệp_lúc test:1994-06-28 .\r\n" + "    }\r\n" + "}",
@@ -153,6 +148,18 @@ public class queryGraphDB {
 					// Bao nhiêu định danh có nhãn Hội Nghị APEC 2018
 					"PREFIX test: <http://test.com/ns#>\r\n" + "select (count(?dinhdanh) as ?count){\r\n" + graph
 							+ "        ?dinhdanh test:nhãn \"Hội Nghị APEC 2018\" .\r\n" + "    }\r\n" + "} ",
+
+					// liệt kê 100 triples trong database
+					"select * where { \r\n" + graph + "	?s ?p ?o .\r\n" + "}\r\n " + "}\r\n " + "limit 100 ",
+
+					// 300 thực thể thuộc lớp Event
+					"PREFIX test: <http://test.com/ns#>\r\n" + "select ?object {\r\n" + graph
+							+ "	?object a test:Event .\r\n" + "}\r\n" + "}\r\n limit 300 ",
+
+					// liệt kê các thực thể có nhãn Hội Nghị APEC 2018 với nhãn sắp xếp giảm dần
+					"PREFIX test: <http://test.com/ns#>\r\n" + "select ?object {\r\n" + graph
+							+ "    ?object test:nhãn \"Hội Nghị APEC 2018\" .\r\n" + "}\r\n" + "}\r\n"
+							+ " order by desc(?object)",
 
 					// Bao nhiêu thưc thể có nhãn Lady Gaga và đến thăm Edinburgh
 					"PREFIX test: <http://test.com/ns#>\r\n" + "select (count(?object) as ?count) where { \r\n" + graph
@@ -187,8 +194,7 @@ public class queryGraphDB {
 							+ "         ?object test:nhãn ?objectName}\r\n" + "    }\r\n" + "}",
 
 					// Thực thể lớp Country nhiều hơn thực thể lớp Location không?
-					"PREFIX test: <http://test.com/ns#>\r\n" + "ask {\r\n"
-							+ graph + "        {\r\n"
+					"PREFIX test: <http://test.com/ns#>\r\n" + "ask {\r\n" + graph + "        {\r\n"
 							+ "            select (count(?country) as ?count1){\r\n"
 							+ "           ?person a test:Country .\r\n" + "        }\r\n" + "        }\r\n"
 							+ "        {\r\n" + "            select (count(?location) as ?count2){\r\n"
@@ -215,15 +221,19 @@ public class queryGraphDB {
 
 				// if users pick number 19 or 20 (ASKing queries)
 				if (num == 19 || num == 20) {
-					System.out.println(booleanQuery.evaluate());
+					System.out.print("\n" + booleanQuery.evaluate());
+					System.out.println("");
 				}
 
 				else {
 					try (TupleQueryResult result1 = tupleQuery.evaluate()) {
 						// if this node is NOT NULL
 						if (result1.hasNext()) {
-
+							int count = 1;
+							
+							System.out.println("");
 							// print the first node
+							System.out.print("Line " + count + ": ");
 							BindingSet bindingSet = result1.next();
 							Set<String> listBinding = bindingSet.getBindingNames();
 							Object[] list = listBinding.toArray();
@@ -235,9 +245,11 @@ public class queryGraphDB {
 								}
 							}
 							System.out.println("");
+							count++;
 
 							// then print all other ones
 							while (result1.hasNext()) {
+								System.out.print("Line " + count + ": ");
 								BindingSet bindingSet1 = result1.next();
 								for (int i = 0; i < list.length; i++) {
 									if (i == list.length - 1) {
@@ -248,19 +260,21 @@ public class queryGraphDB {
 									}
 								}
 								System.out.println("");
+								count++;
 							}
 						}
 
 						// if this node is NULL
 						else {
-							System.out.println("====>Không có giá trị để truy vấn.");
+							System.out.println("\nKhông có giá trị để truy vấn.");
 						}
+						System.out.println("");
 					}
 				}
 
 				Date dateAfter = new Date();
 				long timeMilliAfter = dateAfter.getTime();
-				System.out.println("\n====>Query took " + (timeMilliAfter - timeMilliNow) / 1000.0 + "s.\n\n");
+				System.out.println("\n=====>	MẤT THỜI GIAN: " + (timeMilliAfter - timeMilliNow) / 1000.0 + "s.\n\n");
 			} finally {
 				repository.shutDown();
 				repositoryManager.shutDown();
