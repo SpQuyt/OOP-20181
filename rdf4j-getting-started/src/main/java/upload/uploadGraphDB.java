@@ -40,7 +40,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -84,7 +84,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -128,7 +128,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -171,7 +171,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
 					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
@@ -214,7 +214,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
@@ -257,7 +257,7 @@ public class uploadGraphDB {
 					"PREFIX test: <http://test.com/ns#>\r\n" +
 					"INSERT DATA\r\n" + 
 					"{ "
-					+ "GRAPH <http://test/OOP-20181-lvl3> { "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
 					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
 					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
@@ -271,6 +271,169 @@ public class uploadGraphDB {
 					+ "test:" + location.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + location.getLink() + "\" .\r\n"
 					
 					+ "test:" + event.getDinhDanh() + " " + "test:" + rela + " " + "test:" + location.getDinhDanh() + " .\r\n"
+					+ "} "
+					+ "}";
+			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);
+			   updateQuery.execute();	
+			   
+			// Shutdown connection, repository and manager
+			   con.close();
+			   repository.shutDown();
+			   repositoryManager.shutDown();
+			}
+				
+	}
+	
+	public void uploadEvT(Event event, String rela, Time time) throws IOException {
+		//Remember to turn on GraphDB local server first!
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("02122018");
+		
+		
+		try (RepositoryConnection con = repository.getConnection()) {
+			   String queryString = 
+					"PREFIX test: <http://test.com/ns#>\r\n" +
+					"INSERT DATA\r\n" + 
+					"{ "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
+					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + event.getLink() + "\" .\r\n"
+					
+					+ "test:" + time.getDate().toString() + " " + "a" + " " + "test:Time .\r\n"
+					
+					+ "test:" + event.getDinhDanh() + " " + "test:" + rela + " " + "test:" + time.getDate() + " .\r\n"
+					+ "} "
+					+ "}";
+			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);
+			   updateQuery.execute();	
+			   
+			// Shutdown connection, repository and manager
+			   con.close();
+			   repository.shutDown();
+			   repositoryManager.shutDown();
+			}
+				
+	}
+	
+	public void uploadEvP(Event event, String rela, Person person) throws IOException {
+		//Remember to turn on GraphDB local server first!
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("02122018");
+		
+		
+		try (RepositoryConnection con = repository.getConnection()) {
+			   String queryString = 
+					"PREFIX test: <http://test.com/ns#>\r\n" +
+					"INSERT DATA\r\n" + 
+					"{ "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
+					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + event.getLink() + "\" .\r\n"
+					
+					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + person.getRandomTime() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + person.getLink() + "\" .\r\n"
+					
+					+ "test:" + event.getDinhDanh() + " " + "test:" + rela + " " + "test:" + person.getDinhDanh() + " .\r\n"
+					+ "} "
+					+ "}";
+			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);
+			   updateQuery.execute();	
+			   
+			// Shutdown connection, repository and manager
+			   con.close();
+			   repository.shutDown();
+			   repositoryManager.shutDown();
+			}
+				
+	}
+	
+	public void uploadEvO(Event event, String rela, Organization organi) throws IOException {
+		//Remember to turn on GraphDB local server first!
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("02122018");
+		
+		
+		try (RepositoryConnection con = repository.getConnection()) {
+			   String queryString = 
+					"PREFIX test: <http://test.com/ns#>\r\n" +
+					"INSERT DATA\r\n" + 
+					"{ "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
+					+ "test:" + event.getDinhDanh() + " " + "a" + " " + "test:Event .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime() + "\" .\r\n"
+					+ "test:" + event.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + event.getLink() + "\" .\r\n"
+					
+					+ "test:" + organi.getDinhDanh() + " " + "a" + " " + "test:Organization .\r\n"
+					+ "test:" + organi.getDinhDanh() + " " + "test:nhãn" + " \"" + organi.getNhan() + "\" .\r\n"
+					+ "test:" + organi.getDinhDanh() + " " + "test:mô_tả" + " \"" + organi.getMota() + "\" .\r\n"
+					+ "test:" + organi.getDinhDanh() + " " + "test:trụ_sở" + " \"" + organi.getTruso() + "\" .\r\n"
+					+ "test:" + organi.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + organi.getRandomTime() + "\" .\r\n"
+					+ "test:" + organi.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + organi.getLink() + "\" .\r\n"
+					
+					+ "test:" + event.getDinhDanh() + " " + "test:" + rela + " " + "test:" + organi.getDinhDanh() + " .\r\n"
+					+ "} "
+					+ "}";
+			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);
+			   updateQuery.execute();	
+			   
+			// Shutdown connection, repository and manager
+			   con.close();
+			   repository.shutDown();
+			   repositoryManager.shutDown();
+			}
+				
+	}
+	
+	public void uploadPvT(Person person, String rela, Time time) throws IOException {
+		//Remember to turn on GraphDB local server first!
+		RepositoryManager repositoryManager =
+		        new RemoteRepositoryManager( "http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200" );
+		repositoryManager.initialize();
+
+		// Get the repository from repository manager, note the repository id set in configuration .ttl file
+		Repository repository = repositoryManager.getRepository("02122018");
+		
+		
+		try (RepositoryConnection con = repository.getConnection()) {
+			   String queryString = 
+					"PREFIX test: <http://test.com/ns#>\r\n" +
+					"INSERT DATA\r\n" + 
+					"{ "
+					+ "GRAPH <http://test/OOP-20181-lvl5> { "
+					+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + person.getRandomTime() + "\" .\r\n"
+					+ "test:" + person.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + person.getLink() + "\" .\r\n"
+					
+					+ "test:" + time.getDate().toString() + " " + "a" + " " + "test:Time .\r\n"
+					
+					+ "test:" + person.getDinhDanh() + " " + "test:" + rela + " " + "test:" + time.getDate() + " .\r\n"
 					+ "} "
 					+ "}";
 			   Update updateQuery = con.prepareUpdate(QueryLanguage.SPARQL, queryString);

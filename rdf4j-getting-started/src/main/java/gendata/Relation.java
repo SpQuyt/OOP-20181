@@ -37,10 +37,14 @@ public class Relation {
 	String relaPerLocation[] = { "ở_lại", "làm_việc_ở", "thuộc", "đến", "đến_thăm", "tham_dự_tại",
 			"đi_du_lịch", "rời_khỏi" };
 	String relaPerWEvent[] = { "làm_việc_ở", "thuộc", "đến", "tham_gia", "rời_khỏi", "tổ_chức" };
+	String relaPerWTime[] = {"sinh_ra_vào_ngày", "mất_vào_ngày", "cưới_vào_ngày", "đỗ_đại_học_vào_ngày", "tốt_nghiệp_lúc" };
 
 	String relaEventWCountry[] = { "được_tổ_chức_ở", "diễn_ra_tại" };
 	String relaEventWLocation[] = { "được_tổ_chức_ở", "diễn_ra_tại" };
-
+	String relaEventWTime[] = {"diễn_ra_vào_lúc","xảy_ra_vào_lúc", "được_tổ_chức_lúc"};
+	String relaEventWOrgani[] = {"được_tổ_chức_bởi", "bị_huỷ_bởi"};
+	String relaEventWPer[] = {"được_tổ_chức_bởi", "bị_huỷ_bởi"};
+	
 	
 	public  void genNRelationfull(int n) throws IOException {
 		for(int i=0;i<n;i++){
@@ -61,7 +65,7 @@ public class Relation {
 		uploadGraphDB upload = new uploadGraphDB();
 		
 		Random rd = new Random();
-		int k = rd.nextInt(6) + 1;
+		int k = rd.nextInt(10) + 1;
 		switch (k) {
 
 		// quan he giua person va country
@@ -128,7 +132,42 @@ public class Relation {
 			upload.uploadEvL(event, rela, location);
 			
 			break;
-
+		case 7:
+			person =ep.get1EntityPersonFFile();
+			time =et.get1EntityTimeFFile();
+			rela=get1Relation(relaPerWTime);
+			count = count + 1;
+			System.out.println(count + ": "+ person+" "+rela+" "+time);
+			upload.uploadPvT(person, rela, time);
+			
+			break;
+		case 8:
+			event= ev.get1EntityEventFFile();
+			time=et.get1EntityTimeFFile();
+			rela=get1Relation(relaEventWTime);
+			count = count + 1;
+			System.out.println(count + ": "+ event+" "+rela+" "+time);
+			upload.uploadEvT(event, rela, time);
+			
+			break;
+		case 9:
+			event= ev.get1EntityEventFFile();
+			person=ep.get1EntityPersonFFile();
+			rela=get1Relation(relaEventWPer);
+			count = count + 1;
+			System.out.println(count + ": "+ event+" "+rela+" "+person);
+			upload.uploadEvP(event, rela, person);
+			
+			break;
+		case 10:
+			event= ev.get1EntityEventFFile();
+			organi=eo.get1EntityOrganiFFile();
+			rela=get1Relation(relaEventWOrgani);
+			count = count + 1;
+			System.out.println(count + ": "+ event+" "+rela+" "+organi);
+			upload.uploadEvO(event, rela, organi);
+			
+			break;
 		}
 	}
 
