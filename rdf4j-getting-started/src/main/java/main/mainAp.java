@@ -13,7 +13,7 @@ import upload.uploadGraphDB;
 
 public class mainAp {
 	public static void main(String[] args) throws IOException {
-//		Gen();
+		Gen();
 		Query();
 		
 	}

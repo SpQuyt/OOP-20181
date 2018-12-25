@@ -1,0 +1,16 @@
+ViệnKHCNquốcgiasingapore000,Viện KHCN quốc gia singapore,Viện nghiên cứu về khoa học công nghệ của singapore,singapore,link.com,2009-03-09
+HộiđồnghươngBắcNinh000,Hội đồng hương Bắc Ninh,Nơi gặp mặt giao lưu của những người cùng quê Hà Tĩnh,Hà Nội,p.com,1994-06-29
+Liênđoànbóngđáhàlan000,Liên đoàn bóng đá hà lan,tổ chức thể thao quản lý bóng nước hà lan,hà lan,p.com,2006-09-26
+Liênđoàncầulôngtháilan000,Liên đoàn cầu lông thái lan,tổ chức thể thao quản lý cầu lông nước thái lan,thái lan,p.com,1994-06-29
+Liênđoàncầulôngnga000,Liên đoàn cầu lông nga,tổ chức thể thao quản lý cầu lông nước nga,nga,link.com,2010-10-26
+Liênđoàncầulônghànquốc000,Liên đoàn cầu lông hàn quốc,tổ chức thể thao quản lý cầu lông nước hàn quốc,hàn quốc,link.com,2009-03-09
+HọcviệnNôngnghiệptrungquốc000,Học viện Nông nghiệp trung quốc,Viện nghiên cứu về nông nghiệp của trung quốc,trung quốc,link.com,2009-03-09
+Liênđoànbóngđáanh000,Liên đoàn bóng đá anh,tổ chức thể thao quản lý bóng nước anh,anh,p.com,2006-09-26
+UN000,UN,Liên Hợp Quốc,Thụy điển,p.com,2006-09-26
+OPEC000,OPEC,Tổ chức Các nước Xuất khẩu Dầu mỏ,Ai cập,d.com,2013-07-16
+Facebook000,Facebook,là tên trang mạng xã hội rất nổi tiếng trên toàn cầu,Mỹ,link.com,2012-11-09
+HộiđồnghươngQuảngNinh000,Hội đồng hương Quảng Ninh,Nơi gặp mặt giao lưu của những người cùng quê Quảng Ninh,Hà Nội,link.com,1994-06-29
+HộiđồnghươngTháiBình000,Hội đồng hương Thái Bình,Nơi gặp mặt giao lưu của những người cùng quê Thái Bình,Hà Nội,p.com,1970-01-01
+HộiđồnghươngThanhHóa000,Hội đồng hương Thanh Hóa,Nơi gặp mặt giao lưu của những người cùng quê Thanh Hóa,Hà Nội,p.com,1994-06-29
+Apple000,Apple,là công ty sản xuất điện thoại chạy trên hệ điều hành iOS,Mỹ,p.com,2010-10-26
+LiênđoànLuậtsưViệtNam000,Liên đoàn Luật sư Việt Nam,Quản lý các hoạt động của các luật sư Việt Nam,Hà Nội,p.com,2013-07-16

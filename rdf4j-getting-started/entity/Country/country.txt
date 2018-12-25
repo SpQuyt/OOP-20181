@@ -1,0 +1,16 @@
+Virginia000,Virginia,là 1 bang của Mỹ,Mỹ,link.com,2013-07-16
+Texas000,Texas,là 1 bang của Mỹ,Mỹ,p.com,2006-09-26
+KiênGiang000,Kiên Giang,là 1 thành phố của Việt Nam,Việt Nam,link.com,2011-12-26
+GiaLai000,Gia Lai,là 1 thành phố của Việt Nam,Việt Nam,link.com,2009-03-09
+HồChíMinh000,Hồ Chí Minh,là 1 thành phố của Việt Nam,Việt Nam,d.com,2012-11-09
+Manchester000,Manchester,là 1 thành phố của Anh,Anh,d.com,2010-10-26
+NamĐịnh000,Nam Định,là 1 thành phố của Việt Nam,Việt Nam,link.com,1994-06-29
+TràVinh000,Trà Vinh,là 1 thành phố của Việt Nam,Việt Nam,link.com,2013-07-16
+LâmĐồng000,Lâm Đồng,là 1 thành phố của Việt Nam,Việt Nam,d.com,2009-03-09
+Dresden000,Dresden,là 1 thành phố của Đức,Đức,p.com,2012-11-09
+Manchester001,Manchester,là 1 thành phố của Anh,Anh,link.com,2006-09-26
+Alaska000,Alaska,là 1 bang của Mỹ,Mỹ,d.com,2002-08-27
+Bonn000,Bonn,là 1 thành phố của Đức,Đức,link.com,2009-03-09
+BếnTre000,Bến Tre,là 1 thành phố của Việt Nam,Việt Nam,p.com,1994-06-29
+NghệAn000,Nghệ An,là 1 thành phố của Việt Nam,Việt Nam,p.com,2006-09-26
+ThừaThiênHuế000,Thừa Thiên Huế,là 1 thành phố của Việt Nam,Việt Nam,link.com,2012-11-09

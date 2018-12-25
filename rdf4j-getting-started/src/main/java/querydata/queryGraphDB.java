@@ -25,13 +25,13 @@ import org.eclipse.rdf4j.repository.manager.RepositoryManager;
 import org.eclipse.rdf4j.rio.RDFHandlerException;
 import org.eclipse.rdf4j.rio.RDFParseException;
 
+import connect.connectGraphDB;
+
 public class queryGraphDB {
 	public void queryMenu() throws UnknownHostException {
-		// Remember to turn on GraphDB local server first!
-		RepositoryManager repositoryManager = new RemoteRepositoryManager(
-				"http://" + Inet4Address.getLocalHost().getHostAddress() + ":7200");
-		repositoryManager.initialize();
-		Repository repository = repositoryManager.getRepository("02122018");
+		
+		connectGraphDB connect = new connectGraphDB();
+		connect.getConnected();
 
 		Scanner sc = new Scanner(System.in);
 		// Choose level
@@ -214,7 +214,7 @@ public class queryGraphDB {
 			Date dateNow = new Date();
 			long timeMilliNow = dateNow.getTime();
 
-			try (RepositoryConnection con = repository.getConnection()) {
+			try (RepositoryConnection con = connect.repository.getConnection()) {
 				// use the num to pick the queryString
 				TupleQuery tupleQuery = con.prepareTupleQuery(queryString[num].toString());
 				BooleanQuery booleanQuery = con.prepareBooleanQuery(queryString[num].toString());
@@ -276,8 +276,7 @@ public class queryGraphDB {
 				long timeMilliAfter = dateAfter.getTime();
 				System.out.println("\n=====>	MẤT THỜI GIAN: " + (timeMilliAfter - timeMilliNow) / 1000.0 + "s.\n\n");
 			} finally {
-				repository.shutDown();
-				repositoryManager.shutDown();
+				connect.getDisconnected();
 			}
 		}
 	}
