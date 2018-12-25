@@ -8,7 +8,7 @@ public class Time {
 	
 	public Date getRandomTime() {
 		Random rd = new Random();
-		long millis = System.currentTimeMillis()-System.currentTimeMillis()/(rd.nextInt(10)+1);
+		long millis = System.currentTimeMillis()-System.currentTimeMillis()/(rd.nextInt(9)+1);
 		Date date = new Date(millis);
 		return date;
 	}

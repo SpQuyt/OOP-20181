@@ -15,24 +15,24 @@ import model.Country;
 import model.Organization;
 import model.Person;
 
-public class EntityOrganization {
+public class EntityOrganization extends GenEntity {
 	
-	static ArrayList<Organization> listOrganization= new ArrayList<>();
+	static ArrayList<Organization> listEntity= new ArrayList<>();
 
 	//sinh 1 thuc the person
 	public void gen1EntityOrganization() throws IOException {
 		Organization organ= new Organization();
-		ArrayList<String> nhan = organ.nhanOrgan();
-		ArrayList<String> mota = organ.motaORgan();
+		ArrayList<String> nhan = organ.listNhan("entity/Organization/nhan.txt");
+		ArrayList<String> mota = organ.listMota("entity/Organization/mota.txt");
 		ArrayList<String> truso = organ.trusoOrgan();
-		ArrayList<String> link = organ.LinkOrgan();
+		ArrayList<String> link = organ.listLink();
 		Date date = organ.getRandomTime();
 		
 		int dd = 0;
 		int index=get1Array(nhan);
 		String nhanDon = nhan.get(index);
-		for (int i = 0; i < listOrganization.size(); i++) {
-			if (listOrganization.get(i).getNhan().equals(nhanDon))
+		for (int i = 0; i < listEntity.size(); i++) {
+			if (listEntity.get(i).getNhan().equals(nhanDon))
 				dd++;
 		}
 
@@ -45,7 +45,7 @@ public class EntityOrganization {
 		organ.setTruso(truso.get(index));
 		organ.setLink(link.get(get1Array(link)));
 		
-		listOrganization.add(organ);
+		listEntity.add(organ);
 		
 	}
 	
@@ -53,43 +53,30 @@ public class EntityOrganization {
 	public void genNEntityOrganization(int n) throws IOException {
 		for(int i=0;i<n;i++) {
 			gen1EntityOrganization();
-			writeFileOrganization();
+			writeFile();
 		}
 	}
 	
 	//in tap thuc the person
-	public void showListOrganization() {
-		for(Organization p:listOrganization) {
+	public void showList() {
+		for(Organization p:listEntity) {
 			System.out.println(p);
 		}
 	}
 
 
-	// lay ngau nhieu 1 phan tu tu mang
-	public int get1Array(ArrayList<String> arr) {
-		Random rd = new Random();
-		
-		int chiso = 0;
-		if (arr.size() == 0)
-			System.out.println("file rong");
-		else {
-			chiso = rd.nextInt(arr.size());
-			
-		}
-		
-		return chiso;
-	}
+
 	// ghi list country ra file
-		public void writeFileOrganization() throws IOException {
+		public void writeFile() throws IOException {
 			FileWriter out = new FileWriter("entity/Organization/organization.txt");
-			for (Organization c : listOrganization) {
+			for (Organization c : listEntity) {
 				out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMota() + "," + c.getTruso() + "," + c.getLink()
 						+ "," + c.getDate() + "\n");
 			}
 			out.close();
 		}
 
-		public Organization get1EntityOrganiFFile() throws IOException {
+		public Organization get1EntityFFile() throws IOException {
 			Organization country= new Organization();
 			String FileCountry = "entity/Organization/organization.txt";
 			ArrayList<String> listCountry = new ArrayList<>();
@@ -113,7 +100,7 @@ public class EntityOrganization {
 	public static void main(String[] args) throws IOException {
 		EntityOrganization ep= new EntityOrganization();
 		ep.genNEntityOrganization(10);
-		ep.showListOrganization();
+		ep.showList();
 		
 		
 		

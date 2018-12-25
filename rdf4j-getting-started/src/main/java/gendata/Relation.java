@@ -19,6 +19,7 @@ import model.Time;
 import upload.uploadGraphDB;
 
 public class Relation {
+
 	 public int count = 0;
 	 ArrayList<model.Relation> listRelationFull = new ArrayList<>();
 
@@ -44,7 +45,7 @@ public class Relation {
 	String relaEventWTime[] = {"diễn_ra_vào_lúc","xảy_ra_vào_lúc", "được_tổ_chức_lúc"};
 	String relaEventWOrgani[] = {"được_tổ_chức_bởi", "bị_huỷ_bởi"};
 	String relaEventWPer[] = {"được_tổ_chức_bởi", "bị_huỷ_bởi"};
-	
+
 	
 	public  void genNRelationfull(int n) throws IOException {
 		for(int i=0;i<n;i++){
@@ -61,7 +62,6 @@ public class Relation {
 		EntityOrganization eo= new EntityOrganization();
 		EntityPerson ep= new EntityPerson();
 		EntityTime et= new EntityTime();
-		
 		uploadGraphDB upload = new uploadGraphDB();
 		
 		Random rd = new Random();
@@ -70,8 +70,8 @@ public class Relation {
 
 		// quan he giua person va country
 		case 1:
-			person =ep.get1EntityPersonFFile();
-			country =ec.get1EntityCountryFFile();
+			person =ep.get1EntityFFile();
+			country =ec.get1EntityFFile();
 			rela=get1Relation(relaPerWCountry);
 			count = count + 1;
 			System.out.println(count + ": "+ person+" "+rela+" "+country);
@@ -82,8 +82,8 @@ public class Relation {
 		// quan he giua person va origan
 		case 2:
 			
-			person= ep.get1EntityPersonFFile();
-			organi= eo.get1EntityOrganiFFile();
+			person= ep.get1EntityFFile();
+			organi= eo.get1EntityFFile();
 			rela=get1Relation(relaPerWOrgani);
 			count = count + 1;
 			System.out.println(count + ": "+ person+ " "+rela+" "+organi);
@@ -93,8 +93,8 @@ public class Relation {
 		// quan he giua person va event
 		case 3:
 
-			person= ep.get1EntityPersonFFile();
-			event=ev.get1EntityEventFFile();
+			person= ep.get1EntityFFile();
+			event=ev.get1EntityFFile();
 			rela=get1Relation(relaPerWEvent);
 			count = count + 1;
 			System.out.println(count + ": "+ person+ " "+rela+" "+event);
@@ -104,8 +104,8 @@ public class Relation {
 		// quan he giua person va country
 		case 4:
 
-			person= ep.get1EntityPersonFFile();
-			location=el.get1EntityLocationFFile();
+			person= ep.get1EntityFFile();
+			location=el.get1EntityFFile();
 			rela=get1Relation(relaPerLocation);
 			count = count + 1;
 			System.out.println(count + ": "+ person+" "+rela+" "+location);
@@ -115,8 +115,8 @@ public class Relation {
 
 		// quan he giua event va country
 		case 5:
-			event= ev.get1EntityEventFFile();
-			country=ec.get1EntityCountryFFile();
+			event= ev.get1EntityFFile();
+			country=ec.get1EntityFFile();
 			rela=get1Relation(relaEventWCountry);
 			count = count + 1;
 			System.out.println(count + ": "+ event+" "+rela+" "+country);
@@ -124,8 +124,8 @@ public class Relation {
 			
 			break;
 		case 6:
-			event=ev.get1EntityEventFFile();
-			location =el.get1EntityLocationFFile();
+			event=ev.get1EntityFFile();
+			location =el.get1EntityFFile();
 			rela= get1Relation(relaEventWLocation);
 			count = count + 1;
 			System.out.println(count + ": "+ event+" "+rela+" "+location);
@@ -133,8 +133,8 @@ public class Relation {
 			
 			break;
 		case 7:
-			person =ep.get1EntityPersonFFile();
-			time =et.get1EntityTimeFFile();
+			person =ep.get1EntityFFile();
+			time =et.get1EntityFFile();
 			rela=get1Relation(relaPerWTime);
 			count = count + 1;
 			System.out.println(count + ": "+ person+" "+rela+" "+time);
@@ -142,8 +142,8 @@ public class Relation {
 			
 			break;
 		case 8:
-			event= ev.get1EntityEventFFile();
-			time=et.get1EntityTimeFFile();
+			event= ev.get1EntityFFile();
+			time=et.get1EntityFFile();
 			rela=get1Relation(relaEventWTime);
 			count = count + 1;
 			System.out.println(count + ": "+ event+" "+rela+" "+time);
@@ -151,8 +151,8 @@ public class Relation {
 			
 			break;
 		case 9:
-			event= ev.get1EntityEventFFile();
-			person=ep.get1EntityPersonFFile();
+			event= ev.get1EntityFFile();
+			person=ep.get1EntityFFile();
 			rela=get1Relation(relaEventWPer);
 			count = count + 1;
 			System.out.println(count + ": "+ event+" "+rela+" "+person);
@@ -160,14 +160,15 @@ public class Relation {
 			
 			break;
 		case 10:
-			event= ev.get1EntityEventFFile();
-			organi=eo.get1EntityOrganiFFile();
+			event= ev.get1EntityFFile();
+			organi=eo.get1EntityFFile();
 			rela=get1Relation(relaEventWOrgani);
 			count = count + 1;
 			System.out.println(count + ": "+ event+" "+rela+" "+organi);
 			upload.uploadEvO(event, rela, organi);
 			
 			break;
+    
 		}
 	}
 

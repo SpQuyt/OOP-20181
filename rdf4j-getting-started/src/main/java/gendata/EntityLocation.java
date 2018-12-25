@@ -15,16 +15,16 @@ import model.Event;
 import model.Location;
 import model.Person;
 
-public class EntityLocation {
+public class EntityLocation extends GenEntity {
 	
 	static ArrayList<Location> listLocation= new ArrayList<>();
 
 	//sinh 1 thuc the person
 	public void gen1EntityLocation() throws IOException {
 		Location location= new Location();
-		ArrayList<String> nhan = location.nhanLocation();
-		ArrayList<String> mota = location.motaLocation();
-		ArrayList<String> link =location.LinkLocation();
+		ArrayList<String> nhan = location.listNhan("entity/Location/nhan.txt");
+		ArrayList<String> mota = location.listMota("entity/Location/mota.txt");
+		ArrayList<String> link =location.listLink();
 		Date date = location.getRandomTime();
 		
 		int dd = 0;
@@ -51,33 +51,20 @@ public class EntityLocation {
 	public void genNEntityLocation(int n) throws IOException {
 		for(int i=0;i<n;i++) {
 			gen1EntityLocation();
-			writeFileLocation();
+			writeFile();
 		}
 	}
 	
 	//in tap thuc the person
-	public void showListLocation() {
+	public void showList() {
 		for(Location p:listLocation) {
 			System.out.println(p);
 		}
 	}
 
-	// lay ngau nhieu 1 phan tu tu mang
-	public int get1Array(ArrayList<String> arr) {
-		Random rd = new Random();
-		
-		int chiso=0;
-		if (arr.size() == 0)
-			System.out.println("file rong");
-		else {
-			chiso = rd.nextInt(arr.size());
-			
-		}
-		
-		return chiso;
-	}
 	
-	public void writeFileLocation() throws IOException {
+	
+	public void writeFile() throws IOException {
 		FileWriter out = new FileWriter("entity/Location/location.txt");
 		for (Location c : listLocation) {
 			out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMota() + "," + c.getLink() + "," + c.getDate()
@@ -86,7 +73,7 @@ public class EntityLocation {
 		out.close();
 	}
 
-	public Location get1EntityLocationFFile() throws IOException {
+	public Location get1EntityFFile() throws IOException {
 		Location country = new Location();
 		String FileCountry = "entity/Location/location.txt";
 		ArrayList<String> listCountry = new ArrayList<>();
@@ -95,7 +82,7 @@ public class EntityLocation {
 
 			listCountry = (ArrayList<String>) stream.collect(Collectors.toList());
 			Random rd = new Random();
-			String[] ar = listCountry.get(rd.nextInt(listCountry.size())).split(","); // lấy ngẫu nhiên thực thể count
+			String[] ar = listCountry.get(rd.nextInt(listCountry.size())).split(","); // lấy ngau nhiên thuecj thẻ count
 			country.setDinhDanh(ar[0]);
 			country.setNhan(ar[1]);
 			country.setMota(ar[2]);
@@ -109,7 +96,7 @@ public class EntityLocation {
 	public static void main(String[] args) throws IOException {
 		EntityLocation ep= new EntityLocation();
 		ep.genNEntityLocation(10);
-		ep.showListLocation();
+		ep.showList();
 	
 		
 	}

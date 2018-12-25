@@ -18,36 +18,36 @@ import model.Time;
 
 public class EntityTime {
 	
-	ArrayList<Time>listTime= new ArrayList<>();
+	ArrayList<Time>listEntity= new ArrayList<>();
 	
 	public void gen1EntityTime() {
 		Time time= new Time();
 		time.setDate(time.getRandomTime());
-		listTime.add(time);
+		listEntity.add(time);
 	}
 	
 	public void genNEntityTime(int n) throws IOException {
 		for(int i=0;i<n;i++) {
 			gen1EntityTime();
-			writeFileTime();
+			writeFile();
 		}
 	}
-	public void showListTime() {
-		for(Time t:listTime) {
+	public void showList() {
+		for(Time t:listEntity) {
 			System.out.println(t);
 		}
 	}
 	
 	// ghi list country ra file
-	public void writeFileTime() throws IOException {
+	public void writeFile() throws IOException {
 		FileWriter out = new FileWriter("entity/Time/time.txt");
-		for (Time c : listTime) {
+		for (Time c : listEntity) {
 			out.write(c.getDate()+ "\n");
 		}
 		out.close();
 	}
 
-	public Time get1EntityTimeFFile() throws IOException {
+	public Time get1EntityFFile() throws IOException {
 		Time country= new Time();
 		String FileCountry = "entity/Time/time.txt";
 		ArrayList<String> listCountry = new ArrayList<>();
@@ -66,7 +66,7 @@ public class EntityTime {
 	
 	public static void main(String[] args) throws IOException {
 		EntityTime time= new EntityTime();
-		System.out.println(time.get1EntityTimeFFile());
+		time.genNEntityTime(10);
 		
 	}
 	

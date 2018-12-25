@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 import model.Country;
 import model.Person;
 
-public class EntityCountry {
+public class EntityCountry extends GenEntity{
 
 	static ArrayList<Country> listCountry = new ArrayList<>();
 	
@@ -22,10 +22,10 @@ public class EntityCountry {
 	public void gen1EntityCountry() throws IOException {
 		int index=0;
 		Country country = new Country();
-		ArrayList<String> nhan = country.nhanCountry();
-		ArrayList<String> mota = country.motaCountry();
+		ArrayList<String> nhan = country.listNhan("entity/Country/nhan.txt");
+		ArrayList<String> mota = country.listMota("entity/Country/mota.txt");
 		ArrayList<String> quocgia = country.quocgiaCountry();
-		ArrayList<String> link = country.LinkCountry();
+		ArrayList<String> link = country.listLink();
 		Date date = country.getRandomTime();
 
 		int dd = 0;
@@ -53,19 +53,19 @@ public class EntityCountry {
 	public void genNEntityCountry(int n) throws IOException {
 		for (int i = 0; i < n; i++) {
 			gen1EntityCountry();
-			writeFileCountry();
+			writeFile();
 		}
 	}
 
 	// in tap thuc the person
-	public void showListCountry() {
+	public void showList() {
 		for (Country p : listCountry) {
 			System.out.println(p);
 		}
 	}
 
 	// ghi list country ra file
-	public void writeFileCountry() throws IOException {
+	public void writeFile() throws IOException {
 		FileWriter out = new FileWriter("entity/Country/country.txt");
 		for (Country c : listCountry) {
 			out.write(c.getDinhDanh() + "," + c.getNhan() + "," + c.getMota() + "," + c.getQuocGia() + "," + c.getLink()
@@ -74,7 +74,7 @@ public class EntityCountry {
 		out.close();
 	}
 
-	public Country get1EntityCountryFFile() throws IOException {
+	public Country get1EntityFFile() throws IOException {
 		Country country= new Country();
 		String FileCountry = "entity/Country/country.txt";
 		ArrayList<String> listCountry = new ArrayList<>();
@@ -94,27 +94,10 @@ public class EntityCountry {
 		return country;
 
 	}
-
-	// lay ngau nhieu 1 phan tu tu mang
-	public int  get1Array(ArrayList<String> arr) {
-		Random rd = new Random();
-		
-		int chiso = 0;
-		if (arr.size() == 0)
-			System.out.println("file rong");
-		else {
-			chiso = rd.nextInt(arr.size());
-			
-		}
-
-		return chiso;
-	}
-
 	public static void main(String[] args) throws IOException {
-		EntityCountry ep = new EntityCountry();
-		ep.genNEntityCountry(10);
-		ep.showListCountry();
-		
-
+		EntityCountry ec= new EntityCountry();
+		ec.genNEntityCountry(10);
+		ec.showList();
 	}
+
 }

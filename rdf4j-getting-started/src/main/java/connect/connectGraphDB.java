@@ -23,13 +23,11 @@ public class connectGraphDB {
 		// configuration .ttl file
 		this.repository = repositoryManager.getRepository("02122018");
 		this.con = this.repository.getConnection();
-		System.out.println("DB CONNECTED");
 	}
 	public void getDisconnected() throws UnknownHostException {
 		this.con.close();
 		this.repository.shutDown();
 		this.repositoryManager.shutDown();
-		System.out.println("DB DISCONNECTED");
 	}
 	
 	public static void main(String[] args) throws UnknownHostException {

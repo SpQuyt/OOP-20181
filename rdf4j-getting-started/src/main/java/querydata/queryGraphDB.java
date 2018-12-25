@@ -1,27 +1,16 @@
 package querydata;
 
-import java.io.Console;
 import java.io.IOException;
-import java.net.Inet4Address;
 import java.net.UnknownHostException;
-import java.sql.Array;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.query.BindingSet;
 import org.eclipse.rdf4j.query.BooleanQuery;
-import org.eclipse.rdf4j.query.BooleanQueryResultHandler;
-import org.eclipse.rdf4j.query.GraphQueryResult;
-import org.eclipse.rdf4j.query.QueryLanguage;
 import org.eclipse.rdf4j.query.TupleQuery;
 import org.eclipse.rdf4j.query.TupleQueryResult;
-import org.eclipse.rdf4j.query.Update;
-import org.eclipse.rdf4j.repository.Repository;
 import org.eclipse.rdf4j.repository.RepositoryConnection;
-import org.eclipse.rdf4j.repository.manager.RemoteRepositoryManager;
-import org.eclipse.rdf4j.repository.manager.RepositoryManager;
 import org.eclipse.rdf4j.rio.RDFHandlerException;
 import org.eclipse.rdf4j.rio.RDFParseException;
 
@@ -34,8 +23,6 @@ public class queryGraphDB {
 		connect.getConnected();
 
 		Scanner sc = new Scanner(System.in);
-		// Choose level
-		int levelList[] = { 0, 1, 2, 3, 4, 5 };
 		int level;
 		String graph = "";
 		Object[] graphList = { "    graph <http://test/OOP-20181> {\r\n",

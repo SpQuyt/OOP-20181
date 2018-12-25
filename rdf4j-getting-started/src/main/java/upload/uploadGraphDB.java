@@ -31,10 +31,10 @@ public class uploadGraphDB {
 		connect.getConnected();
 
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
 				+ "test:Person .\r\n" + "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu()
-				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa()
+				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \""
 				+ person.getRandomTime() + "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:link_trích_rút"
 				+ " \"" + person.getLink() + "\" .\r\n"
@@ -61,10 +61,10 @@ public class uploadGraphDB {
 		connect.getConnected();
 
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
 				+ "test:Person .\r\n" + "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu()
-				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa()
+				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \""
 				+ person.getRandomTime() + "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:link_trích_rút"
 				+ " \"" + person.getLink() + "\" .\r\n"
@@ -91,10 +91,10 @@ public class uploadGraphDB {
 		connect.getConnected();
 
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
 				+ "test:Person .\r\n" + "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu()
-				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa()
+				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \""
 				+ person.getRandomTime() + "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:link_trích_rút"
 				+ " \"" + person.getLink() + "\" .\r\n"
@@ -117,10 +117,10 @@ public class uploadGraphDB {
 		connect.getConnected();
 
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
 				+ "test:Person .\r\n" + "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu()
-				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa()
+				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \""
 				+ person.getRandomTime() + "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:link_trích_rút"
 				+ " \"" + person.getLink() + "\" .\r\n"
@@ -145,7 +145,7 @@ public class uploadGraphDB {
 		connect.getConnected();
 
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
 				+ "test:Event .\r\n" + "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan()
 				+ "\" .\r\n" + "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
 				+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime()
@@ -171,7 +171,7 @@ public class uploadGraphDB {
 		connectGraphDB connect = new connectGraphDB();
 		connect.getConnected();
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
 				+ "test:Event .\r\n" + "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan()
 				+ "\" .\r\n" + "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
 				+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime()
@@ -196,7 +196,7 @@ public class uploadGraphDB {
 		connectGraphDB connect = new connectGraphDB();
 		connect.getConnected();
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
 				+ "test:Event .\r\n" + "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan()
 				+ "\" .\r\n" + "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
 				+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime()
@@ -216,7 +216,7 @@ public class uploadGraphDB {
 		connectGraphDB connect = new connectGraphDB();
 		connect.getConnected();
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
 				+ "test:Event .\r\n" + "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan()
 				+ "\" .\r\n" + "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
 				+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime()
@@ -225,7 +225,7 @@ public class uploadGraphDB {
 
 				+ "test:" + person.getDinhDanh() + " " + "a" + " " + "test:Person .\r\n" + "test:"
 				+ person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan() + "\" .\r\n" + "test:"
-				+ person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa() + "\" .\r\n" + "test:"
+				+ person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota() + "\" .\r\n" + "test:"
 				+ person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu() + "\" .\r\n" + "test:"
 				+ person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + person.getRandomTime() + "\" .\r\n"
 				+ "test:" + person.getDinhDanh() + " " + "test:link_trích_rút" + " \"" + person.getLink() + "\" .\r\n"
@@ -241,7 +241,7 @@ public class uploadGraphDB {
 		connectGraphDB connect = new connectGraphDB();
 		connect.getConnected();
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + event.getDinhDanh() + " " + "a" + " "
 				+ "test:Event .\r\n" + "test:" + event.getDinhDanh() + " " + "test:nhãn" + " \"" + event.getNhan()
 				+ "\" .\r\n" + "test:" + event.getDinhDanh() + " " + "test:mô_tả" + " \"" + event.getMota() + "\" .\r\n"
 				+ "test:" + event.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \"" + event.getRandomTime()
@@ -266,9 +266,9 @@ public class uploadGraphDB {
 		connectGraphDB connect = new connectGraphDB();
 		connect.getConnected();
 		String queryString = "PREFIX test: <http://test.com/ns#>\r\n" + "INSERT DATA\r\n" + "{ "
-				+ "GRAPH <http://test/OOP-20181-lvl0> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
+				+ "GRAPH <http://test/OOP-20181> { " + "test:" + person.getDinhDanh() + " " + "a" + " "
 				+ "test:Person .\r\n" + "test:" + person.getDinhDanh() + " " + "test:nhãn" + " \"" + person.getNhan()
-				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMoTa()
+				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:mô_tả" + " \"" + person.getMota()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:chức_vụ" + " \"" + person.getChucVu()
 				+ "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:thời_gian_trích_rút" + " \""
 				+ person.getRandomTime() + "\" .\r\n" + "test:" + person.getDinhDanh() + " " + "test:link_trích_rút"
