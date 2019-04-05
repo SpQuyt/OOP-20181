@@ -4,6 +4,7 @@ java.version=1.8.0_121
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
 This is a continuation of log file D:\PROJECT JAVA\OOP-20181\.metadata\.bak_0.log
 Created Time: 2019-03-20 21:36:40.926
